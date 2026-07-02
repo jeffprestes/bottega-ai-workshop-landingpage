@@ -1,0 +1,7 @@
+# www.robotstxt.org/
+# Allow indexing of all files on BottegaAI
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bottega.ai/sitemap.xml
