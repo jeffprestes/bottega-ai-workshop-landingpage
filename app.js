@@ -482,6 +482,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function detectLanguage() {
+        // 0. Check pathname for sharing URLs (forces language to match static file)
+        const path = window.location.pathname.toLowerCase();
+        if (path.endsWith('pt.html') || path.includes('/pt.html')) {
+            return 'pt';
+        }
+        if (path.endsWith('it.html') || path.includes('/it.html')) {
+            return 'it';
+        }
+
         // 1. Check URL parameters (crucial for SEO crawler index links)
         const urlParams = new URLSearchParams(window.location.search);
         const urlLang = urlParams.get('lang');
