@@ -1749,3 +1749,174 @@ a:hover {
     color: #000;
 }
 
+/* 15. Magister (Teacher) Section Styles */
+.magister-section {
+    padding: 8rem 6%;
+    background-color: var(--color-bg);
+    border-top: 1px solid var(--color-parchment-border);
+    position: relative;
+}
+
+.magister-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .magister-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    .gold-divider-left {
+        margin: 1.5rem auto !important;
+    }
+    .linkedin-btn {
+        margin: 0 auto;
+    }
+}
+
+.magister-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magister-avatar-frame {
+    position: relative;
+    padding: 1.5rem;
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    background-color: rgba(18, 18, 16, 0.4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.magister-avatar-frame .gold-corner {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--color-gold);
+}
+
+.magister-avatar-frame .gold-corner.tl {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.magister-avatar-frame .gold-corner.tr {
+    top: 0;
+    right: 0;
+    border-left: none;
+    border-bottom: none;
+}
+
+.magister-avatar-frame .gold-corner.bl {
+    bottom: 0;
+    left: 0;
+    border-right: none;
+    border-top: none;
+}
+
+.magister-avatar-frame .gold-corner.br {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}
+
+.avatar-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid var(--color-gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #25231f 0%, #171614 100%);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.magister-monogram {
+    font-family: var(--font-serif-header);
+    font-size: 4rem;
+    color: var(--color-gold);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 10px rgba(212, 175, 55, 0.4);
+}
+
+.magister-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.magister-name {
+    font-family: var(--font-serif-header);
+    font-size: 3rem;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.magister-title {
+    font-family: var(--font-serif-header);
+    font-size: 1.1rem;
+    color: var(--color-gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.gold-divider-left {
+    height: 1px;
+    width: 100px;
+    background: linear-gradient(90deg, var(--color-gold) 0%, rgba(212, 175, 55, 0) 100%);
+    margin: 1.5rem 0;
+}
+
+.magister-bio {
+    font-family: var(--font-serif-body);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+    margin: 0 0 1.2rem 0;
+    font-style: italic;
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    align-self: flex-start;
+    border: 1px solid var(--color-gold);
+    border-radius: var(--border-radius-sm);
+    padding: 0.8rem 1.6rem;
+    font-family: var(--font-serif-header);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--color-gold);
+    text-decoration: none;
+    background-color: transparent;
+    transition: var(--transition-smooth);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.05);
+}
+
+.linkedin-btn:hover {
+    background-color: var(--color-gold);
+    color: #121210;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+    transform: translateY(-2px);
+}
+
+.linkedin-icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+

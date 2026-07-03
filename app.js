@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav-curriculum": "Curriculum",
             "nav-simulator": "Agent Builder",
             "nav-venue": "Venue",
+            "nav-magister": "Magister",
             "nav-cta": "Apply to Guild",
             // Hero
             "hero-date": "AUGUST 22, 2026",
@@ -109,6 +110,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i1": "Formulating an enterprise-wide agentic AI strategy",
             "curric-t5-i2": "Educating internal teams on advanced agent capabilities vs raw chat",
             "curric-t5-i3": "Roadmapping security, integration, and budget guardrails for departments",
+            // Magister
+            "magister-tagline": "THE MAGISTER",
+            "magister-title-role": "IT Executive & Master Artisan",
+            "magister-bio-p1": "Jeff Prestes is an IT Executive with more than 30 years of hands-on experience guiding technological evolutions, leading high-performance engineering groups, and designing robust system architectures.",
+            "magister-bio-p2": "At BottegaAI, he acts as the Magister, translating raw generative models and complex agent workflows into practical, high-leverage executive assets.",
             // Venue
             "venue-tagline": "THE ACADEMY",
             "venue-title": "Heineken House",
@@ -149,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav-curriculum": "Currículo",
             "nav-simulator": "Simulador de Agente",
             "nav-venue": "O Local",
+            "nav-magister": "Magister",
             "nav-cta": "Inscrever-se no Workshop",
             // Hero
             "hero-date": "22 DE AGOSTO, 2026",
@@ -241,6 +248,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i1": "Formulando uma estratégia de IA baseada em agentes para toda a empresa",
             "curric-t5-i2": "Treinando equipes internas no uso avançado de agentes vs chats tradicionais",
             "curric-t5-i3": "Planejando segurança, integração e controle de custos para departamentos",
+            // Magister
+            "magister-tagline": "O MAGISTER",
+            "magister-title-role": "Executivo de TI & Mestre Artesão",
+            "magister-bio-p1": "Jeff Prestes é um Executivo de TI com mais de 30 anos de experiência prática liderando evoluções tecnológicas, equipes de engenharia de alta performance e desenhando arquiteturas robustas de sistemas.",
+            "magister-bio-p2": "Na BottegaAI, ele atua como o Magister, traduzindo modelos generativos puros e fluxos complexos de agentes em ativos executivos práticos e de alta alavancagem.",
             // Venue
             "venue-tagline": "A ACADEMIA",
             "venue-title": "Heineken House",
@@ -282,6 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav-curriculum": "Programma",
             "nav-simulator": "Simulatore Agente",
             "nav-venue": "La Sede",
+            "nav-magister": "Magister",
             "nav-cta": "Candidati alla Gilda",
             // Hero
             "hero-date": "22 AGOSTO 2026",
@@ -374,6 +387,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i1": "Formulazione di una strategia AI basata su agenti a livello aziendale",
             "curric-t5-i2": "Formazione dei team interni sull'uso avanzato degli agenti rispetto alle chat grezze",
             "curric-t5-i3": "Pianificazione di sicurezza, integrazione e controllo dei costi nei dipartimenti",
+            // Magister
+            "magister-tagline": "IL MAGISTER",
+            "magister-title-role": "Dirigente IT & Maestro Artigiano",
+            "magister-bio-p1": "Jeff Prestes è un Dirigente IT con oltre 30 anni di esperienza pratica nella guida dell'evoluzione tecnologica, nella direzione di team ingegneristici ad alte prestazioni e nella progettazione di architetture di sistema robuste.",
+            "magister-bio-p2": "Presso BottegaAI, ricopre il ruolo di Magister, traducendo modelli generativi grezzi e flussi di lavoro complessi di agenti in risorse esecutive ad alto rendimento.",
             // Venue
             "venue-tagline": "L'ACCADEMIA",
             "venue-title": "Heineken House",
