@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "THE STUDY METRICS",
             "curric-title": "The Guild's Curriculum",
-            "curric-subtitle": "One intensive day of mastership. Zero fluff, absolute capability.",
+            "curric-subtitle": "One intensive day of mastership. No coding or IT professional skills required.",
             "curric-t1-title": "AI Agent Integration & Foundations",
             "curric-t1-desc": "Learn how to build your own custom AI Agent on top of Gemini, Claude, or GPT to perform corporate tasks. We will explore why this agentic structure is the most modern approach compared to barely using these models raw.",
             "curric-t1-i1": "Connecting AI cores directly to corporate internal systems",
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "A ESTRUTURA DOS ESTUDOS",
             "curric-title": "O Currículo do Workshop",
-            "curric-subtitle": "Um dia intensivo de maestria. Zero enrolação, capacidade absoluta.",
+            "curric-subtitle": "Um dia intensivo de maestria. Não é necessário conhecimento em programação ou TI.",
             "curric-t1-title": "Integração e Fundações de Agentes de IA",
             "curric-t1-desc": "Aprenda a construir seu próprio Agente de IA personalizado sobre o Gemini, Claude ou GPT para realizar tarefas corporativas. Exploraremos por que essa estrutura baseada em agentes é a abordagem mais moderna em comparação ao uso simples desses modelos brutos.",
             "curric-t1-i1": "Conectando núcleos de IA diretamente aos sistemas internos da empresa",
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "IL PROGRAMMA DI STUDIO",
             "curric-title": "Il Programma della Gilda",
-            "curric-subtitle": "Una giornata intensiva di maestria. Zero fronzoli, capacità assoluta.",
+            "curric-subtitle": "Una giornata intensiva di maestria. Non sono richieste competenze di programmazione o informatiche.",
             "curric-t1-title": "Integrazione e Fondamenta degli Agenti AI",
             "curric-t1-desc": "Impara a costruire il tuo Agente AI personalizzato su Gemini, Claude o GPT per eseguire compiti aziendali. Scopriremo perché questa struttura ad agenti è l'approccio più moderno rispetto al semplice utilizzo dei modelli grezzi.",
             "curric-t1-i1": "Connessione diretta dei core AI ai sistemi aziendali interni",
