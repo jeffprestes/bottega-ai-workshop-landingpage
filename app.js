@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i3": "Roadmapping security, integration, and budget guardrails for departments",
             // Magister
             "magister-tagline": "THE MAGISTER",
-            "magister-title-role": "IT Executive & Master Artisan",
+            "magister-title-role": "IT Executive & Experienced Professor",
             "magister-bio-p1": "Jeff Prestes is an IT Executive with more than 30 years of hands-on experience guiding technological evolutions, leading high-performance engineering groups, and designing robust system architectures.",
             "magister-bio-p2": "At BottegaAI, he acts as the Magister, translating raw generative models and complex agent workflows into practical, high-leverage executive assets.",
             // Venue
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i3": "Planejando segurança, integração e controle de custos para departamentos",
             // Magister
             "magister-tagline": "O MAGISTER",
-            "magister-title-role": "Executivo de TI & Mestre Artesão",
+            "magister-title-role": "Executivo de TI & Professor Experiente",
             "magister-bio-p1": "Jeff Prestes é um Executivo de TI com mais de 30 anos de experiência prática liderando evoluções tecnológicas, equipes de engenharia de alta performance e desenhando arquiteturas robustas de sistemas.",
             "magister-bio-p2": "Na BottegaAI, ele atua como o Magister, traduzindo modelos generativos puros e fluxos complexos de agentes em ativos executivos práticos e de alta alavancagem.",
             // Venue
@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "curric-t5-i3": "Pianificazione di sicurezza, integrazione e controllo dei costi nei dipartimenti",
             // Magister
             "magister-tagline": "IL MAGISTER",
-            "magister-title-role": "Dirigente IT & Maestro Artigiano",
+            "magister-title-role": "Dirigente IT & Professore di Esperienza",
             "magister-bio-p1": "Jeff Prestes è un Dirigente IT con oltre 30 anni di esperienza pratica nella guida dell'evoluzione tecnologica, nella direzione di team ingegneristici ad alte prestazioni e nella progettazione di architetture di sistema robuste.",
             "magister-bio-p2": "Presso BottegaAI, ricopre il ruolo di Magister, traducendo modelli generativi grezzi e flussi di lavoro complessi di agenti in risorse esecutive ad alto rendimento.",
             // Venue
