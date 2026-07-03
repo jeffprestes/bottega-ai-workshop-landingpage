@@ -1626,3 +1626,126 @@ a:hover {
         gap: 2.5rem;
     }
 }
+
+/* 14. Payment & Subscription Box Styles */
+.payment-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-parchment-border);
+    padding: 2.5rem;
+    border-radius: var(--border-radius-md);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.payment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-parchment-border);
+    padding-bottom: 1.5rem;
+}
+
+.payment-badge {
+    font-family: var(--font-serif-header);
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: var(--color-gold);
+    border: 1px solid var(--color-gold-dim);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    background-color: rgba(212, 175, 55, 0.05);
+}
+
+.payment-price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.2rem;
+}
+
+.price-currency {
+    font-family: var(--font-serif-header);
+    font-size: 1.5rem;
+    color: var(--color-gold);
+}
+
+.price-amount {
+    font-family: var(--font-serif-header);
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1;
+}
+
+.price-period {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
+
+.payment-explanation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.payment-title {
+    font-family: var(--font-serif-header);
+    font-size: 1.4rem;
+    color: var(--color-text);
+    letter-spacing: 0.5px;
+}
+
+.payment-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+}
+
+.payment-features-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.payment-features-list li {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    position: relative;
+    padding-left: 1.8rem;
+}
+
+.payment-features-list li::before {
+    content: '✥';
+    position: absolute;
+    left: 0;
+    color: var(--color-gold);
+    font-size: 0.85rem;
+}
+
+.payment-button {
+    background-color: var(--color-gold);
+    color: #121210;
+    font-family: var(--font-serif-header);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    padding: 1.2rem;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-gold);
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+    display: block;
+    transition: var(--transition-smooth);
+}
+
+.payment-button:hover {
+    background-color: var(--color-gold-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 25px var(--color-gold-glow);
+    color: #000;
+}
+

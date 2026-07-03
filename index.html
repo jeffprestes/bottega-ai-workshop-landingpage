@@ -456,52 +456,33 @@
                     </div>
                 </div>
                 <div class="register-form-panel">
-                    <form id="guild-application-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="input-fullname" data-i18n="form-label-name">Full Name</label>
-                                <input type="text" id="input-fullname" required placeholder="e.g. Leonardo da Vinci" data-i18n-placeholder="form-placeholder-name">
+                    <div class="payment-box">
+                        <div class="payment-header">
+                            <span class="payment-badge" data-i18n="pay-badge">EXECUTIVE PASS</span>
+                            <div class="payment-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount" data-i18n="pay-price-amount">1,450</span>
+                                <span class="price-period" data-i18n="pay-price-period">/ seat</span>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="input-email" data-i18n="form-label-email">Corporate Email</label>
-                                <input type="email" id="input-email" required placeholder="e.g. ceo@bottega.agency" data-i18n-placeholder="form-placeholder-email">
-                            </div>
+                        
+                        <div class="payment-explanation">
+                            <h3 class="payment-title" data-i18n="pay-title">Complete Registration</h3>
+                            <p class="payment-desc" data-i18n="pay-desc">
+                                Admission to the masterclass is secured instantly via our payment gateway. Click the link below to process your fee on Stripe's secure portal. You will receive a calendar invitation and preparatory codex guidelines immediately after payment.
+                            </p>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group flex-2">
-                                <label for="input-company" data-i18n="form-label-company">Company</label>
-                                <input type="text" id="input-company" required placeholder="e.g. Milanese Ventures" data-i18n-placeholder="form-placeholder-company">
-                            </div>
-                            <div class="form-group flex-1">
-                                <label for="input-title" data-i18n="form-label-title">Title / Role</label>
-                                <input type="text" id="input-title" required placeholder="e.g. CFO / VP" data-i18n-placeholder="form-placeholder-title">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="input-linkedin" data-i18n="form-label-linkedin">LinkedIn Profile URL</label>
-                                <input type="url" id="input-linkedin" required placeholder="https://linkedin.com/in/username" data-i18n-placeholder="form-placeholder-linkedin">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="input-intent" data-i18n="form-label-intent">What process do you most want to delegate to an AI Agent?</label>
-                                <textarea id="input-intent" required placeholder="Briefly describe a workflows, analysis, or coordination challenge you face daily..." data-i18n-placeholder="form-placeholder-intent"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="submit-button" id="submit-guild-form" data-i18n="form-btn-submit">Submit Application to the Council</button>
-                    </form>
-                    
-                    <!-- Success state (hidden by default) -->
-                    <div class="form-success-message hidden" id="form-success">
-                        <span class="success-icon">✥</span>
-                        <h3 class="success-title" data-i18n="form-success-title">Application Submitted</h3>
-                        <p class="success-desc" data-i18n="form-success-desc">
-                            Your credentials have been dispatched to the BottegaAI Guild Council. We will review your operational goals and contact you within 48 hours.
-                        </p>
-                        <button class="btn-reset-form" id="btn-reset-form" data-i18n="form-success-btn">Register another seat</button>
+                        
+                        <ul class="payment-features-list">
+                            <li data-i18n="pay-feat-1">Full Workshop Access & Live Interactive Modules</li>
+                            <li data-i18n="pay-feat-2">Custom AI Agent Deployment Sandbox</li>
+                            <li data-i18n="pay-feat-3">Premium Catering & Heineken House Admission</li>
+                            <li data-i18n="pay-feat-4">Exclusive Post-Workshop Craft Networking</li>
+                        </ul>
+                        
+                        <a href="https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00" target="_blank" rel="noopener noreferrer" class="payment-button" id="stripe-payment-btn" data-i18n="pay-btn">
+                            Secure Seat & Pay via Stripe ↗
+                        </a>
                     </div>
                 </div>
             </div>

@@ -114,26 +114,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
             "venue-card-status": "Private Executive Booking",
             // Registration
-            "reg-title": "Apply to the Guild",
+            "reg-title": "Secure Admission",
             "reg-desc-1": "Due to the hands-on nature of our Agent Synthesis session and physical space limits at Heineken House, BottegaAI is strictly limited to 25 executives.",
-            "reg-desc-2": "Admission is selective. We look for directors, VPs, founders, and CXOs with complex operational environments ripe for agentic automation.",
-            "form-label-name": "Full Name",
-            "form-label-email": "Corporate Email",
-            "form-label-company": "Company",
-            "form-label-title": "Title / Role",
-            "form-label-linkedin": "LinkedIn Profile URL",
-            "form-label-intent": "What process do you most want to delegate to an AI Agent?",
-            "form-btn-submit": "Submit Application to the Council",
-            "form-success-title": "Application Submitted",
-            "form-success-desc": "Your credentials have been dispatched to the BottegaAI Guild Council. We will review your operational goals and contact you within 48 hours.",
-            "form-success-btn": "Register another seat",
-            // Placeholders
-            "form-placeholder-name": "e.g. Leonardo da Vinci",
-            "form-placeholder-email": "e.g. ceo@bottega.agency",
-            "form-placeholder-company": "e.g. Milanese Ventures",
-            "form-placeholder-title": "e.g. CFO / VP",
-            "form-placeholder-linkedin": "https://linkedin.com/in/username",
-            "form-placeholder-intent": "Briefly describe a workflows, analysis, or coordination challenge you face daily...",
+            "reg-desc-2": "Ensure your participation by completing the registration payment. Limited seats are available for the August 2026 cohort.",
+            "pay-badge": "EXECUTIVE PASS",
+            "pay-price-amount": "1,450",
+            "pay-price-period": "/ seat",
+            "pay-title": "Complete Registration",
+            "pay-desc": "Admission to the masterclass is secured instantly via our payment gateway. Click the link below to process your fee on Stripe's secure portal. You will receive a calendar invitation and preparatory codex guidelines immediately after payment.",
+            "pay-feat-1": "Full Workshop Access & Live Interactive Modules",
+            "pay-feat-2": "Custom AI Agent Deployment Sandbox",
+            "pay-feat-3": "Premium Catering & Heineken House Admission",
+            "pay-feat-4": "Exclusive Post-Workshop Craft Networking",
+            "pay-btn": "Secure Seat & Pay via Stripe ↗",
             // Footer
             "footer-tagline": "Re-engineering executive execution through Renaissance principles.",
             "footer-nav-title": "NAVIGATION",
@@ -247,26 +240,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
             "venue-card-status": "Reserva Privada para Executivos",
             // Registration
-            "reg-title": "Inscrição no Workshop",
+            "reg-title": "Garantir Admissão",
             "reg-desc-1": "Devido à natureza prática da nossa sessão de Síntese de Agentes e aos limites físicos da Heineken House, a BottegaAI é estritamente limitada a 25 executivos.",
-            "reg-desc-2": "A admissão é seletiva. Buscamos diretores, VPs, fundadores e CXOs com ambientes operacionais complexos, ideais para automação com agentes.",
-            "form-label-name": "Nome Completo",
-            "form-label-email": "E-mail Corporativo",
-            "form-label-company": "Empresa",
-            "form-label-title": "Cargo / Função",
-            "form-label-linkedin": "URL do Perfil do LinkedIn",
-            "form-label-intent": "Qual processo você mais deseja delegar a um Agente de IA?",
-            "form-btn-submit": "Enviar Candidatura ao Conselho",
-            "form-success-title": "Candidatura Enviada",
-            "form-success-desc": "Suas credenciais foram enviadas ao Conselho do Workshop BottegaAI. Analisaremos seus objetivos operacionais e entraremos em contato em até 48 horas.",
-            "form-success-btn": "Cadastrar outra vaga",
-            // Placeholders
-            "form-placeholder-name": "ex. Leonardo da Vinci",
-            "form-placeholder-email": "ex. ceo@bottega.agency",
-            "form-placeholder-company": "ex. Milanese Ventures",
-            "form-placeholder-title": "ex. CFO / VP",
-            "form-placeholder-linkedin": "https://linkedin.com/in/usuario",
-            "form-placeholder-intent": "Descreva brevemente um fluxo de trabalho ou desafio de análise que você enfrenta diariamente...",
+            "reg-desc-2": "Garanta a sua participação efetuando o pagamento da inscrição. As vagas são limitadas para a turma de agosto de 2026.",
+            "pay-badge": "PASSE EXECUTIVO",
+            "pay-price-amount": "1.450",
+            "pay-price-period": "/ vaga",
+            "pay-title": "Concluir Inscrição",
+            "pay-desc": "A admissão no masterclass é garantida instantaneamente através da nossa plataforma de pagamento. Clique no link abaixo para processar sua taxa no portal seguro do Stripe. Você receberá um convite no calendário e o guia preparatório do codex logo após a confirmação do pagamento.",
+            "pay-feat-1": "Acesso Completo ao Workshop & Módulos Interativos",
+            "pay-feat-2": "Ambiente de Testes (Sandbox) de IA Personalizado",
+            "pay-feat-3": "Catering Premium & Admissão na Heineken House",
+            "pay-feat-4": "Networking de Integração Exclusivo Pós-Workshop",
+            "pay-btn": "Garantir Vaga & Pagar via Stripe ↗",
             // Footer
             "footer-tagline": "Reestruturando a execução executiva por meio de princípios renascentistas.",
             "footer-nav-title": "NAVEGAÇÃO",
@@ -380,26 +366,19 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-card-addr": "Parque Villa Lobos, San Paolo - SP",
             "venue-card-status": "Prenotazione Privata per Dirigenti",
             // Registration
-            "reg-title": "Candidati alla Gilda",
+            "reg-title": "Assicura l'Ammissione",
             "reg-desc-1": "A causa della natura pratica della nostra sessione di Sintesi degli Agenti e dei limiti fisici della Heineken House, BottegaAI è strettamente limitata a 25 dirigenti.",
-            "reg-desc-2": "L'ammissione è seletiva. Cerchiamo direttori, VP, fondatori e CXO con ambienti operativi complessi e pronti per l'automazione tramite agenti.",
-            "form-label-name": "Nome Completo",
-            "form-label-email": "E-mail Aziendale",
-            "form-label-company": "Azienda",
-            "form-label-title": "Cargo / Ruolo",
-            "form-label-linkedin": "URL del Profilo LinkedIn",
-            "form-label-intent": "Quale processo desideri delegare maggiormente a un Agente AI?",
-            "form-btn-submit": "Invia Candidatura al Consiglio",
-            "form-success-title": "Candidatura Inviata",
-            "form-success-desc": "Le tue credenziali sono state inviate al Consiglio della Gilda BottegaAI. Esamineremo i tuoi obiettivi operativi e ti contatteremo entro 48 ore.",
-            "form-success-btn": "Registra un altro posto",
-            // Placeholders
-            "form-placeholder-name": "es. Leonardo da Vinci",
-            "form-placeholder-email": "es. ceo@bottega.agency",
-            "form-placeholder-company": "es. Milanese Ventures",
-            "form-placeholder-title": "es. CFO / VP",
-            "form-placeholder-linkedin": "https://linkedin.com/in/utente",
-            "form-placeholder-intent": "Descrivi brevemente un flusso di lavoro o una sfida di analisi che affronti ogni giorno...",
+            "reg-desc-2": "Assicurati la partecipazione completando il pagamento dell'iscrizione. I posti sono limitati per la classe di agosto 2026.",
+            "pay-badge": "PASSO ESECUTIVO",
+            "pay-price-amount": "1.450",
+            "pay-price-period": "/ posto",
+            "pay-title": "Completa l'Iscrizione",
+            "pay-desc": "L'ammissione alla masterclass è garantita istantaneamente tramite la nostra piattaforma di pagamento. Clicca sul link sottostante per essere reindirizzato al portale sicuro di Stripe. Riceverai un invito nel calendario e la guida del codex preparatorio subito dopo la conferma del pagamento.",
+            "pay-feat-1": "Accesso Completo al Workshop & Moduli Interattivi",
+            "pay-feat-2": "Sandbox per l'Implementazione dell'Agente AI",
+            "pay-feat-3": "Catering Premium & Ingresso alla Heineken House",
+            "pay-feat-4": "Networking di Integrazione Esclusivo Post-Workshop",
+            "pay-btn": "Assicura Posto & Paga con Stripe ↗",
             // Footer
             "footer-tagline": "Riprogettare l'esecuzione esecutiva attraverso i principi del Rinascimento.",
             "footer-nav-title": "NAVIGAZIONE",
@@ -727,62 +706,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ==========================================
-    // 4. Guild Application Form Panel Handling
-    // ==========================================
-    const form = document.getElementById('guild-application-form');
-    const successContainer = document.getElementById('form-success');
-    const resetFormBtn = document.getElementById('btn-reset-form');
-
-    if (form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            form.classList.add('hidden');
-            form.style.display = 'none';
-
-            if (successContainer) {
-                successContainer.classList.remove('hidden');
-                successContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
-        });
-    }
-
-    if (resetFormBtn) {
-        resetFormBtn.addEventListener('click', () => {
-            if (form) {
-                form.reset();
-                form.classList.remove('hidden');
-                form.style.display = 'flex';
-                
-                checkboxes.forEach(chk => {
-                    const parent = chk.closest('.checkbox-option');
-                    if (parent) {
-                        if (chk.id === 'tool-search' || chk.id === 'tool-code') {
-                            chk.checked = true;
-                            parent.classList.add('active');
-                        } else {
-                            chk.checked = false;
-                            parent.classList.remove('active');
-                        }
-                    }
-                });
-                
-                archetypeOptions.forEach(opt => opt.classList.remove('active'));
-                const defaultOption = document.querySelector('.radio-option input[value="analyst"]').closest('.radio-option');
-                if (defaultOption) defaultOption.classList.add('active');
-                
-                llmSelect.selectedIndex = 0;
-                autonomyRange.value = 2;
-                
-                calculateBlueprint();
-            }
-
-            if (successContainer) {
-                successContainer.classList.add('hidden');
-            }
-        });
-    }
+    // Form and registration elements removed in favor of Stripe checkout direct links.
 
     // Initialize Language settings
     const langToSet = detectLanguage();
