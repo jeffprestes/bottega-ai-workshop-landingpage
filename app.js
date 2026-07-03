@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-d2": "Enjoy premium catering, private workspace stations, high-speed fiber lines, and an exclusive craft networking session on the rooftop patio after the guild workshop finishes.",
             "venue-btn": "Explore Heineken House ↗",
             "venue-card-tag": "EXCLUSIVE VENUE",
-            "venue-card-addr": "Vila Madalena, São Paulo - SP",
+            "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
             "venue-card-status": "Private Executive Booking",
             // Registration
             "reg-title": "Apply to the Guild",
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-d2": "Desfrute de buffet premium, estações de trabalho privadas, conexões de fibra de alta velocidade e uma sessão de networking com cervejas artesanais no pátio da cobertura após o encerramento do workshop.",
             "venue-btn": "Explorar Heineken House ↗",
             "venue-card-tag": "LOCAL EXCLUSIVO",
-            "venue-card-addr": "Vila Madalena, São Paulo - SP",
+            "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
             "venue-card-status": "Reserva Privada para Executivos",
             // Registration
             "reg-title": "Inscrição no Workshop",
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-d2": "Goditi il catering premium, postazioni di lavoro private, linee in fibra ad alta velocità e un'esclusiva sessione di networking con birre artigianali sulla terrazza panoramica dopo la conclusione del workshop.",
             "venue-btn": "Esplora Heineken House ↗",
             "venue-card-tag": "SEDE ESCLUSIVA",
-            "venue-card-addr": "Vila Madalena, San Paolo - SP",
+            "venue-card-addr": "Parque Villa Lobos, San Paolo - SP",
             "venue-card-status": "Prenotazione Privata per Dirigenti",
             // Registration
             "reg-title": "Candidati alla Gilda",
