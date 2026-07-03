@@ -131,9 +131,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Footer
             "footer-tagline": "Re-engineering executive execution through Renaissance principles.",
             "footer-nav-title": "NAVIGATION",
-            "footer-meta-title": "THE WORKSHOP",
             "footer-meta-date": "Date: August 22nd, 2026",
             "footer-meta-loc": "Location: Heineken House SP",
+            "footer-meta-email": "Enquiries: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Inspired by the Codex Atlanticus. All agents aligned."
         },
         pt: {
@@ -261,6 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "footer-meta-title": "O WORKSHOP",
             "footer-meta-date": "Data: 22 de Agosto de 2026",
             "footer-meta-loc": "Local: Heineken House SP",
+            "footer-meta-email": "Contato: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Inspirado no Codex Atlanticus. Todos os agentes alinhados."
         },
         it: {
@@ -388,6 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "footer-meta-title": "IL WORKSHOP",
             "footer-meta-date": "Data: 22 Agosto 2026",
             "footer-meta-loc": "Sede: Heineken House SP",
+            "footer-meta-email": "Contatti: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Ispirato al Codex Atlanticus. Tutti gli agenti allineati."
         }
     };
