@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav-philosophy": "Filosofia",
             "nav-curriculum": "Currículo",
             "nav-simulator": "Simulador de Agente",
-            "nav-venue": "O Local",
+            "nav-venue": "Local",
             "nav-magister": "Magister",
             "nav-cta": "Inscrever-se no Workshop",
             // Hero
