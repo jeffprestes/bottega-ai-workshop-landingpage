@@ -1591,11 +1591,37 @@ a:hover {
 
 @media (max-width: 768px) {
     .main-header {
-        padding: 1.2rem 5%;
+        padding: 1rem 4%;
+    }
+
+    .logo-text {
+        font-size: 1.15rem;
+        letter-spacing: 1px;
+    }
+
+    .header-right {
+        gap: 0.5rem;
+    }
+
+    .lang-switcher {
+        gap: 0.15rem;
+        font-size: 0.75rem;
+    }
+
+    .lang-btn {
+        font-size: 0.72rem;
+        padding: 0.1rem 0.2rem;
+    }
+
+    .cta-button-nav {
+        font-size: 0.72rem;
+        padding: 0.4rem 0.8rem;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
     }
 
     .nav-menu {
-        display: none; /* Can expand to burger menu if needed */
+        display: none; /* Hidden on mobile */
     }
 
     .hero-title {
@@ -1619,6 +1645,25 @@ a:hover {
     .form-row {
         flex-direction: column;
         gap: 1.2rem;
+    }
+
+    .register-info-panel {
+        padding: 2.5rem 1.5rem !important;
+    }
+
+    .register-form-panel {
+        padding: 2.5rem 1.2rem !important;
+    }
+
+    .payment-box {
+        padding: 1.5rem !important;
+        gap: 1.5rem !important;
+    }
+
+    .payment-header {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 1rem !important;
     }
 
     .footer-grid {

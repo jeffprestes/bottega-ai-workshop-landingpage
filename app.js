@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Simulator Controls
             "sim-tagline": "EXPERIMENT WITH THE CRAFT",
             "sim-title": "The Agent Synthesis Console",
-            "sim-subtitle": "Draft a blueprint for your first digital apprentice and calculate your leverage.",
+            "sim-subtitle": "Draft a blueprint for your first digital apprentice<br>and calculate your leverage.",
             "sim-ctrl-title": "Blueprint Customization",
             "sim-ctrl-label-1": "1. Apprentice Archetype (Role)",
             "sim-ctrl-label-2": "2. Intellectual Core (LLM Engine)",
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Simulator Controls
             "sim-tagline": "EXPERIMENTE A ARTE",
             "sim-title": "Console de Síntese de Agente",
-            "sim-subtitle": "Esboce um projeto para seu primeiro aprendiz digital e calcule sua alavancagem.",
+            "sim-subtitle": "Esboce um projeto para seu primeiro aprendiz digital<br>e calcule sua alavancagem.",
             "sim-ctrl-title": "Personalização do Projeto",
             "sim-ctrl-label-1": "1. Arquétipo do Aprendiz (Função)",
             "sim-ctrl-label-2": "2. Núcleo Intelectual (Mecanismo LLM)",
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Simulator Controls
             "sim-tagline": "SPERIMENTA L'ARTE",
             "sim-title": "Console di Sintesi degli Agenti",
-            "sim-subtitle": "Disegna il progetto per il tuo primo apprendista digitale e calcola la tua leva.",
+            "sim-subtitle": "Disegna il progetto per il tuo primo apprendista digitale<br>e calcola la tua leva.",
             "sim-ctrl-title": "Personalizzazione Progetto",
             "sim-ctrl-label-1": "1. Archetipo dell'Apprendista (Ruolo)",
             "sim-ctrl-label-2": "2. Nucleo Intellettuale (Motore LLM)",
