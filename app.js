@@ -150,11 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav-curriculum": "Currículo",
             "nav-simulator": "Simulador de Agente",
             "nav-venue": "O Local",
-            "nav-cta": "Inscrever-se na Guilda",
+            "nav-cta": "Inscrever-se no Workshop",
             // Hero
             "hero-date": "22 DE AGOSTO, 2026",
             "hero-title": "O Renascimento do <br>\n                    <span class=\"gold-text-glow\">Poder Executivo</span>",
-            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega—um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar uma guilda de um homem só. Aprenda a orquestrar seus próprios aprendizes digitais e lidere como um Alto Contribuidor Individual.",
+            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega—um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um workshop de um homem só. Aprenda a orquestrar seus próprios aprendizes digitais e lidere como um Alto Contribuidor Individual.",
             "hero-label-workshop": "O WORKSHOP",
             "hero-val-workshop": "Masterclass Executiva BottegaAI",
             "hero-label-venue": "O LOCAL",
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "sim-ctrl-title": "Personalização do Projeto",
             "sim-ctrl-label-1": "1. Arquétipo do Aprendiz (Função)",
             "sim-ctrl-label-2": "2. Núcleo Intelectual (Mecanismo LLM)",
-            "sim-ctrl-label-3": "3. Instrumentos da Guilda (Integrações)",
+            "sim-ctrl-label-3": "3. Instrumentos do Workshop (Integrações)",
             "sim-ctrl-label-4": "4. Nível de Autonomia",
             "sim-btn-synthesize": "Sintetizar Projeto do Aprendiz",
             // Archetypes
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "blueprint-lift-lbl": "Ganho de Produtividade",
             // Curriculum
             "curric-tagline": "A ESTRUTURA DOS ESTUDOS",
-            "curric-title": "O Currículo da Guilda",
+            "curric-title": "O Currículo do Workshop",
             "curric-subtitle": "Um dia intensivo de maestria. Zero enrolação, capacidade absoluta.",
             "curric-t1-title": "O Códice da Engenharia de Prompt",
             "curric-t1-desc": "Desmistificando a arquitetura do LLM. Aprenda a escrever prompts determinísticos, compreender efeitos de tokenização, estruturar estados de sistemas multi-shot e programar LLMs com instruções personalizadas que nunca falham.",
@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "venue-card-addr": "Vila Madalena, São Paulo - SP",
             "venue-card-status": "Reserva Privada para Executivos",
             // Registration
-            "reg-title": "Inscrição na Guilda",
+            "reg-title": "Inscrição no Workshop",
             "reg-desc-1": "Devido à natureza prática da nossa sessão de Síntese de Agentes e aos limites físicos da Heineken House, a BottegaAI é estritamente limitada a 25 executivos.",
             "reg-desc-2": "A admissão é seletiva. Buscamos diretores, VPs, fundadores e CXOs com ambientes operacionais complexos, ideais para automação com agentes.",
             "form-label-name": "Nome Completo",
@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "form-label-intent": "Qual processo você mais deseja delegar a um Agente de IA?",
             "form-btn-submit": "Enviar Candidatura ao Conselho",
             "form-success-title": "Candidatura Enviada",
-            "form-success-desc": "Suas credenciais foram enviadas ao Conselho da Guilda BottegaAI. Analisaremos seus objetivos operacionais e entraremos em contato em até 48 horas.",
+            "form-success-desc": "Suas credenciais foram enviadas ao Conselho do Workshop BottegaAI. Analisaremos seus objetivos operacionais e entraremos em contato em até 48 horas.",
             "form-success-btn": "Cadastrar outra vaga",
             // Placeholders
             "form-placeholder-name": "ex. Leonardo da Vinci",
