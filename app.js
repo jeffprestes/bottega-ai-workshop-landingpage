@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         pt: {
             metaTitle: "BottegaAI | O Renascimento do Poder Executivo e Agentes de IA",
-            metaDesc: "Domine a arte do Alto Contribuidor Individual na BottegaAI. Um workshop inspirado no Renascimento para executivos projetarem e criarem Agentes de IA autônomos na Heineken House, São Paulo. 22 de Agosto de 2026.",
+            metaDesc: "Domine a arte do Executivo de Alto Impacto Individual na BottegaAI. Um workshop inspirado no Renascimento para executivos projetarem e criarem Agentes de IA autônomos na Heineken House, São Paulo. 22 de Agosto de 2026.",
             // Header
             "nav-philosophy": "Filosofia",
             "nav-curriculum": "Currículo",
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Hero
             "hero-date": "22 DE AGOSTO, 2026",
             "hero-title": "O Renascimento do <br>\n                    <span class=\"gold-text-glow\">Poder Executivo</span>",
-            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega—um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um workshop de um homem só. Aprenda a orquestrar seus próprios aprendizes digitais e lidere como um Alto Contribuidor Individual.",
+            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega — um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um profissional múltiplo. <br /> <br />Na BottegaAI, ensinaremos você a estabelecer seu próprio ateliê digital corporativo. Ao projetar e implantar sua própria rede personalizada de Agentes de IA autônomos, você pode executar iniciativas de negócios complexas, analisar grandes volumes de dados e criar projetos inteiros com a alavancagem de um departamento de múltiplas pessoas."
             "hero-label-workshop": "O WORKSHOP",
             "hero-val-workshop": "Crie seu próprio Agente de IA",
             "hero-label-venue": "O LOCAL",
