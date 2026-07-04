@@ -1679,6 +1679,11 @@ a:hover {
     .magister-section {
         display: none !important;
     }
+
+    /* Footer nav links point to hidden sections on mobile */
+    .footer-links {
+        display: none !important;
+    }
 }
 
 /* 14. Payment & Subscription Box Styles */
