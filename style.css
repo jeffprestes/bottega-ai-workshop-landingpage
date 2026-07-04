@@ -1670,6 +1670,15 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 2.5rem;
     }
+
+    /* Hide intermediate body sections on mobile */
+    .philosophy-section,
+    .simulator-section,
+    .curriculum-section,
+    .venue-section,
+    .magister-section {
+        display: none !important;
+    }
 }
 
 /* 14. Payment & Subscription Box Styles */
