@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Hero
             "hero-date": "22 DE AGOSTO, 2026",
             "hero-title": "O Renascimento do <br>\n                    <span class=\"gold-text-glow\">Poder Executivo</span>",
-            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega — um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um profissional múltiplo. <br /> <br />Na BottegaAI, ensinaremos você a estabelecer seu próprio ateliê digital corporativo. Ao projetar e implantar sua própria rede personalizada de Agentes de IA autônomos, você pode executar iniciativas de negócios complexas, analisar grandes volumes de dados e criar projetos inteiros com a alavancagem de um departamento de multiplas pessoas.",
+            "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega — um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um profissional múltiplo. <br /> <br />Na BottegaAI, ensinaremos você a estabelecer seu próprio ateliê digital corporativo. Ao projetar e implantar sua própria rede personalizada de Agentes de IA autônomos, você pode executar iniciativas de negócios complexas, analisar grandes volumes de dados e criar projetos inteiros com a alavancagem de um departamento de múltiplas pessoas."
             "hero-label-workshop": "O WORKSHOP",
             "hero-val-workshop": "Crie seu próprio Agente de IA",
             "hero-label-venue": "O LOCAL",
