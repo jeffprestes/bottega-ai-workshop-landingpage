@@ -2353,7 +2353,6 @@ a:hover {
 }
 
 .featured-audience-card {
-    grid-column: span 2;
     background:
         radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.15), transparent 42%),
         linear-gradient(145deg, rgba(245, 238, 211, 0.055), rgba(212, 175, 55, 0.03)),
