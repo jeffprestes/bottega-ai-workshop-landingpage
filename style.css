@@ -2101,3 +2101,167 @@ a:hover {
     }
 }
 
+/* 17. Religious AI Workshop Page */
+.religious-ai-page {
+    --color-olive: #8a9a5b;
+    --color-umber: #7b4f2c;
+    --color-olive-glow: rgba(138, 154, 91, 0.28);
+}
+
+.religious-ai-page .main-header .logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.religious-ai-page .gold-text,
+.religious-ai-page .gold-text-glow,
+.religious-ai-page .section-tagline,
+.religious-ai-page .timeline-time,
+.religious-ai-page .detail-value,
+.religious-ai-page .metric-number {
+    color: var(--color-gold);
+}
+
+.religious-hero {
+    min-height: 92vh;
+}
+
+.religious-sketch-frame {
+    background:
+        radial-gradient(circle at 50% 40%, rgba(138, 154, 91, 0.16), transparent 56%),
+        linear-gradient(145deg, rgba(123, 79, 44, 0.16), transparent 42%),
+        var(--color-parchment-dark);
+}
+
+.religious-hero-diagram {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    background:
+        radial-gradient(circle at 50% 45%, rgba(138, 154, 91, 0.08), transparent 56%),
+        linear-gradient(135deg, rgba(245, 238, 211, 0.03), rgba(123, 79, 44, 0.05)),
+        #0b0b0a;
+    overflow: hidden;
+}
+
+.religious-hero-diagram svg {
+    width: min(100%, 420px);
+    height: auto;
+    filter: drop-shadow(0 0 18px var(--color-olive-glow));
+}
+
+.religious-content-section,
+.religious-curriculum,
+.religious-professors,
+.religious-info {
+    display: block;
+}
+
+.religious-exercises {
+    background-image:
+        radial-gradient(circle at 12% 18%, rgba(138, 154, 91, 0.08), transparent 34%),
+        radial-gradient(circle at 85% 70%, rgba(123, 79, 44, 0.12), transparent 42%);
+}
+
+.religious-exercise-grid,
+.religious-professor-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.religious-exercise-grid .parchment-card,
+.religious-professor-grid .parchment-card,
+.religious-card-stack .parchment-card {
+    border-color: rgba(138, 154, 91, 0.28);
+}
+
+.religious-exercise-grid .card-icon,
+.religious-card-stack .card-icon {
+    color: var(--color-olive);
+}
+
+.religious-professor-grid .professor-card {
+    min-height: 310px;
+}
+
+.religious-contact-box .payment-button {
+    background-color: var(--color-olive);
+    border-color: var(--color-olive);
+    color: #080806;
+}
+
+.religious-contact-box .payment-button:hover {
+    background-color: #aab879;
+    border-color: #aab879;
+    box-shadow: 0 4px 25px var(--color-olive-glow);
+}
+
+.religious-date-card {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+}
+
+.religious-date-card .price-amount {
+    color: var(--color-text);
+}
+
+.religious-date-card .price-period {
+    color: var(--color-olive);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+    .religious-exercise-grid,
+    .religious-professor-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .religious-ai-page .philosophy-section,
+    .religious-ai-page .curriculum-section,
+    .religious-ai-page .simulator-section,
+    .religious-ai-page .magister-section {
+        display: block !important;
+    }
+
+    .religious-ai-page .main-header {
+        position: absolute;
+    }
+
+    .religious-ai-page .hero-section {
+        padding-top: 6rem;
+        text-align: left;
+    }
+
+    .religious-ai-page .hero-actions,
+    .religious-ai-page .hero-details {
+        align-items: stretch;
+    }
+
+    .religious-ai-page .hero-actions a,
+    .religious-ai-page .hero-details .detail-item {
+        width: 100%;
+    }
+
+    .religious-hero-diagram {
+        min-height: 300px;
+    }
+
+    .religious-exercise-grid,
+    .religious-professor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .religious-date-card {
+        align-items: flex-start;
+    }
+}
+
