@@ -1,0 +1,45 @@
+# BottegaAI - Curso de Stablecoins, Blockchain e Regulação no Brasil
+
+URL canônica: https://bottegaai.academy/br-blockchain-regulatorio.html
+Idioma: português do Brasil
+Tipo: curso executivo / masterclass prática
+Preço: R$ 1.000 por vaga
+Checkout: https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00
+
+## Resumo
+
+A BottegaAI oferece um curso executivo sobre blockchain, stablecoins, smart contracts, regulação brasileira de ativos virtuais, PSAV/VASP perante o BACEN, compliance e uso de agentes de IA em operações com stablecoins.
+
+## Público indicado
+
+- Executivos e fundadores que precisam decidir sobre produtos, pagamentos, tesouraria ou parcerias envolvendo stablecoins.
+- Equipes financeiras e operacionais que lidam com liquidação, conciliação, remessas, risco e rastreabilidade.
+- Jurídico e compliance que precisam entender PSAV/VASP, KYC, KYT, PLD-FT, governança, documentação e responsabilidades.
+- Tecnologia e produto que precisam conectar wallets, smart contracts, APIs, agentes de IA e trilhas de auditoria.
+
+## O que o curso ensina
+
+1. Fundamentos de blockchain.
+2. O que são stablecoins e como funcionam seus modelos de lastro.
+3. O que são smart contracts e quais riscos considerar.
+4. Regulamentações brasileiras aplicáveis a movimentações de stablecoins.
+5. O que são PSAV/VASP para o BACEN.
+6. Requisitos práticos para operar uma PSAV/VASP.
+7. Como agentes de IA podem apoiar análise, documentação, conciliação, monitoramento e preparação de fluxos, com validação humana.
+
+## Professores
+
+- Jeff Prestes: executivo de TI e professor, com foco em estratégia, tecnologia, agentes de IA e aplicação prática em negócios.
+- Mateus Prestes: professor convidado para blockchain, stablecoins, regulação brasileira e operações com ativos digitais.
+
+## Observação legal
+
+O curso é educacional e executivo. Ele não substitui assessoria jurídica, regulatória, contábil ou financeira específica.
+
+## Links importantes
+
+- Página do curso: https://bottegaai.academy/br-blockchain-regulatorio.html
+- Imagem social: https://bottegaai.academy/images/bottegaai-blockchain-og-1200x630.png
+- Logo/avatar Meta: https://bottegaai.academy/images/bottegaai-meta-avatar-1024.png
+- Wordmark horizontal: https://bottegaai.academy/images/bottegaai-logo-horizontal.svg
+- Sitemap: https://bottegaai.academy/sitemap.xml

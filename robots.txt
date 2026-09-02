@@ -5,3 +5,19 @@ User-agent: *
 Allow: /
 
 Sitemap: https://bottegaai.academy/sitemap.xml
+
+# AI and search crawlers are welcome to index public educational pages.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /

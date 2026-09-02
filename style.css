@@ -2265,3 +2265,223 @@ a:hover {
     }
 }
 
+
+/* Blockchain conversion, SEO and Meta asset pass */
+.bottega-wordmark,
+.footer-wordmark {
+    display: block;
+    width: clamp(172px, 18vw, 238px);
+    height: auto;
+}
+
+.footer-wordmark {
+    margin-bottom: 1rem;
+}
+
+.blockchain-course-page .hero-title {
+    max-width: 880px;
+}
+
+.blockchain-course-page .hero-subtitle {
+    max-width: 720px;
+}
+
+.blockchain-hero-mark {
+    width: min(78%, 370px);
+    height: auto;
+    filter: drop-shadow(0 0 24px rgba(212, 175, 55, 0.16));
+}
+
+.course-proof-band {
+    width: min(1120px, 88vw);
+    margin: -2rem auto 6rem;
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    background: rgba(212, 175, 55, 0.08);
+    box-shadow: 0 18px 70px rgba(0, 0, 0, 0.22);
+}
+
+.course-proof-item {
+    padding: 1.2rem;
+    background: rgba(18, 18, 16, 0.92);
+}
+
+.course-proof-item strong {
+    display: block;
+    font-family: var(--font-serif-header);
+    color: var(--color-gold);
+    font-size: clamp(1.15rem, 2vw, 1.6rem);
+    line-height: 1.15;
+}
+
+.course-proof-item span {
+    display: block;
+    margin-top: .45rem;
+    color: var(--color-text-muted);
+    font-size: .92rem;
+}
+
+.blockchain-audience-section,
+.blockchain-faq-section {
+    padding: 6rem 6%;
+}
+
+.compact-header {
+    margin-bottom: 3rem;
+}
+
+.audience-grid,
+.faq-grid {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.audience-card,
+.faq-card {
+    border: 1px solid rgba(212, 175, 55, 0.14);
+    background:
+        linear-gradient(145deg, rgba(245, 238, 211, 0.035), rgba(212, 175, 55, 0.025)),
+        rgba(18, 18, 16, 0.84);
+    padding: 1.4rem;
+    min-height: 210px;
+}
+
+.featured-audience-card {
+    grid-column: span 2;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.15), transparent 42%),
+        linear-gradient(145deg, rgba(245, 238, 211, 0.055), rgba(212, 175, 55, 0.03)),
+        rgba(18, 18, 16, 0.92);
+}
+
+.audience-card h3,
+.faq-card h3 {
+    font-family: var(--font-serif-header);
+    color: var(--color-text);
+    margin-bottom: .75rem;
+    font-size: 1.18rem;
+}
+
+.audience-card p,
+.faq-card p {
+    font-size: .98rem;
+}
+
+.blockchain-conversion-panel {
+    width: min(1120px, 88vw);
+    margin: 6rem auto;
+    padding: clamp(2rem, 4vw, 4rem);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    background:
+        radial-gradient(circle at 84% 20%, rgba(212, 175, 55, 0.14), transparent 36%),
+        linear-gradient(135deg, rgba(245, 238, 211, 0.04), rgba(212, 175, 55, 0.025)),
+        #0d0d0b;
+    display: grid;
+    grid-template-columns: .95fr 1.25fr;
+    gap: 2.4rem;
+    align-items: start;
+}
+
+.conversion-copy h2 {
+    font-family: var(--font-serif-header);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.05;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+.conversion-checklist {
+    display: grid;
+    gap: .8rem;
+}
+
+.conversion-checklist div {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgba(212, 175, 55, 0.12);
+    background: rgba(9, 9, 8, 0.42);
+}
+
+.conversion-checklist strong {
+    color: var(--color-gold);
+    font-family: var(--font-serif-header);
+    letter-spacing: 1px;
+}
+
+.conversion-checklist span {
+    color: var(--color-text);
+}
+
+.blockchain-faq-section {
+    background-image:
+        radial-gradient(circle at 12% 12%, rgba(212, 175, 55, 0.08), transparent 34%),
+        radial-gradient(circle at 86% 78%, rgba(212, 175, 55, 0.06), transparent 36%);
+}
+
+.faq-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.faq-card {
+    min-height: 185px;
+}
+
+.register-brand-seal {
+    width: min(210px, 52vw);
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 42px rgba(212, 175, 55, 0.16);
+}
+
+@media (max-width: 1024px) {
+    .course-proof-band,
+    .audience-grid,
+    .faq-grid,
+    .blockchain-conversion-panel {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width: 768px) {
+    .bottega-wordmark {
+        width: 170px;
+    }
+
+    .course-proof-band,
+    .audience-grid,
+    .faq-grid,
+    .blockchain-conversion-panel {
+        grid-template-columns: 1fr;
+        width: min(92vw, 640px);
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .featured-audience-card {
+        grid-column: auto;
+    }
+
+    .blockchain-audience-section,
+    .blockchain-faq-section {
+        padding: 4rem 4%;
+    }
+
+    .audience-card,
+    .faq-card {
+        min-height: auto;
+    }
+
+    .conversion-checklist div {
+        grid-template-columns: 42px 1fr;
+    }
+}
