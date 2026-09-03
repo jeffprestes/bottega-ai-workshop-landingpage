@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">Paoline Libreria - Laboratorio di Innovazione IA</title>
+  <desc id="desc">Logo ispirato alla grafica Paoline con P rossa, arco blu e dicitura Libreria.</desc>
+  <rect width="520" height="150" fill="none"/>
+  <g transform="translate(22 18)">
+    <path d="M30 53 C42 15 86 0 126 18" fill="none" stroke="#08699a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M18 72 C31 27 80 13 126 31" fill="none" stroke="#08699a" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    <text x="49" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#d3173f">P</text>
+  </g>
+  <g transform="translate(166 36)">
+    <text x="0" y="42" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="800" fill="#08699a">Paoline</text>
+    <text x="2" y="78" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="10" fill="#666b70">LIBRERIA</text>
+    <text x="2" y="111" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#d3173f">Laboratorio di Innovazione IA</text>
+  </g>
+</svg>

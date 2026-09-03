@@ -2764,3 +2764,44 @@ a:hover {
 .paoline-event-strip h2 { font-size: clamp(1.8rem, 3.45vw, 2.7rem); }
 @media (min-width: 901px) { .paoline-event-strip h2 { white-space: nowrap; } }
 @media (max-width: 900px) { .paoline-event-strip h2 { white-space: normal; } }
+
+.paoline-logo-lockup {
+    text-decoration: none;
+}
+.paoline-logo-lockup img {
+    display: block;
+    width: min(420px, 82vw);
+    height: auto;
+}
+.paoline-event-strip .contacts a {
+    color: #08699a;
+    font-weight: 800;
+    text-decoration: none;
+}
+.paoline-event-strip .contacts a:hover,
+.paoline-event-strip .contacts a:focus {
+    text-decoration: underline;
+}
+.paoline-primary-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    padding: 15px 28px;
+    border-radius: 999px;
+    background: #d3173f;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: .02em;
+    box-shadow: 0 12px 28px rgba(211, 23, 63, .20);
+}
+.paoline-primary-cta:hover,
+.paoline-primary-cta:focus {
+    background: #b81235;
+    transform: translateY(-1px);
+}
+@media (max-width: 560px) {
+    .paoline-logo-lockup img { width: min(330px, 82vw); }
+    .paoline-primary-cta { width: 100%; }
+}
