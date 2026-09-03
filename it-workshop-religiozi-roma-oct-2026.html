@@ -203,23 +203,83 @@
                     <div class="gold-border-corner bottom-left"></div>
                     <div class="gold-border-corner bottom-right"></div>
                     <div class="religious-hero-diagram">
-                        <svg viewBox="0 0 420 420" role="img" aria-label="Diagramma con Tau francescano, pergamena e assistente di IA pastorale">
-                            <circle cx="210" cy="210" r="172" fill="none" stroke="#8a9a5b" stroke-width="2" stroke-dasharray="3 10" opacity="0.65"/>
-                            <circle cx="210" cy="210" r="128" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.32"/>
-                            <path d="M122 104 H298 V146 H236 V318 H184 V146 H122 Z" fill="none" stroke="#d4af37" stroke-width="9" stroke-linejoin="round"/>
-                            <path d="M130 110 H290 V140 H230 V310 H190 V140 H130 Z" fill="#1f1d19" opacity="0.72"/>
-                            <g stroke="#8a9a5b" stroke-width="2" opacity="0.85">
-                                <line x1="92" y1="318" x2="184" y2="242"/>
-                                <line x1="328" y1="318" x2="236" y2="242"/>
-                                <line x1="86" y1="182" x2="184" y2="190"/>
-                                <line x1="334" y1="182" x2="236" y2="190"/>
+                        <svg viewBox="0 0 420 420" role="img" aria-label="Tau francescano in legno d'ulivo, in stile artigianale e devozionale">
+                            <defs>
+                                <radialGradient id="tauHalo" cx="50%" cy="44%" r="58%">
+                                    <stop offset="0%" stop-color="#f5d27a" stop-opacity="0.20"/>
+                                    <stop offset="65%" stop-color="#d4af37" stop-opacity="0.08"/>
+                                    <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+                                </radialGradient>
+                                <linearGradient id="tauWood" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#d7a35b"/>
+                                    <stop offset="22%" stop-color="#bf8445"/>
+                                    <stop offset="48%" stop-color="#8f582b"/>
+                                    <stop offset="72%" stop-color="#c98f4d"/>
+                                    <stop offset="100%" stop-color="#71411f"/>
+                                </linearGradient>
+                                <linearGradient id="tauEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#f0c67d"/>
+                                    <stop offset="100%" stop-color="#7a4722"/>
+                                </linearGradient>
+                                <filter id="tauShadow" x="-25%" y="-25%" width="150%" height="170%">
+                                    <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.34"/>
+                                </filter>
+                                <clipPath id="tauClip">
+                                    <path d="M114 122
+                                             C128 112, 152 108, 176 108
+                                             H244
+                                             C271 108, 296 112, 308 122
+                                             C314 127, 315 134, 309 140
+                                             C302 147, 292 150, 281 151
+                                             H244
+                                             C236 151, 231 155, 231 162
+                                             V290
+                                             C231 309, 224 326, 214 339
+                                             C206 349, 194 353, 186 344
+                                             C178 335, 175 317, 176 295
+                                             V162
+                                             C176 155, 171 151, 163 151
+                                             H138
+                                             C126 151, 116 148, 109 141
+                                             C103 135, 104 128, 114 122 Z"/>
+                                </clipPath>
+                            </defs>
+                            <circle cx="210" cy="210" r="170" fill="url(#tauHalo)"/>
+                            <ellipse cx="210" cy="315" rx="112" ry="22" fill="#000000" opacity="0.18"/>
+                            <g filter="url(#tauShadow)">
+                                <path d="M114 122
+                                         C128 112, 152 108, 176 108
+                                         H244
+                                         C271 108, 296 112, 308 122
+                                         C314 127, 315 134, 309 140
+                                         C302 147, 292 150, 281 151
+                                         H244
+                                         C236 151, 231 155, 231 162
+                                         V290
+                                         C231 309, 224 326, 214 339
+                                         C206 349, 194 353, 186 344
+                                         C178 335, 175 317, 176 295
+                                         V162
+                                         C176 155, 171 151, 163 151
+                                         H138
+                                         C126 151, 116 148, 109 141
+                                         C103 135, 104 128, 114 122 Z"
+                                      fill="url(#tauWood)"
+                                      stroke="url(#tauEdge)"
+                                      stroke-width="6"
+                                      stroke-linejoin="round"/>
+                                <g clip-path="url(#tauClip)" opacity="0.34">
+                                    <path d="M118 128 C155 116, 205 115, 302 124" stroke="#f4d8a3" stroke-width="7" fill="none" stroke-linecap="round"/>
+                                    <path d="M123 145 C171 139, 220 146, 293 153" stroke="#6f421f" stroke-width="5" fill="none" stroke-linecap="round"/>
+                                    <path d="M174 160 C193 177, 206 211, 208 338" stroke="#d8ae73" stroke-width="6" fill="none" stroke-linecap="round"/>
+                                    <path d="M198 158 C210 185, 216 232, 216 329" stroke="#734322" stroke-width="4" fill="none" stroke-linecap="round"/>
+                                    <path d="M150 118 C167 126, 184 129, 202 130" stroke="#f6ddb0" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                </g>
+                                <path d="M122 132 C132 126, 150 123, 173 123 H245" stroke="#f6ddb0" stroke-width="4" fill="none" opacity="0.7" stroke-linecap="round"/>
+                                <path d="M229 166 V285 C229 300, 224 315, 216 326" stroke="#5c3418" stroke-width="4" fill="none" opacity="0.55" stroke-linecap="round"/>
                             </g>
-                            <g fill="#d4af37" opacity="0.95">
-                                <circle cx="92" cy="318" r="14"/><circle cx="328" cy="318" r="14"/>
-                                <circle cx="86" cy="182" r="14"/><circle cx="334" cy="182" r="14"/>
-                            </g>
-                            <text x="210" y="358" text-anchor="middle" font-family="Cinzel, serif" font-size="13" fill="#d4af37" letter-spacing="3">IA • PASTORALE • SERVIZIO</text>
-                            <text x="210" y="382" text-anchor="middle" font-family="Lora, serif" font-size="13" fill="#af9f88">Roma, 17 ottobre 2026</text>
+                            <text x="210" y="364" text-anchor="middle" font-family="Cinzel, serif" font-size="13" fill="#d4af37" letter-spacing="3">TAU • SERVIZIO • MISSIONE</text>
+                            <text x="210" y="386" text-anchor="middle" font-family="Lora, serif" font-size="13" fill="#af9f88">Roma, 17 ottobre 2026</text>
                         </svg>
                     </div>
                     <div class="sketch-caption">
