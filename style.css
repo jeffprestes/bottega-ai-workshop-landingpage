@@ -2484,3 +2484,283 @@ a:hover {
         grid-template-columns: 42px 1fr;
     }
 }
+
+
+
+/* Paoline flyer layout for Italian workshop */
+.paoline-lab-page {
+    margin: 0;
+    background: #f6f6f4;
+    color: #242428;
+    font-family: "Inter", Arial, sans-serif;
+}
+.paoline-lab-page * { box-sizing: border-box; }
+.paoline-header {
+    display: none;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 22px 28px 0;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+.paoline-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #096899;
+}
+.paoline-mark,
+.paoline-logo-p {
+    color: #d3173f;
+    font-family: "Cinzel", serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: .8;
+    position: relative;
+}
+.paoline-mark::before,
+.paoline-logo-p::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 44px;
+    border: 4px solid #08699a;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    left: -25px;
+    top: -15px;
+    transform: rotate(-18deg);
+}
+.paoline-brand-text,
+.paoline-logo-lockup div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+.paoline-brand-text strong,
+.paoline-logo-lockup strong { color: #096899; font-size: 23px; font-weight: 700; }
+.paoline-brand-text small,
+.paoline-logo-lockup small { color: #696f75; letter-spacing: 6px; font-size: 12px; margin-top: 4px; }
+.paoline-flyer {
+    width: min(1120px, calc(100% - 32px));
+    margin: -12px auto 0;
+    background: #fff;
+    min-height: 100vh;
+    padding: 42px 64px 36px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 18px 70px rgba(0,0,0,.12);
+}
+.corner-ribbon {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background: #d3173f;
+    z-index: 0;
+}
+.corner-ribbon-top { top: 0; left: 0; clip-path: polygon(0 0, 100% 0, 0 100%); }
+.corner-ribbon-bottom { right: 0; bottom: 0; clip-path: polygon(100% 0, 100% 100%, 0 100%); }
+.paoline-hero,
+.paoline-intro-grid,
+.paoline-info-box,
+.paoline-program,
+.paoline-event-strip { position: relative; z-index: 1; }
+.paoline-logo-lockup {
+    margin: 0 auto 28px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: 12px;
+}
+.paoline-title {
+    margin: 0;
+    color: #d3173f;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: clamp(2.25rem, 5.1vw, 4.75rem);
+    line-height: 1.08;
+    letter-spacing: .055em;
+    font-weight: 900;
+}
+.paoline-subtitle {
+    margin: 18px auto 30px;
+    max-width: 900px;
+    text-align: center;
+    font-size: clamp(1.05rem, 2.1vw, 1.55rem);
+    line-height: 1.28;
+    color: #242428;
+}
+.paoline-intro-grid {
+    display: grid;
+    grid-template-columns: minmax(330px, 1fr) minmax(330px, .95fr);
+    gap: 34px;
+    align-items: center;
+    margin: 0 auto 28px;
+}
+.paoline-illustration-card {
+    border: 1px solid #dcdfe4;
+    border-radius: 20px;
+    padding: 14px;
+    background: #f8f8f8;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.8);
+}
+.paoline-illustration-card svg { display: block; width: 100%; height: auto; border-radius: 12px; }
+.paoline-facilitators h2 {
+    margin: 0 0 24px;
+    color: #08699a;
+    font-size: clamp(1.8rem, 3.2vw, 2.45rem);
+    line-height: 1;
+    font-weight: 900;
+}
+.paoline-facilitators article { margin: 0 0 18px; }
+.paoline-facilitators h3,
+.paoline-info-box h2 {
+    margin: 0 0 5px;
+    color: #d3173f;
+    font-size: clamp(1.35rem, 2.7vw, 2.05rem);
+    line-height: 1.1;
+    font-weight: 900;
+}
+.paoline-facilitators p,
+.paoline-info-box p,
+.paoline-program p {
+    margin: 0;
+    font-size: clamp(1rem, 1.55vw, 1.16rem);
+    line-height: 1.28;
+}
+.paoline-info-box {
+    border: 1px solid #d9d9d9;
+    border-radius: 18px;
+    padding: 24px 34px;
+    margin: 0 18px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.03);
+}
+.paoline-info-box p { font-size: clamp(1.12rem, 2.1vw, 1.55rem); }
+.paoline-info-box strong { color: #d3173f; font-weight: 900; }
+.paoline-info-box .blue-line {
+    color: #08699a;
+    font-weight: 900;
+    margin: 18px 0 26px;
+}
+.paoline-program {
+    margin: 0 18px 30px;
+}
+.paoline-program h2 {
+    margin: 0 0 18px;
+    color: #08699a;
+    font-size: clamp(1.75rem, 3vw, 2.35rem);
+    text-align: center;
+    font-weight: 900;
+}
+.paoline-program-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+.paoline-program article {
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+    padding: 18px;
+    background: #fbfbfb;
+}
+.paoline-program span {
+    display: inline-block;
+    color: #fff;
+    background: #08699a;
+    border-radius: 999px;
+    padding: 5px 12px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.paoline-program h3 {
+    margin: 0 0 8px;
+    color: #d3173f;
+    font-size: 1.15rem;
+    line-height: 1.15;
+}
+.blue-rule {
+    height: 15px;
+    border-radius: 999px;
+    background: #08699a;
+    margin: 0 18px 34px;
+}
+.paoline-event-strip {
+    text-align: center;
+    color: #08699a;
+    margin-top: 8px;
+}
+.paoline-event-strip h2 {
+    margin: 0 0 16px;
+    font-size: clamp(1.8rem, 4vw, 3.05rem);
+    font-weight: 900;
+    letter-spacing: .04em;
+}
+.paoline-event-strip h3 {
+    margin: 0 0 10px;
+    font-size: clamp(1.45rem, 3vw, 2.35rem);
+    font-weight: 900;
+}
+.paoline-event-strip .address {
+    margin: 0 0 20px;
+    font-size: clamp(1.25rem, 2.7vw, 2rem);
+}
+.paoline-event-strip .contacts {
+    color: #5d5d63;
+    font-size: clamp(1rem, 2vw, 1.45rem);
+}
+.paoline-event-strip .contacts span { margin: 0 16px; }
+.paoline-footer {
+    width: min(1120px, calc(100% - 32px));
+    margin: 0 auto 28px;
+    padding: 0 64px 36px;
+    background: #fff;
+    color: #5d5d63;
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: .03em;
+    box-shadow: 0 18px 70px rgba(0,0,0,.12);
+}
+@media (max-width: 900px) {
+    .paoline-header { padding-top: 16px; }
+    .paoline-flyer { width: min(100% - 18px, 720px); padding: 38px 22px 34px; margin-top: -4px; }
+    .corner-ribbon { width: 118px; height: 118px; }
+    .paoline-logo-lockup { margin-bottom: 28px; transform: scale(.86); transform-origin: center; }
+    .paoline-title { font-size: clamp(2rem, 8vw, 3.15rem); letter-spacing: .025em; }
+    .paoline-subtitle { font-size: 1.08rem; margin-bottom: 28px; }
+    .paoline-intro-grid { grid-template-columns: 1fr; gap: 26px; }
+    .paoline-facilitators h2 { text-align: left; }
+    .paoline-info-box, .paoline-program { margin-left: 0; margin-right: 0; }
+    .paoline-program-grid { grid-template-columns: 1fr 1fr; }
+    .paoline-footer { width: min(100% - 18px, 720px); padding: 0 22px 28px; font-size: .98rem; }
+}
+@media (max-width: 560px) {
+    .paoline-header { display: none; }
+    .paoline-flyer { width: 100%; margin: 0; padding: 34px 16px 30px; box-shadow: none; }
+    .corner-ribbon { width: 86px; height: 86px; }
+    .paoline-logo-lockup { margin-bottom: 22px; }
+    .paoline-title { font-size: clamp(1.8rem, 9.8vw, 2.6rem); line-height: 1.12; }
+    .paoline-subtitle { font-size: 1rem; line-height: 1.35; }
+    .paoline-illustration-card { padding: 9px; border-radius: 16px; }
+    .paoline-facilitators h2 { font-size: 1.75rem; }
+    .paoline-facilitators h3, .paoline-info-box h2 { font-size: 1.45rem; }
+    .paoline-facilitators p, .paoline-info-box p, .paoline-program p { font-size: .98rem; }
+    .paoline-info-box { padding: 22px 18px; }
+    .paoline-program-grid { grid-template-columns: 1fr; }
+    .blue-rule { height: 10px; margin: 0 0 24px; }
+    .paoline-event-strip h2 { font-size: 1.65rem; line-height: 1.2; }
+    .paoline-event-strip h3 { font-size: 1.25rem; }
+    .paoline-event-strip .address { font-size: 1.1rem; }
+    .paoline-event-strip .contacts { display: flex; flex-direction: column; gap: 4px; font-size: 1rem; }
+    .paoline-event-strip .contacts span { display: none; }
+    .paoline-footer { width: 100%; margin-bottom: 0; box-shadow: none; }
+}
+
+.paoline-event-strip h2 { font-size: clamp(1.8rem, 3.45vw, 2.7rem); }
+@media (min-width: 901px) { .paoline-event-strip h2 { white-space: nowrap; } }
+@media (max-width: 900px) { .paoline-event-strip h2 { white-space: normal; } }

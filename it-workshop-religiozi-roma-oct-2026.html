@@ -78,8 +78,8 @@
             "@type": "CourseInstance",
             "courseMode": "Onsite",
             "inLanguage": "it",
-            "startDate": "2026-10-17T14:00:00+02:00",
-            "endDate": "2026-10-17T18:00:00+02:00",
+            "startDate": "2026-10-17T15:00:00+02:00",
+            "endDate": "2026-10-17T19:00:00+02:00",
             "duration": "PT4H",
             "location": {
               "@type": "Place",
@@ -105,8 +105,8 @@
           "description": "Laboratorio di Innovazione pratico in presenza a Roma per creare il tuo agente IA al servizio della missione pastorale e dell'amministrazione religiosa.",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "eventStatus": "https://schema.org/EventScheduled",
-          "startDate": "2026-10-17T14:00:00+02:00",
-          "endDate": "2026-10-17T18:00:00+02:00",
+          "startDate": "2026-10-17T15:00:00+02:00",
+          "endDate": "2026-10-17T19:00:00+02:00",
           "inLanguage": "it",
           "location": {
             "@type": "Place",
@@ -151,417 +151,122 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="religious-ai-page">
-    <header class="main-header" id="header-section">
-        <a href="/" class="logo" aria-label="BottegaAI Home">
-            <span class="logo-text">BOTTEGA<span class="gold-text">AI</span></span>
-        </a>
-        <nav class="nav-menu" id="navigation-menu" aria-label="Navigazione principale">
-            <a href="#missione" class="nav-link">Missione</a>
-            <a href="#programma" class="nav-link">Programma</a>
-            <a href="#esercizi" class="nav-link">Esercizi</a>
-            <a href="#docenti" class="nav-link">Docenti</a>
-            <a href="#info" class="nav-link">Info</a>
-        </nav>
-        <div class="header-right">
-            <a href="#info" class="cta-button-nav" id="nav-cta">Richiedi informazioni</a>
-        </div>
-    </header>
+<body class="paoline-lab-page">
+    <main class="paoline-flyer" id="main-content">
+        <span class="corner-ribbon corner-ribbon-top" aria-hidden="true"></span>
+        <span class="corner-ribbon corner-ribbon-bottom" aria-hidden="true"></span>
 
-    <main>
-        <section class="hero-section religious-hero" id="hero-section">
-            <div class="hero-content">
-                <div class="date-badge" id="hero-date-badge">
-                    <span class="icon">✥</span> 17 OTTOBRE 2026 &nbsp;|&nbsp; ROMA, ITALIA
-                </div>
-                <h1 class="hero-title" id="main-hero-title">
-                    Laboratorio di Innovazione<br>
-                    <span class="gold-text-glow">Crea il Tuo Agente IA</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Un incontro in presenza, pratico e guidato, per progettare, configurare e mettere all'opera il tuo agente IA nelle attività pastorali e amministrative, con uno stile ispirato alla semplicità francescana: pergamena, verde ulivo, terra umbra e segno del Tau.
-                </p>
-                <div class="hero-details">
-                    <div class="detail-item">
-                        <span class="detail-label">DURATA</span>
-                        <span class="detail-value">4 ore nel pomeriggio</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">LUOGO</span>
-                        <span class="detail-value">Libreria Multimedia, Via del Mascherino</span>
-                    </div>
-                </div>
-                <div class="hero-actions">
-                    <a href="#programma" class="cta-button-primary" id="hero-cta-programma">Vedere il programma</a>
-                    <a href="#info" class="cta-button-secondary" id="hero-cta-info">Informazioni pratiche</a>
+        <section class="paoline-hero" id="hero-section">
+            <div class="paoline-logo-lockup" aria-label="Paoline Libreria">
+                <span class="paoline-logo-p">P</span>
+                <div>
+                    <strong>Paoline</strong>
+                    <small>LIBRERIA</small>
                 </div>
             </div>
-            <div class="hero-visual" aria-hidden="true">
-                <div class="sketch-frame religious-sketch-frame">
-                    <div class="gold-border-corner top-left"></div>
-                    <div class="gold-border-corner top-right"></div>
-                    <div class="gold-border-corner bottom-left"></div>
-                    <div class="gold-border-corner bottom-right"></div>
-                    <div class="religious-hero-diagram">
-                        <svg viewBox="0 0 420 420" role="img" aria-label="Tau francescano in legno d'ulivo, in stile artigianale e devozionale">
-                            <defs>
-                                <radialGradient id="tauHalo" cx="50%" cy="44%" r="58%">
-                                    <stop offset="0%" stop-color="#f5d27a" stop-opacity="0.20"/>
-                                    <stop offset="65%" stop-color="#d4af37" stop-opacity="0.08"/>
-                                    <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
-                                </radialGradient>
-                                <linearGradient id="tauWood" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#d7a35b"/>
-                                    <stop offset="22%" stop-color="#bf8445"/>
-                                    <stop offset="48%" stop-color="#8f582b"/>
-                                    <stop offset="72%" stop-color="#c98f4d"/>
-                                    <stop offset="100%" stop-color="#71411f"/>
-                                </linearGradient>
-                                <linearGradient id="tauEdge" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" stop-color="#f0c67d"/>
-                                    <stop offset="100%" stop-color="#7a4722"/>
-                                </linearGradient>
-                                <filter id="tauShadow" x="-25%" y="-25%" width="150%" height="170%">
-                                    <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.34"/>
-                                </filter>
-                                <clipPath id="tauClip">
-                                    <path d="M114 122
-                                             C128 112, 152 108, 176 108
-                                             H244
-                                             C271 108, 296 112, 308 122
-                                             C314 127, 315 134, 309 140
-                                             C302 147, 292 150, 281 151
-                                             H244
-                                             C236 151, 231 155, 231 162
-                                             V290
-                                             C231 309, 224 326, 214 339
-                                             C206 349, 194 353, 186 344
-                                             C178 335, 175 317, 176 295
-                                             V162
-                                             C176 155, 171 151, 163 151
-                                             H138
-                                             C126 151, 116 148, 109 141
-                                             C103 135, 104 128, 114 122 Z"/>
-                                </clipPath>
-                            </defs>
-                            <circle cx="210" cy="210" r="170" fill="url(#tauHalo)"/>
-                            <ellipse cx="210" cy="315" rx="112" ry="22" fill="#000000" opacity="0.18"/>
-                            <g filter="url(#tauShadow)">
-                                <path d="M114 122
-                                         C128 112, 152 108, 176 108
-                                         H244
-                                         C271 108, 296 112, 308 122
-                                         C314 127, 315 134, 309 140
-                                         C302 147, 292 150, 281 151
-                                         H244
-                                         C236 151, 231 155, 231 162
-                                         V290
-                                         C231 309, 224 326, 214 339
-                                         C206 349, 194 353, 186 344
-                                         C178 335, 175 317, 176 295
-                                         V162
-                                         C176 155, 171 151, 163 151
-                                         H138
-                                         C126 151, 116 148, 109 141
-                                         C103 135, 104 128, 114 122 Z"
-                                      fill="url(#tauWood)"
-                                      stroke="url(#tauEdge)"
-                                      stroke-width="6"
-                                      stroke-linejoin="round"/>
-                                <g clip-path="url(#tauClip)" opacity="0.34">
-                                    <path d="M118 128 C155 116, 205 115, 302 124" stroke="#f4d8a3" stroke-width="7" fill="none" stroke-linecap="round"/>
-                                    <path d="M123 145 C171 139, 220 146, 293 153" stroke="#6f421f" stroke-width="5" fill="none" stroke-linecap="round"/>
-                                    <path d="M174 160 C193 177, 206 211, 208 338" stroke="#d8ae73" stroke-width="6" fill="none" stroke-linecap="round"/>
-                                    <path d="M198 158 C210 185, 216 232, 216 329" stroke="#734322" stroke-width="4" fill="none" stroke-linecap="round"/>
-                                    <path d="M150 118 C167 126, 184 129, 202 130" stroke="#f6ddb0" stroke-width="3" fill="none" stroke-linecap="round"/>
-                                </g>
-                                <path d="M122 132 C132 126, 150 123, 173 123 H245" stroke="#f6ddb0" stroke-width="4" fill="none" opacity="0.7" stroke-linecap="round"/>
-                                <path d="M229 166 V285 C229 300, 224 315, 216 326" stroke="#5c3418" stroke-width="4" fill="none" opacity="0.55" stroke-linecap="round"/>
-                            </g>
-                            <text x="210" y="364" text-anchor="middle" font-family="Cinzel, serif" font-size="13" fill="#d4af37" letter-spacing="3">TAU • SERVIZIO • MISSIONE</text>
-                            <text x="210" y="386" text-anchor="middle" font-family="Lora, serif" font-size="13" fill="#af9f88">Roma, 17 ottobre 2026</text>
-                        </svg>
-                    </div>
-                    <div class="sketch-caption">
-                        <span class="caption-title">Fig I. De Instrumentis Digitalibus ad Bonum Commune</span>
-                        <p>Un assistente digitale sobrio, custodito e orientato al servizio della missione.</p>
-                    </div>
-                </div>
-            </div>
+
+            <h1 class="paoline-title" id="main-hero-title">
+                Laboratorio di Innovazione:<br>
+                Crea il Tuo Agente IA
+            </h1>
+            <p class="paoline-subtitle">
+                Un pomeriggio pratico per conoscere, discernere e sperimentare l’Intelligenza Artificiale nella missione pastorale.
+            </p>
         </section>
 
-        <section class="metric-bar" id="course-metrics">
-            <div class="metric-container">
-                <div class="metric-item">
-                    <span class="metric-number">4h</span>
-                    <span class="metric-label">Laboratorio pratico</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number">17/10</span>
-                    <span class="metric-label">Ottobre 2026</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number">Roma</span>
-                    <span class="metric-label">Libreria Multimedia</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number">80€</span>
-                    <span class="metric-label">Budget strumenti IA</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="philosophy-section religious-content-section" id="missione">
-            <div class="section-header">
-                <span class="section-tagline">GIUSTIFICAZIONE</span>
-                <h2 class="section-title">L'IA al servizio della missione pastorale</h2>
-                <div class="gold-divider"></div>
-            </div>
-            <div class="philosophy-grid">
-                <div class="philosophy-text" id="philosophy-text-container">
-                    <p class="drop-cap-p">
-                        Religiose e religiosi assumono sempre più responsabilità non solo pastorali, ma anche amministrative. Come esortato da Papa Leone, l'Intelligenza Artificiale deve essere usata per il bene dell'umanità.
-                    </p>
-                    <p>
-                        In questa linea, il laboratorio ha l'obiettivo di passare dalla teoria alla creazione pratica del proprio agente IA per attività che possono già essere delegate o preparate con l'aiuto di un assistente digitale ben configurato.
-                    </p>
-                    <p>
-                        Con il supporto dei migliori strumenti, l'obiettivo è alleggerire il carico di lavoro delle religiose e dei religiosi, affinché possano concentrarsi maggiormente sulla pianificazione strategica pastorale, sulla cura personale e sul benessere.
-                    </p>
-                </div>
-                <div class="philosophy-cards religious-card-stack">
-                    <div class="parchment-card">
-                        <div class="card-icon">☙</div>
-                        <h3 class="card-title">Semplicità francescana</h3>
-                        <p>Un approccio sobrio: IA come strumento di servizio, non come spettacolo tecnologico.</p>
-                    </div>
-                    <div class="parchment-card">
-                        <div class="card-icon">✥</div>
-                        <h3 class="card-title">Dalla teoria alla pratica</h3>
-                        <p>Installazione, configurazione e uso guidato di assistenti concreti per attività pastorali e amministrative.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="curriculum-section religious-curriculum" id="programma">
-            <div class="section-header">
-                <span class="section-tagline">PROGRAMMA</span>
-                <h2 class="section-title">Un pomeriggio intensivo di pratica</h2>
-                <p class="section-subtitle">Il percorso accompagna i partecipanti, in 4 ore pomeridiane, dalla scelta degli strumenti alla creazione del primo agente IA utile alla vita della comunità.</p>
-                <div class="gold-divider"></div>
+        <section class="paoline-intro-grid" id="docenti">
+            <div class="paoline-illustration-card" aria-label="Illustrazione: giovani, libro e strumenti digitali per la missione pastorale">
+                <svg viewBox="0 0 620 460" role="img" aria-label="Illustrazione pastorale con libro, persone e icone digitali">
+                    <rect width="620" height="460" rx="18" fill="#d7193f"/>
+                    <rect y="350" width="620" height="110" fill="#f2c465"/>
+                    <path d="M172 164 C230 148 285 169 306 225 V422 H174 C145 401 130 365 130 314 V205 C130 182 146 169 172 164Z" fill="#fffaf0"/>
+                    <path d="M306 225 C331 169 395 147 455 166 C476 173 490 187 490 207 V421 H306Z" fill="#f8f1e3"/>
+                    <path d="M306 225 V421" stroke="#d9c9b0" stroke-width="5"/>
+                    <path d="M245 269 v57 M218 296 h54" stroke="#8c8175" stroke-width="9" stroke-linecap="round"/>
+                    <g stroke="#777" stroke-width="6" stroke-linecap="round" opacity=".75">
+                        <path d="M203 354 h70"/><path d="M205 379 h78"/><path d="M206 404 h62"/>
+                        <path d="M352 286 h86"/><path d="M352 314 h98"/><path d="M352 342 h84"/><path d="M352 370 h92"/>
+                    </g>
+                    <path d="M318 173 l24 10 v104 l-24-20z" fill="#cf173c"/>
+                    <g transform="translate(92 158)">
+                        <circle cx="50" cy="28" r="24" fill="#f7c78e"/>
+                        <path d="M25 60 C58 48 85 60 88 103 L97 235 H34 L22 108 C18 83 18 68 25 60Z" fill="#f0ad34"/>
+                        <path d="M50 53 c-10 34-5 78 10 121" stroke="#6b4a35" stroke-width="6" fill="none"/>
+                        <rect x="4" y="92" width="28" height="50" rx="6" fill="#1b4254" transform="rotate(-18 18 117)"/>
+                        <path d="M45 27 c-18 0-29 12-29 31" stroke="#5b3828" stroke-width="9" fill="none"/>
+                    </g>
+                    <g transform="translate(250 88)">
+                        <circle cx="45" cy="35" r="25" fill="#f5bf8a"/>
+                        <path d="M29 16 C57 -8 88 28 68 63 C57 53 41 52 28 64 C12 42 12 25 29 16Z" fill="#9b5736"/>
+                        <path d="M22 70 C50 55 92 70 94 128 C74 145 45 150 13 132 C9 101 10 82 22 70Z" fill="#ffd47b"/>
+                        <rect x="12" y="82" width="48" height="64" rx="6" fill="#f9fafb" transform="rotate(-12 36 114)"/>
+                    </g>
+                    <g transform="translate(390 98)">
+                        <circle cx="50" cy="36" r="25" fill="#f1b887"/>
+                        <path d="M22 65 C50 49 90 64 101 115 L91 151 C64 160 34 154 13 138 C12 104 12 78 22 65Z" fill="#f07882"/>
+                        <rect x="52" y="93" width="83" height="58" rx="8" fill="#e9eef2" transform="rotate(8 94 122)"/>
+                        <path d="M19 24 C45 5 73 12 78 33 C63 28 43 31 28 45Z" fill="#725640"/>
+                    </g>
+                    <g transform="translate(420 330)">
+                        <circle cx="38" cy="25" r="22" fill="#f5c6d4"/>
+                        <path d="M14 56 C40 37 71 49 79 100 L5 100 C5 79 7 65 14 56Z" fill="#375b7a"/>
+                        <circle cx="93" cy="18" r="22" fill="#ffd24c"/>
+                        <path d="M82 16 q11 13 24 0 M84 27 q10 9 20 0" stroke="#915c00" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </g>
+                    <g font-family="Inter, sans-serif" font-weight="800">
+                        <circle cx="83" cy="190" r="26" fill="#0b6fa4"/><text x="83" y="199" font-size="28" fill="white" text-anchor="middle">👍</text>
+                        <circle cx="515" cy="140" r="30" fill="#0b8cc2"/><text x="515" y="151" font-size="30" fill="white" text-anchor="middle">↗</text>
+                        <circle cx="258" cy="70" r="28" fill="#f7d6de"/><text x="258" y="80" font-size="29" fill="#c9153a" text-anchor="middle">♥</text>
+                    </g>
+                </svg>
             </div>
 
-            <div class="curriculum-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-number">14:00</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time">Accoglienza e orientamento</span>
-                        <h3 class="timeline-title">Strumenti di IA, obiettivi e casi pastorali</h3>
-                        <p>Introduzione rapida agli strumenti di IA e definizione degli obiettivi concreti del pomeriggio: creare un agente utile, sobrio e responsabile.</p>
-                        <ul class="timeline-list">
-                            <li>Panoramica essenziale degli strumenti disponibili</li>
-                            <li>Che cosa l'IA può fare oggi e che cosa non dovrebbe fare da sola</li>
-                            <li>Scelta del caso pratico da portare nell'agente IA</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-number">15:00</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time">Identità dell'assistente</span>
-                        <h3 class="timeline-title">Persona dell'Assistente e modello Harness</h3>
-                        <p>Definizione della Persona dell'Assistente e delle regole operative per ottenere risposte coerenti, utili e rispettose del contesto religioso.</p>
-                        <ul class="timeline-list">
-                            <li>Memoria permanente, azioni, limiti e privacy</li>
-                            <li>Vantaggi del modello Harness rispetto al solo LLM</li>
-                            <li>Stile dell'agente pastorale e controllo umano</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-number">16:00</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time">Configurazione guidata</span>
-                        <h3 class="timeline-title">Hermes, Telegram, WhatsApp e skill essenziali</h3>
-                        <p>Configurazione guidata dell'agente IA con Hermes e collegamento ai canali già usati nel quotidiano, concentrandosi sulle capacità più utili in 4 ore.</p>
-                        <ul class="timeline-list">
-                            <li>Prime interazioni con l'agente IA</li>
-                            <li>Connessione con Telegram e/o WhatsApp del religioso</li>
-                            <li>Skill essenziali per scrittura, sintesi, ricerca e pianificazione</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-number">17:00</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time">Esercizio conclusivo</span>
-                        <h3 class="timeline-title">Primo agente IA pronto per la missione</h3>
-                        <p>Applicazione pratica finale: ogni partecipante configura un flusso semplice per sostenere una necessità pastorale, formativa o amministrativa reale.</p>
-                        <ul class="timeline-list">
-                            <li>Redazione assistita di e-mail o materiali pastorali</li>
-                            <li>Organizzazione di documenti, appuntamenti o contenuti della comunità</li>
-                            <li>Revisione finale: prudenza, responsabilità e prossimi passi</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="simulator-section religious-exercises" id="esercizi">
-            <div class="section-header">
-                <span class="section-tagline">ESERCIZI PRATICI</span>
-                <h2 class="section-title">Casi d'uso per la vita pastorale e comunitaria</h2>
-                <p class="section-subtitle">Ogni esercizio è pensato per alleggerire attività reali, mantenendo discernimento, privacy e responsabilità umana.</p>
-                <div class="gold-divider"></div>
-            </div>
-            <div class="religious-exercise-grid">
-                <article class="parchment-card">
-                    <div class="card-icon">✉</div>
-                    <h3 class="card-title">L'Assistente invia e-mail</h3>
-                    <p>Preparazione, revisione e invio assistito di comunicazioni pastorali e amministrative.</p>
+            <div class="paoline-facilitators">
+                <h2>Facilitatori e animatori<br>del pomeriggio</h2>
+                <article>
+                    <h3>Jefferson Barbosa</h3>
+                    <p>Professionista IA con oltre 30 anni di carriera e con esperienze in grandi aziende in Brasile e all’estero. Ha collaborato in opere pastorali dei Gesuiti e del SERMIG nell’Arcidiocesi di São Paulo.</p>
                 </article>
-                <article class="parchment-card">
-                    <div class="card-icon">♡</div>
-                    <h3 class="card-title">Materiale per corsi per fidanzati</h3>
-                    <p>Creazione di tracce, schede, domande, presentazioni e materiali di supporto.</p>
+                <article>
+                    <h3>Riccardo Persiani</h3>
+                    <p>Professore invitato per il Laboratorio di Innovazione.</p>
                 </article>
-                <article class="parchment-card">
-                    <div class="card-icon">☩</div>
-                    <h3 class="card-title">Appuntamenti per confessione o accompagnamento spirituale</h3>
-                    <p>Organizzazione di disponibilità, prenotazioni e promemoria con attenzione alla riservatezza.</p>
-                </article>
-                <article class="parchment-card">
-                    <div class="card-icon">◎</div>
-                    <h3 class="card-title">Spese nel foglio finanziario della parrocchia</h3>
-                    <p>Registrazione assistita di spese, categorie, note e controlli di coerenza.</p>
-                </article>
-                <article class="parchment-card">
-                    <div class="card-icon">⌘</div>
-                    <h3 class="card-title">Sito della comunità, parrocchia o gruppo vocazionale</h3>
-                    <p>Creazione e manutenzione di pagine, comunicati, calendari e contenuti informativi.</p>
-                </article>
-                <article class="parchment-card">
-                    <div class="card-icon">☙</div>
-                    <h3 class="card-title">Sfide pastorali portate dai partecipanti</h3>
-                    <p>Esplorazione di altre necessità concrete e progettazione di come l'assistente può sostenere la religiosa o il religioso.</p>
+                <article>
+                    <h3>Suor Cinzia Giacinti</h3>
+                    <p>Suora Apostolina, presenza invitata per collegare l’uso pratico dell’IA alle esigenze concrete della vita religiosa, pastorale e comunitaria.</p>
                 </article>
             </div>
         </section>
 
-        <section class="magister-section religious-professors" id="docenti">
-            <div class="section-header">
-                <span class="section-tagline">DOCENTI E OSPITI</span>
-                <h2 class="section-title">Accompagnamento tecnico e pastorale</h2>
-                <div class="gold-divider"></div>
-            </div>
-            <div class="religious-professor-grid">
-                <article class="parchment-card professor-card">
-                    <div class="professor-monogram" aria-hidden="true">JB</div>
-                    <span class="section-tagline">DOCENTE</span>
-                    <h3 class="card-title">Jefferson Barbosa</h3>
-                    <p>Professionista IT con oltre 30 anni di carriera e con esperienze in grandi aziende in Brasile e all'estero. Ha collaborato in opere pastorali dei gesuiti e del SERMIG nell'Arcidiocesi di São Paulo.</p>
-                    <a href="https://www.linkedin.com/in/jeffprestes" target="_blank" rel="noopener noreferrer" class="linkedin-btn">LinkedIn Profile ↗</a>
-                </article>
-                <article class="parchment-card professor-card">
-                    <div class="professor-monogram" aria-hidden="true">RP</div>
-                    <span class="section-tagline">PROFESSORE INVITATO</span>
-                    <h3 class="card-title">Riccardo Persiani</h3>
-                    <p>Professore invitato per il Laboratorio di Innovazione: Crea il Tuo Agente IA, dedicato a religiose, religiosi, sacerdoti e vescovi.</p>
-                    <a href="https://www.linkedin.com/in/riccardo-persiani/" target="_blank" rel="noopener noreferrer" class="linkedin-btn">LinkedIn Profile ↗</a>
-                </article>
-                <article class="parchment-card professor-card">
-                    <div class="professor-monogram" aria-hidden="true">CS</div>
-                    <span class="section-tagline">OSPITE</span>
-                    <h3 class="card-title">Cinzia Suor Giacinti</h3>
-                    <p>Apostolina, presenza invitata per collegare l'uso pratico dell'IA alle esigenze concrete della vita religiosa, pastorale e comunitaria.</p>
-                </article>
+        <section class="paoline-info-box" id="info">
+            <p><strong>Durata del Laboratorio:</strong> circa 4 ore</p>
+            <p class="blue-line">Portare il proprio computer o smartphone</p>
+            <h2>Destinatari</h2>
+            <p>Religiose e Religiosi, Sacerdoti, Operatori Pastorali, persone interessate a conoscere meglio e approfondire l’IA.</p>
+        </section>
+
+        <section class="paoline-event-strip">
+            <div class="blue-rule" aria-hidden="true"></div>
+            <h2>Sabato 17 ottobre 2026 — ore 15.00-19.00</h2>
+            <h3>Libreria Internazionale Paoline Multimedia</h3>
+            <p class="address">Via del Mascherino, 94 — Roma (Vaticano)</p>
+            <p class="contacts">Tel. 06 6872354 <span>•</span> WhatsApp 351 5872980 <span>•</span> centro@paoline.eu</p>
+        </section>
+
+        <section class="paoline-program" id="programma" aria-label="Programma del pomeriggio">
+            <h2>Programma del pomeriggio</h2>
+            <div class="paoline-program-grid">
+                <article><span>15.00</span><h3>Accoglienza e orientamento</h3><p>Strumenti di IA, obiettivi e casi pastorali.</p></article>
+                <article><span>16.00</span><h3>Persona dell’Assistente</h3><p>Regole, privacy, modello Harness e stile dell’agente.</p></article>
+                <article><span>17.00</span><h3>Configurazione guidata</h3><p>Hermes, Telegram, WhatsApp e skill essenziali.</p></article>
+                <article><span>18.00</span><h3>Esercizio conclusivo</h3><p>Primo agente IA pronto per sostenere una necessità reale.</p></article>
             </div>
         </section>
 
-        <section class="register-section religious-info" id="info">
-            <div class="register-card-container">
-                <div class="register-info-panel">
-                    <div>
-                        <h2 class="register-panel-title">Informazioni sul laboratorio</h2>
-                        <p class="register-panel-desc">
-                            Laboratorio di Innovazione in presenza e pratico, pensato come percorso pomeridiano di 4 ore per partecipanti che desiderano creare, configurare e usare direttamente il proprio agente IA.
-                        </p>
-                        <p class="register-panel-desc">
-                            Non è presente un link di pagamento in questa pagina. Per disponibilità, iscrizioni e dettagli organizzativi del Laboratorio di Innovazione, contattare la segreteria BottegaAI.
-                        </p>
-                    </div>
-                    <div class="guild-seal-container">
-                        <svg class="guild-seal" viewBox="0 0 100 100" aria-hidden="true">
-                            <circle cx="50" cy="50" r="45" stroke="#d4af37" stroke-width="1" fill="none"/>
-                            <circle cx="50" cy="50" r="42" stroke="#8a9a5b" stroke-width="0.8" fill="none" stroke-dasharray="3,3"/>
-                            <text x="50" y="30" font-family="Cinzel" font-size="6" fill="#d4af37" text-anchor="middle">BOTTEGA AI</text>
-                            <text x="50" y="73" font-family="Cinzel" font-size="5" fill="#8a9a5b" text-anchor="middle">ROMA 2026</text>
-                            <path d="M35 39 H65 V48 H55 V65 H45 V48 H35 Z" stroke="#d4af37" stroke-width="1" fill="none"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="register-form-panel">
-                    <div class="payment-box religious-contact-box">
-                        <div class="payment-header">
-                            <span class="payment-badge">LABORATORIO IN PRESENZA</span>
-                            <div class="payment-price religious-date-card">
-                                <span class="price-amount">17</span>
-                                <span class="price-period">ottobre 2026</span>
-                            </div>
-                        </div>
-                        <div class="payment-explanation">
-                            <h3 class="payment-title">Roma — Libreria Multimedia</h3>
-                            <p class="payment-desc">
-                                Sede: Libreria Multimedia, Via del Mascherino, Roma, Italia. Durata: 4 ore nel pomeriggio, dalle 14:00 alle 18:00.
-                            </p>
-                        </div>
-                        <ul class="payment-features-list">
-                            <li>Notebook con almeno 16 GB di RAM</li>
-                            <li>Disponibilità di 80 euro per tariffe di IA, cloud storage e server dell'assistente di IA</li>
-                            <li>Account Telegram e/o WhatsApp da collegare all'assistente</li>
-                            <li>Account Google Workspace o Google per gli esercizi pratici</li>
-                        </ul>
-                        <a href="mailto:sales@novatrix.com.br?subject=Informazioni%20-%20Laboratorio%20di%20Innovazione%20Roma%2017%2F10%2F2026" class="payment-button" id="contact-info-btn">
-                            Richiedere informazioni ↗
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
-    <footer class="main-footer" id="footer-section">
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <span class="footer-logo">BOTTEGA<span class="gold-text">AI</span></span>
-                <p class="footer-tagline">Intelligenza Artificiale pratica, sobria e orientata al servizio del bene comune.</p>
-            </div>
-            <div class="footer-links">
-                <h4>NAVIGAZIONE</h4>
-                <a href="/">Laboratorio principale</a>
-                <a href="#missione">Missione</a>
-                <a href="#programma">Programma</a>
-                <a href="#esercizi">Esercizi</a>
-                <a href="#docenti">Docenti</a>
-            </div>
-            <div class="footer-meta">
-                <h4>IL LABORATORIO</h4>
-                <p>Data: 17 ottobre 2026</p>
-                <p>Luogo: Libreria Multimedia, Via del Mascherino, Roma</p>
-                <p>Pubblico: religiose, religiosi, sacerdoti e vescovi</p>
-                <p>Contatto: sales@novatrix.com.br</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 BottegaAI Academy. Tecnologia al servizio della missione e del bene comune.</p>
-        </div>
+    <footer class="paoline-footer" id="footer-section">
+        Laboratorio pratico di innovazione digitale per la missione pastorale e comunitaria
     </footer>
 </body>
 </html>
