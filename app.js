@@ -11,30 +11,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const i18n = {
         en: {
             metaTitle: "BottegaAI Workshop | The Renaissance of Executive Power & AI Agents",
-            metaDesc: "Master the art of the High Individual Contributor at BottegaAI. A Renaissance-inspired workshop for executives to design and build autonomous AI Agents. August 22nd, 2026 at Heineken House, São Paulo.",
+            metaDesc: "A 15-hour live online BottegaAI course for executives to design and build autonomous AI Agents, scheduled around executive and professor availability.",
             // Header
             "nav-philosophy": "Philosophy",
             "nav-curriculum": "Curriculum",
             "nav-simulator": "Agent Builder",
-            "nav-venue": "Venue",
+            "nav-venue": "Format",
             "nav-magister": "Magister",
             "nav-cta": "Apply to Guild",
             // Hero
-            "hero-date": "AUGUST 22, 2026",
+            "hero-date": "FLEXIBLE SCHEDULING · LIVE ONLINE",
             "hero-title": "The Renaissance of <br>\n                    <span class=\"gold-text-glow\">Executive Power</span>",
             "hero-subtitle": "In the 15th century, Leonardo da Vinci ran a Bottega—a workshop where art, science, and machinery converged. Today, artificial intelligence gives you the power to become a one-person guild. Learn to orchestrate your own digital apprentices and lead as a High Individual Contributor.",
             "hero-label-workshop": "THE WORKSHOP",
             "hero-val-workshop": "Create your own AI Agent",
-            "hero-label-venue": "THE VENUE",
+            "hero-label-venue": "FORMAT & DURATION",
+            "hero-val-venue": "15 hours · Live online",
             "hero-cta-apply": "Apply for Admission",
             "hero-cta-explore": "Simulate an Apprentice",
             "hero-fig-title": "Fig I. De Proportione Humana et Mechanica (BottegaAI, 2026)",
             "hero-fig-desc": "Representing the alignment of executive agency (Ratio) and digital agents (Synthesia).",
             // Countdown
-            "metric-days": "Days Remaining",
-            "metric-seats": "Executive Seats Max",
+            "metric-days": "Course Duration",
+            "metric-format-value": "LIVE",
+            "metric-seats": "Online Format",
             "metric-agents": "Custom Agents Built",
-            "metric-leverage": "Productivity Leverage",
+            "metric-schedule-value": "FLEX",
+            "metric-leverage": "Schedule by Agreement",
             // Philosophy
             "philosophy-tagline": "THE CODEX OF LEVERAGE",
             "philosophy-title": "The Vitruvian Executive",
@@ -84,7 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "THE STUDY METRICS",
             "curric-title": "The Guild's Curriculum",
-            "curric-subtitle": "One intensive day of mastership.<br>No coding or IT professional skills required.",
+            "curric-subtitle": "15 hours of live online instruction, scheduled around executive availability.<br>No coding or IT professional skills required.",
+            "curric-duration-1": "MODULE I · 3 HOURS",
+            "curric-duration-2": "MODULE II · 3 HOURS",
+            "curric-duration-3": "MODULE III · 3 HOURS",
+            "curric-duration-4": "MODULE IV · 3 HOURS",
+            "curric-duration-5": "MODULE V · 3 HOURS",
             "curric-t1-title": "AI Agent Integration & Foundations",
             "curric-t1-desc": "Learn how to build your own custom AI Agent on top of Gemini, Claude, or GPT to perform corporate tasks. We will explore why this agentic structure is the most modern approach compared to barely using these models raw.",
             "curric-t1-i1": "Connecting AI cores directly to corporate internal systems",
@@ -115,64 +123,69 @@ document.addEventListener('DOMContentLoaded', () => {
             "magister-title-role": "IT Executive & Experienced Professor",
             "magister-bio-p1": "Jeff Prestes is an IT Executive with more than 30 years of hands-on experience guiding technological evolutions, leading high-performance engineering groups, and designing robust system architectures.",
             "magister-bio-p2": "At BottegaAI, he acts as the Magister, translating raw generative models and complex agent workflows into practical, high-leverage executive assets.",
-            // Venue
+            // Format
             "venue-tagline": "THE ACADEMY",
-            "venue-title": "Heineken House",
-            "venue-d1": "BottegaAI is hosted at the exclusive Heineken House São Paulo. Surrounded by award-winning green architecture, modern design, and premier amenities, this space represents the perfect blend of tradition and future-facing innovation.",
-            "venue-d2": "Enjoy premium catering, private workspace stations, high-speed fiber lines, and an exclusive craft networking session on the rooftop patio after the guild workshop finishes.",
-            "venue-btn": "Explore Heineken House ↗",
-            "venue-card-tag": "EXCLUSIVE VENUE",
-            "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
-            "venue-card-status": "Private Executive Booking",
+            "venue-title": "Live Online",
+            "venue-city": "15 HOURS · FLEXIBLE SCHEDULING",
+            "venue-d1": "The course is delivered live online, preserving direct interaction with the professors and practical, guided work throughout every module.",
+            "venue-d2": "There is no fixed cohort date or seat limit. After registration, BottegaAI aligns the class schedule with executive availability and the professors' calendars.",
+            "venue-btn": "Request schedule alignment ↓",
+            "venue-card-tag": "EXECUTIVE FORMAT",
+            "venue-card-name": "Live Online Course",
+            "venue-card-addr": "15 hours with direct professor interaction",
+            "venue-card-status": "Schedule arranged after registration",
             // Registration
             "reg-title": "Secure Admission",
-            "reg-desc-1": "Due to the hands-on nature of our Agent Synthesis session and physical space limits at Heineken House, BottegaAI is strictly limited to 25 executives.",
-            "reg-desc-2": "Ensure your participation by completing the registration payment. Limited seats are available for the August 2026 cohort.",
+            "reg-desc-1": "The course has no fixed date or seat limit. Its only availability constraint is aligning the professors' calendars with participating executives.",
+            "reg-desc-2": "After registration, our team contacts participants to arrange the 15 hours of live online instruction according to the group's schedule.",
             "pay-badge": "EXECUTIVE PASS",
             "pay-price-currency": "R$",
             "pay-price-amount": "1,000",
-            "pay-price-period": "/ seat",
+            "pay-price-period": "/ participant",
             "pay-title": "Complete Registration",
-            "pay-desc": "Admission to the masterclass is secured instantly via our payment gateway. Click the link below to process your fee on Stripe's secure portal. You will receive a calendar invitation and preparatory codex guidelines immediately after payment.",
-            "pay-feat-1": "Full Workshop Access & Live Interactive Modules",
+            "pay-desc": "Complete your enrollment through Stripe's secure portal. After payment, our team will contact you to align the live online schedule with the participating executives and professors.",
+            "pay-feat-1": "15 Hours of Live Online Interactive Instruction",
             "pay-feat-2": "Custom AI Agent Deployment Sandbox",
-            "pay-feat-3": "Premium Catering & Heineken House Admission",
-            "pay-feat-4": "Exclusive Post-Workshop Craft Networking",
-            "pay-btn": "Secure Seat & Pay via Stripe ↗",
+            "pay-feat-3": "Schedule Aligned with Executive Availability",
+            "pay-feat-4": "No Fixed Cohort Date or Seat Limit",
+            "pay-btn": "Enroll & Pay via Stripe ↗",
             // Footer
             "footer-tagline": "Re-engineering executive execution through Renaissance principles.",
             "footer-nav-title": "NAVIGATION",
-            "footer-meta-date": "Date: August 22nd, 2026",
-            "footer-meta-loc": "Location: Heineken House SP",
+            "footer-meta-date": "Schedule: arranged with participants",
+            "footer-meta-loc": "Format: 15 hours, live online",
             "footer-meta-email": "Enquiries: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Inspired by the Codex Atlanticus. All agents aligned."
         },
         pt: {
             metaTitle: "BottegaAI | O Renascimento do Poder Executivo e Agentes de IA",
-            metaDesc: "Domine a arte do Executivo de Alto Impacto Individual na BottegaAI. Um workshop inspirado no Renascimento para executivos projetarem e criarem Agentes de IA autônomos na Heineken House, São Paulo. 22 de Agosto de 2026.",
+            metaDesc: "Curso BottegaAI de 15 horas, online ao vivo, para executivos projetarem e criarem Agentes de IA autônomos, com agenda ajustada entre participantes e professores.",
             // Header
             "nav-philosophy": "Filosofia",
             "nav-curriculum": "Currículo",
             "nav-simulator": "Simulador de Agente",
-            "nav-venue": "Local",
+            "nav-venue": "Formato",
             "nav-magister": "Magister",
             "nav-cta": "Inscrever-se no Workshop",
             // Hero
-            "hero-date": "22 DE AGOSTO, 2026",
+            "hero-date": "AGENDA FLEXÍVEL · ONLINE AO VIVO",
             "hero-title": "O Renascimento do <br>\n                    <span class=\"gold-text-glow\">Poder Executivo</span>",
             "hero-subtitle": "No século XV, Leonardo da Vinci liderava uma Bottega — um ateliê onde arte, ciência e engenharia convergiam. Hoje, a inteligência artificial oferece a você a capacidade de se tornar um profissional múltiplo. <br /> <br />Na BottegaAI, ensinaremos você a estabelecer seu próprio ateliê digital corporativo. Ao projetar e implantar sua própria rede personalizada de Agentes de IA autônomos, você pode executar iniciativas de negócios complexas, analisar grandes volumes de dados e criar projetos inteiros com a alavancagem de um departamento de múltiplas pessoas.",
             "hero-label-workshop": "O WORKSHOP",
             "hero-val-workshop": "Crie seu próprio Agente de IA",
-            "hero-label-venue": "O LOCAL",
+            "hero-label-venue": "FORMATO E DURAÇÃO",
+            "hero-val-venue": "15 horas · Online ao vivo",
             "hero-cta-apply": "Solicitar Admissão",
             "hero-cta-explore": "Simular um Aprendiz",
             "hero-fig-title": "Fig I. De Proportione Humana et Mechanica (BottegaAI, 2026)",
             "hero-fig-desc": "Representando o alinhamento da agência executiva (Razão) e agentes digitais (Síntese).",
             // Countdown
-            "metric-days": "Dias Restantes",
-            "metric-seats": "Vagas Executivas Max",
+            "metric-days": "Duração do Curso",
+            "metric-format-value": "AO VIVO",
+            "metric-seats": "Formato Online",
             "metric-agents": "Agentes Criados",
-            "metric-leverage": "Alavancagem de Produtividade",
+            "metric-schedule-value": "FLEX",
+            "metric-leverage": "Agenda Combinada",
             // Philosophy
             "philosophy-tagline": "O CÓDIGO DA ALAVANCAGEM",
             "philosophy-title": "O Executivo Vitruviano",
@@ -222,7 +235,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "A ESTRUTURA DOS ESTUDOS",
             "curric-title": "O Currículo do Workshop",
-            "curric-subtitle": "Um dia intensivo de maestria.<br>Não é necessário conhecimento em programação ou TI.",
+            "curric-subtitle": "15 horas de aulas online ao vivo, organizadas conforme a agenda dos executivos.<br>Não é necessário conhecimento em programação ou TI.",
+            "curric-duration-1": "MÓDULO I · 3 HORAS",
+            "curric-duration-2": "MÓDULO II · 3 HORAS",
+            "curric-duration-3": "MÓDULO III · 3 HORAS",
+            "curric-duration-4": "MÓDULO IV · 3 HORAS",
+            "curric-duration-5": "MÓDULO V · 3 HORAS",
             "curric-t1-title": "Integração e Fundações de Agentes de IA",
             "curric-t1-desc": "Aprenda a construir seu próprio Agente de IA personalizado sobre o Gemini, Claude ou GPT para realizar tarefas corporativas. Exploraremos por que essa estrutura baseada em agentes é a abordagem mais moderna em comparação ao uso simples desses modelos brutos.",
             "curric-t1-i1": "Conectando núcleos de IA diretamente aos sistemas internos da empresa",
@@ -253,65 +271,70 @@ document.addEventListener('DOMContentLoaded', () => {
             "magister-title-role": "Executivo de TI & Professor Experiente",
             "magister-bio-p1": "Jeff Prestes é um Executivo de TI com mais de 30 anos de experiência prática liderando evoluções tecnológicas, equipes de engenharia de alta performance e desenhando arquiteturas robustas de sistemas.",
             "magister-bio-p2": "Na BottegaAI, ele atua como o Magister, traduzindo modelos generativos puros e fluxos complexos de agentes em ativos executivos práticos e de alta alavancagem.",
-            // Venue
+            // Formato
             "venue-tagline": "A ACADEMIA",
-            "venue-title": "Heineken House",
-            "venue-d1": "A BottegaAI é sediada na exclusiva Heineken House São Paulo. Cercada por arquitetura sustentável premiada, design moderno e comodidades de primeira linha, este espaço representa a fusão perfeita de tradição e inovação futurista.",
-            "venue-d2": "Desfrute de buffet premium, estações de trabalho privadas, conexões de fibra de alta velocidade e uma sessão de networking com cervejas artesanais no pátio da cobertura após o encerramento do workshop.",
-            "venue-btn": "Explorar Heineken House ↗",
-            "venue-card-tag": "LOCAL EXCLUSIVO",
-            "venue-card-addr": "Parque Villa Lobos, São Paulo - SP",
-            "venue-card-status": "Reserva Privada para Executivos",
+            "venue-title": "Online ao Vivo",
+            "venue-city": "15 HORAS · AGENDA FLEXÍVEL",
+            "venue-d1": "O curso é ministrado online ao vivo, preservando a interação direta com os professores e o trabalho prático e orientado em todos os módulos.",
+            "venue-d2": "Não há data fixa de turma nem limite de vagas. Após a inscrição, a BottegaAI concilia a agenda dos executivos com a disponibilidade dos professores.",
+            "venue-btn": "Solicitar alinhamento de agenda ↓",
+            "venue-card-tag": "FORMATO EXECUTIVO",
+            "venue-card-name": "Curso Online ao Vivo",
+            "venue-card-addr": "15 horas com interação direta com os professores",
+            "venue-card-status": "Agenda definida após a inscrição",
             // Registration
             "reg-title": "Garantir Admissão",
-            "reg-desc-1": "Devido à natureza prática da nossa sessão de Síntese de Agentes e aos limites físicos da Heineken House, a BottegaAI é estritamente limitada a 25 executivos.",
-            "reg-desc-2": "Garanta a sua participação efetuando o pagamento da inscrição. As vagas são limitadas para a turma de agosto de 2026.",
+            "reg-desc-1": "O curso não tem data fixa nem limite de vagas. A única restrição de disponibilidade é conciliar a agenda dos professores com a dos executivos participantes.",
+            "reg-desc-2": "Após a inscrição, nossa equipe entra em contato para organizar as 15 horas de aulas online ao vivo conforme a agenda do grupo.",
             "pay-badge": "PASSE EXECUTIVO",
             "pay-price-currency": "R$",
             "pay-price-amount": "1.000",
-            "pay-price-period": "/ vaga",
+            "pay-price-period": "/ participante",
             "pay-title": "Concluir Inscrição",
-            "pay-desc": "A admissão no masterclass é garantida instantaneamente através da nossa plataforma de pagamento. Clique no link abaixo para processar sua taxa no portal seguro do Stripe. Você receberá um convite no calendário e o guia preparatório do codex logo após a confirmação do pagamento.",
-            "pay-feat-1": "Acesso Completo ao Workshop & Módulos Interativos",
+            "pay-desc": "Conclua sua inscrição pelo portal seguro do Stripe. Após o pagamento, nossa equipe entrará em contato para conciliar a agenda das aulas online ao vivo entre os executivos participantes e os professores.",
+            "pay-feat-1": "15 Horas de Aulas Interativas Online ao Vivo",
             "pay-feat-2": "Ambiente de Testes (Sandbox) de IA Personalizado",
-            "pay-feat-3": "Catering Premium & Admissão na Heineken House",
-            "pay-feat-4": "Networking de Integração Exclusivo Pós-Workshop",
-            "pay-btn": "Garantir Vaga & Pagar via Stripe ↗",
+            "pay-feat-3": "Agenda Alinhada à Disponibilidade dos Executivos",
+            "pay-feat-4": "Sem Data Fixa de Turma ou Limite de Vagas",
+            "pay-btn": "Inscrever-se & Pagar via Stripe ↗",
             // Footer
             "footer-tagline": "Reestruturando a execução executiva por meio de princípios renascentistas.",
             "footer-nav-title": "NAVEGAÇÃO",
             "footer-meta-title": "O WORKSHOP",
-            "footer-meta-date": "Data: 22 de Agosto de 2026",
-            "footer-meta-loc": "Local: Heineken House SP",
+            "footer-meta-date": "Agenda: combinada com os participantes",
+            "footer-meta-loc": "Formato: 15 horas, online ao vivo",
             "footer-meta-email": "Contato: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Inspirado no Codex Atlanticus. Todos os agentes alinhados."
         },
         it: {
             metaTitle: "BottegaAI Workshop | Il Rinascimento del Potere Esecutivo & Agenti AI",
-            metaDesc: "Domina l'arte dell'Alto Contributore Individuale a BottegaAI. Un workshop ispirato al Rinascimento per dirigenti per progettare e creare Agenti AI autonomi presso la Heineken House, San Paolo. 22 agosto 2026.",
+            metaDesc: "Corso BottegaAI di 15 ore, online dal vivo, per dirigenti che progettano e creano Agenti AI autonomi, con calendario concordato tra partecipanti e docenti.",
             // Header
             "nav-philosophy": "Filosofia",
             "nav-curriculum": "Programma",
             "nav-simulator": "Simulatore Agente",
-            "nav-venue": "La Sede",
+            "nav-venue": "Formato",
             "nav-magister": "Magister",
             "nav-cta": "Candidati alla Gilda",
             // Hero
-            "hero-date": "22 AGOSTO 2026",
+            "hero-date": "CALENDARIO FLESSIBILE · ONLINE DAL VIVO",
             "hero-title": "Il Rinascimento del <br>\n                    <span class=\"gold-text-glow\">Potere Esecutivo</span>",
             "hero-subtitle": "Nel XV secolo, Leonardo da Vinci gestiva una Bottega—un laboratorio in cui convergevano arte, scienza e ingegneria. Oggi, l'intelligenza artificiale ti dà il potere di diventare una corporazione di una sola persona. Impara a orchestrare i tuoi apprendisti digitali e guida come un Alto Contributore Individuale.",
             "hero-label-workshop": "IL WORKSHOP",
             "hero-val-workshop": "Crea il tuo Agente AI",
-            "hero-label-venue": "LA SEDE",
+            "hero-label-venue": "FORMATO E DURATA",
+            "hero-val-venue": "15 ore · Online dal vivo",
             "hero-cta-apply": "Richiedi l'Ammissione",
             "hero-cta-explore": "Simula un Apprendista",
             "hero-fig-title": "Fig I. De Proportione Humana et Mechanica (BottegaAI, 2026)",
             "hero-fig-desc": "Rappresenta l'allineamento dell'azione esecutiva (Ratio) e degli agenti digitali (Synthesia).",
             // Countdown
-            "metric-days": "Giorni Rimanenti",
-            "metric-seats": "Posti Esecutivi Max",
+            "metric-days": "Durata del Corso",
+            "metric-format-value": "DAL VIVO",
+            "metric-seats": "Formato Online",
             "metric-agents": "Agenti Creati",
-            "metric-leverage": "Leva di Produttività",
+            "metric-schedule-value": "FLEX",
+            "metric-leverage": "Calendario Concordato",
             // Philosophy
             "philosophy-tagline": "IL CODICE DELLA LEVA",
             "philosophy-title": "L'Esecutore Vitruviano",
@@ -361,7 +384,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Curriculum
             "curric-tagline": "IL PROGRAMMA DI STUDIO",
             "curric-title": "Il Programma della Gilda",
-            "curric-subtitle": "Una giornata intensiva di maestria.<br>Non sono richieste competenze di programmazione o informatiche.",
+            "curric-subtitle": "15 ore di lezioni online dal vivo, organizzate secondo gli impegni dei dirigenti.<br>Non sono richieste competenze di programmazione o informatiche.",
+            "curric-duration-1": "MODULO I · 3 ORE",
+            "curric-duration-2": "MODULO II · 3 ORE",
+            "curric-duration-3": "MODULO III · 3 ORE",
+            "curric-duration-4": "MODULO IV · 3 ORE",
+            "curric-duration-5": "MODULO V · 3 ORE",
             "curric-t1-title": "Integrazione e Fondamenta degli Agenti AI",
             "curric-t1-desc": "Impara a costruire il tuo Agente AI personalizzato su Gemini, Claude o GPT per eseguire compiti aziendali. Scopriremo perché questa struttura ad agenti è l'approccio più moderno rispetto al semplice utilizzo dei modelli grezzi.",
             "curric-t1-i1": "Connessione diretta dei core AI ai sistemi aziendali interni",
@@ -392,36 +420,38 @@ document.addEventListener('DOMContentLoaded', () => {
             "magister-title-role": "Dirigente IT & Professore di Esperienza",
             "magister-bio-p1": "Jeff Prestes è un Dirigente IT con oltre 30 anni di esperienza pratica nella guida dell'evoluzione tecnologica, nella direzione di team ingegneristici ad alte prestazioni e nella progettazione di architetture di sistema robuste.",
             "magister-bio-p2": "Presso BottegaAI, ricopre il ruolo di Magister, traducendo modelli generativi grezzi e flussi di lavoro complessi di agenti in risorse esecutive ad alto rendimento.",
-            // Venue
+            // Formato
             "venue-tagline": "L'ACCADEMIA",
-            "venue-title": "Heineken House",
-            "venue-d1": "BottegaAI si tiene presso l'esclusiva Heineken House San Paolo. Circondata da una premiata architettura ecologica, design moderno e servizi di lusso, questo spazio rappresenta la fusione ideale tra tradizione e innovazione orientata al futuro.",
-            "venue-d2": "Goditi il catering premium, postazioni di lavoro private, linee in fibra ad alta velocità e un'esclusiva sessione di networking con birre artigianali sulla terrazza panoramica dopo la conclusione del workshop.",
-            "venue-btn": "Esplora Heineken House ↗",
-            "venue-card-tag": "SEDE ESCLUSIVA",
-            "venue-card-addr": "Parque Villa Lobos, San Paolo - SP",
-            "venue-card-status": "Prenotazione Privata per Dirigenti",
+            "venue-title": "Online dal Vivo",
+            "venue-city": "15 ORE · CALENDARIO FLESSIBILE",
+            "venue-d1": "Il corso si svolge online dal vivo, mantenendo l'interazione diretta con i docenti e il lavoro pratico e guidato in ogni modulo.",
+            "venue-d2": "Non esiste una data fissa per la classe né un limite di posti. Dopo l'iscrizione, BottegaAI concilia gli impegni dei dirigenti con la disponibilità dei docenti.",
+            "venue-btn": "Richiedi l'allineamento del calendario ↓",
+            "venue-card-tag": "FORMATO ESECUTIVO",
+            "venue-card-name": "Corso Online dal Vivo",
+            "venue-card-addr": "15 ore con interazione diretta con i docenti",
+            "venue-card-status": "Calendario definito dopo l'iscrizione",
             // Registration
             "reg-title": "Assicura l'Ammissione",
-            "reg-desc-1": "A causa della natura pratica della nostra sessione di Sintesi degli Agenti e dei limiti fisici della Heineken House, BottegaAI è strettamente limitata a 25 dirigenti.",
-            "reg-desc-2": "Assicurati la partecipazione completando il pagamento dell'iscrizione. I posti sono limitati per la classe di agosto 2026.",
+            "reg-desc-1": "Il corso non ha una data fissa né un limite di posti. L'unico vincolo di disponibilità è conciliare il calendario dei docenti con quello dei dirigenti partecipanti.",
+            "reg-desc-2": "Dopo l'iscrizione, il nostro team contatta i partecipanti per organizzare le 15 ore di lezioni online dal vivo secondo gli impegni del gruppo.",
             "pay-badge": "PASSO ESECUTIVO",
             "pay-price-currency": "R$",
             "pay-price-amount": "1.000",
-            "pay-price-period": "/ posto",
+            "pay-price-period": "/ partecipante",
             "pay-title": "Completa l'Iscrizione",
-            "pay-desc": "L'ammissione alla masterclass è garantita istantaneamente tramite la nostra piattaforma di pagamento. Clicca sul link sottostante per essere reindirizzato al portale sicuro di Stripe. Riceverai un invito nel calendario e la guida del codex preparatorio subito dopo la conferma del pagamento.",
-            "pay-feat-1": "Accesso Completo al Workshop & Moduli Interattivi",
+            "pay-desc": "Completa l'iscrizione tramite il portale sicuro di Stripe. Dopo il pagamento, il nostro team ti contatterà per concordare il calendario delle lezioni online dal vivo tra dirigenti partecipanti e docenti.",
+            "pay-feat-1": "15 Ore di Lezioni Interattive Online dal Vivo",
             "pay-feat-2": "Sandbox per l'Implementazione dell'Agente AI",
-            "pay-feat-3": "Catering Premium & Ingresso alla Heineken House",
-            "pay-feat-4": "Networking di Integrazione Esclusivo Post-Workshop",
-            "pay-btn": "Assicura Posto & Paga con Stripe ↗",
+            "pay-feat-3": "Calendario Allineato agli Impegni dei Dirigenti",
+            "pay-feat-4": "Nessuna Data Fissa o Limite di Posti",
+            "pay-btn": "Iscriviti & Paga con Stripe ↗",
             // Footer
             "footer-tagline": "Riprogettare l'esecuzione esecutiva attraverso i principi del Rinascimento.",
             "footer-nav-title": "NAVIGAZIONE",
             "footer-meta-title": "IL WORKSHOP",
-            "footer-meta-date": "Data: 22 Agosto 2026",
-            "footer-meta-loc": "Sede: Heineken House SP",
+            "footer-meta-date": "Calendario: concordato con i partecipanti",
+            "footer-meta-loc": "Formato: 15 ore, online dal vivo",
             "footer-meta-email": "Contatti: sales@novatrix.com.br",
             "footer-copyright": "&copy; 2026 BottegaAI. Ispirato al Codex Atlanticus. Tutti gli agenti allineati."
         }
@@ -523,30 +553,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
-    // ==========================================
-    // 2. Countdown Timer (Target: August 22, 2026)
-    // ==========================================
-    const countdownDaysElement = document.getElementById('countdown-days');
-    
-    function updateCountdown() {
-        const targetDate = new Date('2026-08-22T09:00:00');
-        const now = new Date();
-        const difference = targetDate - now;
-
-        if (difference <= 0) {
-            if (countdownDaysElement) countdownDaysElement.innerText = "0";
-            return;
-        }
-
-        const days = Math.ceil(difference / (1000 * 60 * 60 * 24));
-        if (countdownDaysElement) {
-            countdownDaysElement.innerText = days.toString();
-        }
-    }
-    
-    updateCountdown();
-    setInterval(updateCountdown, 1000 * 60 * 60);
 
 
     // ==========================================
