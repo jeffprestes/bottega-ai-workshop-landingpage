@@ -1,23 +1,53 @@
-# www.robotstxt.org/
-# Allow indexing of all files on BottegaAI
+# BottegaAI permits search engines, AI assistants, answer engines,
+# model-training crawlers and user-triggered fetchers to read every public URL.
 
 User-agent: *
 Allow: /
 
-Sitemap: https://bottegaai.academy/sitemap.xml
-
-# AI and search crawlers are welcome to index public educational pages.
+# OpenAI: ChatGPT, search and training crawlers
 User-agent: GPTBot
 Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
 
+# Anthropic: Claude training, user-triggered and search fetchers
 User-agent: ClaudeBot
 Allow: /
-
-User-agent: PerplexityBot
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
 Allow: /
 
+# Google/Gemini and Google AI usage controls
 User-agent: Google-Extended
 Allow: /
+User-agent: GoogleOther
+Allow: /
 
+# Perplexity training/search and user-triggered fetchers
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Other common AI and dataset crawlers
 User-agent: CCBot
 Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: YouBot
+Allow: /
+
+Sitemap: https://bottegaai.academy/sitemap.xml
