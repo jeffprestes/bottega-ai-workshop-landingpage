@@ -3,6 +3,38 @@
    Renaissance Aesthetics Merged with Modern AI
    ========================================== */
 
+@font-face {
+    font-family: 'Cinzel';
+    src: url('fonts/cinzel-latin.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-latin.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('fonts/lora-latin.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('fonts/lora-italic-latin.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 400 600;
+    font-display: swap;
+}
+
 /* 1. Design System & Custom Properties */
 :root {
     /* Color Palette */
@@ -2398,9 +2430,12 @@ a:hover {
 .conversion-checklist {
     display: grid;
     gap: .8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.conversion-checklist div {
+.conversion-checklist li {
     display: grid;
     grid-template-columns: 54px 1fr;
     gap: 1rem;
@@ -2480,7 +2515,7 @@ a:hover {
         min-height: auto;
     }
 
-    .conversion-checklist div {
+    .conversion-checklist li {
         grid-template-columns: 42px 1fr;
     }
 }
@@ -2804,4 +2839,775 @@ a:hover {
 @media (max-width: 560px) {
     .paoline-logo-lockup img { width: min(330px, 82vw); }
     .paoline-primary-cta { width: 100%; }
+}
+
+/* ==========================================
+   HOME - TURMA 01
+   Redesign-preserve: 6 / 4 / 5
+   ========================================== */
+.turma01-page {
+    --home-content: min(1180px, calc(100% - 3rem));
+    --home-line: rgba(212, 175, 55, .22);
+}
+
+.turma01-page [hidden] {
+    display: none !important;
+}
+
+.turma01-page .skip-link {
+    position: fixed;
+    top: .75rem;
+    left: .75rem;
+    z-index: 300;
+    padding: .8rem 1rem;
+    color: #121210;
+    background: var(--color-gold-hover);
+    font-weight: 700;
+    transform: translateY(-180%);
+}
+
+.turma01-page .skip-link:focus {
+    transform: translateY(0);
+}
+
+.turma01-page :focus-visible {
+    outline: 3px solid var(--color-gold-hover);
+    outline-offset: 4px;
+}
+
+.turma01-page a:active,
+.turma01-page button:active {
+    transform: translateY(1px);
+}
+
+.turma01-page .main-header {
+    min-height: 72px;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
+
+.turma01-page .page-language {
+    color: var(--color-text-muted);
+    font-size: .75rem;
+    letter-spacing: .12em;
+}
+
+.turma01-page .hero-section {
+    min-height: 100dvh;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+
+.turma01-page .hero-content {
+    gap: 1.45rem;
+}
+
+.turma01-page .hero-title {
+    max-width: 12ch;
+    font-size: clamp(2.8rem, 5.1vw, 4.6rem);
+    line-height: 1.08;
+    text-wrap: balance;
+}
+
+.turma01-page .hero-title .gold-text-glow {
+    display: block;
+}
+
+.turma01-page .hero-subtitle {
+    max-width: 36ch;
+    font-size: clamp(1.08rem, 1.65vw, 1.3rem);
+    text-wrap: pretty;
+}
+
+.turma01-page .hero-actions a,
+.turma01-page .cta-button-nav,
+.turma01-page .payment-button {
+    min-height: 44px;
+    white-space: nowrap;
+}
+
+.turma01-page .compact-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+}
+
+.turma01-page .compact-facts span {
+    min-height: 64px;
+    display: grid;
+    place-items: center;
+    padding: .75rem 1rem;
+    color: var(--color-text);
+    font-family: var(--font-serif-header);
+    font-size: .85rem;
+    text-align: center;
+    letter-spacing: .05em;
+    border-right: 1px solid var(--home-line);
+}
+
+.turma01-page .compact-facts span:last-child {
+    border-right: 0;
+}
+
+.turma01-page .content-section,
+.turma01-page .philosophy-section,
+.turma01-page .simulator-section,
+.turma01-page .curriculum-section,
+.turma01-page .venue-section,
+.turma01-page .magister-section,
+.turma01-page .register-section {
+    scroll-margin-top: 88px;
+}
+
+.turma01-page .content-section {
+    width: var(--home-content);
+    margin: 0 auto;
+    padding: 7rem 0;
+}
+
+.turma01-page .left-header {
+    max-width: 760px;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    padding: 0;
+    text-align: left;
+}
+
+.turma01-page .contrast-grid {
+    display: grid;
+    grid-template-columns: .8fr 1fr 1.35fr;
+    align-items: stretch;
+    border-top: 1px solid var(--home-line);
+    border-bottom: 1px solid var(--home-line);
+}
+
+.turma01-page .contrast-grid article {
+    padding: 2rem;
+    border-right: 1px solid var(--home-line);
+}
+
+.turma01-page .contrast-grid article:last-child {
+    border-right: 0;
+}
+
+.turma01-page .contrast-grid h3 {
+    margin-bottom: .7rem;
+    color: var(--color-text);
+    font-family: var(--font-serif-header);
+    font-size: 1.15rem;
+}
+
+.turma01-page .contrast-active {
+    background: linear-gradient(145deg, rgba(212, 175, 55, .13), rgba(212, 175, 55, .025));
+}
+
+.turma01-page .section-closing {
+    max-width: 760px;
+    margin-top: 2.5rem;
+    color: var(--color-text);
+    font-family: var(--font-serif-body);
+    font-size: clamp(1.25rem, 2vw, 1.6rem);
+    line-height: 1.5;
+}
+
+.turma01-page .state-section {
+    width: 100%;
+    padding-right: max(1.5rem, calc((100% - 1180px) / 2));
+    padding-left: max(1.5rem, calc((100% - 1180px) / 2));
+    background: var(--color-bg-offset);
+    border-top: 1px solid var(--color-parchment-border);
+    border-bottom: 1px solid var(--color-parchment-border);
+}
+
+.turma01-page .state-grid {
+    display: grid;
+    grid-template-columns: 1.15fr .85fr 1.35fr;
+    gap: 3rem;
+}
+
+.turma01-page .state-grid article {
+    padding-top: 1.2rem;
+    border-top: 2px solid var(--color-gold-dim);
+}
+
+.turma01-page .state-grid strong {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--color-gold);
+    font-family: var(--font-serif-header);
+    font-size: clamp(2.5rem, 4.5vw, 4.25rem);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+}
+
+.turma01-page .source {
+    display: block;
+    margin-top: .85rem;
+    color: #c5b69e;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+.turma01-page fieldset {
+    min-width: 0;
+    border: 0;
+}
+
+.turma01-page .radio-option input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.turma01-page .radio-option:focus-within,
+.turma01-page .checkbox-option:focus-within {
+    outline: 3px solid var(--color-gold-hover);
+    outline-offset: 3px;
+}
+
+.turma01-page .custom-select,
+.turma01-page .email-gate input[type="email"] {
+    min-height: 48px;
+    color: var(--color-text);
+    background: #171611;
+    border: 1px solid #756643;
+}
+
+.turma01-page .custom-select option {
+    color: var(--color-text);
+    background: #171611;
+}
+
+.turma01-page .email-gate {
+    margin-top: 1.75rem;
+    padding: 1.5rem;
+    background: rgba(212, 175, 55, .06);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .email-gate h3 {
+    margin-bottom: .5rem;
+    color: var(--color-text);
+    font-family: var(--font-serif-header);
+}
+
+.turma01-page .email-gate > label:not(.consent-option) {
+    display: block;
+    margin: 1rem 0 .4rem;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.turma01-page .email-gate input[type="email"] {
+    width: 100%;
+    padding: .75rem;
+    font: inherit;
+}
+
+.turma01-page .email-gate small {
+    display: block;
+    margin-top: .4rem;
+    color: #c5b69e;
+}
+
+.turma01-page .consent-option {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: .75rem;
+    align-items: start;
+    margin: 1rem 0;
+    color: var(--color-text);
+    font-size: .9rem;
+}
+
+.turma01-page .consent-option input {
+    width: 20px;
+    height: 20px;
+    margin-top: .1rem;
+    accent-color: var(--color-gold);
+}
+
+.turma01-page .form-error {
+    min-height: 1.5em;
+    margin-bottom: .5rem;
+    color: #ffb4ab;
+    font-weight: 600;
+}
+
+.turma01-page .email-gate button:disabled {
+    opacity: .65;
+    cursor: wait;
+}
+
+.turma01-page .codex-locked {
+    min-height: 520px;
+    display: grid;
+    align-content: center;
+    padding: clamp(2rem, 5vw, 4rem);
+    color: #342d21;
+    text-align: center;
+    background: var(--color-parchment-light);
+    border: 1px solid var(--color-gold-dim);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .55);
+}
+
+.turma01-page .codex-locked h3 {
+    margin-bottom: 1rem;
+    color: #342d21;
+    font-family: var(--font-serif-header);
+}
+
+.turma01-page .codex-locked p {
+    color: #5a4b35;
+    font-weight: 500;
+}
+
+.turma01-page .blueprint-svg-animation {
+    color: #846a20;
+}
+
+.turma01-page .estimate-heading {
+    margin-top: 1rem;
+    color: #594c3a;
+    font-family: var(--font-serif-header);
+    font-size: .76rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.turma01-page .estimate-note {
+    margin-top: 1rem;
+    color: #594c3a;
+    font-size: .76rem;
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+.turma01-page .artifact-line {
+    margin-top: 1.25rem;
+    padding: .9rem 1rem;
+    color: var(--color-text);
+    background: rgba(212, 175, 55, .06);
+    border-left: 2px solid var(--color-gold-dim);
+}
+
+.turma01-page .prerequisite-block {
+    width: min(900px, calc(100% - 3rem));
+    margin: 4rem auto 0;
+    padding: clamp(1.5rem, 4vw, 3rem);
+    background: var(--color-bg-offset);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .prerequisite-block h3 {
+    margin-bottom: 1rem;
+    color: var(--color-gold);
+    font-family: var(--font-serif-header);
+    font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+.turma01-page .venue-section,
+.turma01-page .magister-section {
+    display: block !important;
+}
+
+.turma01-page .date-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .65rem 1rem;
+    margin: 1.5rem 0;
+    list-style: none;
+}
+
+.turma01-page .date-list li {
+    padding: .8rem;
+    color: var(--color-text);
+    font-family: var(--font-serif-header);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .venue-media {
+    display: grid;
+    place-items: center;
+}
+
+.turma01-page .venue-card {
+    position: relative;
+    inset: auto;
+    width: min(100%, 420px);
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(2rem, 5vw, 4rem);
+    background:
+        radial-gradient(circle at 75% 20%, rgba(212, 175, 55, .13), transparent 34%),
+        #11100e;
+    border: 1px solid var(--color-gold-dim);
+}
+
+.turma01-page .v-card-name {
+    margin: .7rem 0 1.4rem;
+}
+
+.turma01-page .profile-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.turma01-page .profile-links a {
+    min-width: 100px;
+    min-height: 44px;
+    display: inline-grid;
+    place-items: center;
+    padding: .55rem 1rem;
+    border: 1px solid var(--color-gold-dim);
+}
+
+.turma01-page .proof-section {
+    width: 100%;
+    padding-right: max(1.5rem, calc((100% - 1180px) / 2));
+    padding-left: max(1.5rem, calc((100% - 1180px) / 2));
+    background: var(--color-bg-offset);
+    border-top: 1px solid var(--color-parchment-border);
+    border-bottom: 1px solid var(--color-parchment-border);
+}
+
+.turma01-page .proof-grid {
+    display: grid;
+    grid-template-columns: minmax(280px, .8fr) minmax(320px, 1.2fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+}
+
+.turma01-page .proof-visual {
+    padding: .8rem;
+    background: var(--color-parchment-dark);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .proof-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: sepia(.2) contrast(1.05);
+}
+
+.turma01-page .proof-copy p {
+    margin-bottom: 1rem;
+}
+
+.turma01-page .register-panel-desc + .source {
+    margin: -1rem 0 1.5rem;
+}
+
+.turma01-page .guarantee {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    color: var(--color-text);
+    background: rgba(212, 175, 55, .07);
+    border-left: 2px solid var(--color-gold);
+}
+
+.turma01-page .guarantee p {
+    margin-top: .35rem;
+    color: var(--color-text);
+    font-size: .92rem;
+}
+
+.turma01-page .corporate-inline {
+    min-height: 44px;
+    display: grid;
+    place-items: center;
+    margin-top: .8rem;
+    text-align: center;
+}
+
+.turma01-page .filter-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.turma01-page .filter-box {
+    max-width: 900px;
+    padding: clamp(1.5rem, 5vw, 3.5rem);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .filter-box ul {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0 0 1.2rem;
+    color: var(--color-text-muted);
+}
+
+.turma01-page .faq-section {
+    padding-top: 5rem;
+}
+
+.turma01-page .faq-list {
+    max-width: 940px;
+    margin: 0 auto;
+    columns: 2;
+    column-gap: 1.25rem;
+}
+
+.turma01-page .faq-list details {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: var(--color-bg-offset);
+    border: 1px solid var(--home-line);
+}
+
+.turma01-page .faq-list summary {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    font-family: var(--font-serif-header);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.turma01-page .faq-list details p {
+    margin-top: .75rem;
+}
+
+.turma01-page .corporate-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+    padding: clamp(2rem, 5vw, 4rem);
+    background: linear-gradient(145deg, rgba(212, 175, 55, .12), rgba(212, 175, 55, .02));
+    border: 1px solid var(--color-gold-dim);
+}
+
+.turma01-page .corporate-panel p {
+    max-width: 66ch;
+    margin-top: 1rem;
+}
+
+.turma01-page .closing-section {
+    max-width: 900px;
+    text-align: center;
+}
+
+.turma01-page .closing-section p {
+    margin: 1.25rem auto 2rem;
+}
+
+.turma01-page .footer-links {
+    display: flex !important;
+}
+
+.turma01-page .footer-links h2,
+.turma01-page .footer-meta h2 {
+    color: var(--color-gold);
+    font-family: var(--font-serif-header);
+    font-size: .85rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1100px) {
+    .turma01-page .main-header {
+        flex-wrap: wrap;
+        gap: .6rem 1rem;
+    }
+
+    .turma01-page .nav-menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .turma01-page .hero-section {
+        padding-top: 9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .turma01-page {
+        --home-content: calc(100% - 2rem);
+    }
+
+    .turma01-page .main-header {
+        position: relative;
+        min-height: 0;
+        padding: .9rem 1rem;
+    }
+
+    .turma01-page .logo-text {
+        font-size: 1.25rem;
+    }
+
+    .turma01-page .header-right {
+        gap: .6rem;
+    }
+
+    .turma01-page .cta-button-nav {
+        display: inline-flex !important;
+        align-items: center;
+        padding: .55rem .7rem;
+        font-size: .72rem;
+    }
+
+    .turma01-page .nav-menu {
+        display: flex !important;
+        justify-content: flex-start;
+        gap: .4rem 1rem;
+        padding: .5rem 0 .15rem;
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+
+    .turma01-page .nav-link {
+        flex: 0 0 auto;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        font-size: .76rem;
+    }
+
+    .turma01-page .hero-section {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 3rem 1rem 4rem;
+    }
+
+    .turma01-page .hero-title {
+        max-width: 100%;
+        font-size: clamp(2.35rem, 11vw, 3.5rem);
+    }
+
+    .turma01-page .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .75rem;
+    }
+
+    .turma01-page .hero-actions a {
+        width: 100%;
+    }
+
+    .turma01-page .compact-facts,
+    .turma01-page .contrast-grid,
+    .turma01-page .state-grid,
+    .turma01-page .proof-grid,
+    .turma01-page .corporate-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .turma01-page .compact-facts span {
+        min-height: 50px;
+        border-right: 0;
+        border-bottom: 1px solid var(--home-line);
+    }
+
+    .turma01-page .compact-facts span:last-child {
+        border-bottom: 0;
+    }
+
+    .turma01-page .content-section {
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+
+    .turma01-page .contrast-grid article {
+        padding: 1.5rem;
+        border-right: 0;
+        border-bottom: 1px solid var(--home-line);
+    }
+
+    .turma01-page .contrast-grid article:last-child {
+        border-bottom: 0;
+    }
+
+    .turma01-page .state-grid {
+        gap: 2rem;
+    }
+
+    .turma01-page .philosophy-section,
+    .turma01-page .simulator-section,
+    .turma01-page .curriculum-section,
+    .turma01-page .venue-section,
+    .turma01-page .magister-section,
+    .turma01-page .register-section {
+        display: block !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .turma01-page .simulator-container,
+    .turma01-page .venue-container,
+    .turma01-page .magister-container,
+    .turma01-page .register-card-container {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+    }
+
+    .turma01-page .simulator-controls,
+    .turma01-page .simulator-preview,
+    .turma01-page .register-info-panel,
+    .turma01-page .register-form-panel {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .turma01-page .date-list {
+        grid-template-columns: 1fr;
+    }
+
+    .turma01-page .faq-list {
+        columns: 1;
+    }
+
+    .turma01-page .corporate-panel .cta-button-primary {
+        width: 100%;
+        white-space: normal;
+    }
+
+    .turma01-page .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .turma01-page .footer-links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .turma01-page .date-badge {
+        font-size: .72rem;
+        letter-spacing: .08em;
+    }
+
+    .turma01-page .radio-grid,
+    .turma01-page .checkbox-grid,
+    .turma01-page .blueprint-details-grid,
+    .turma01-page .blueprint-metrics {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .turma01-page *,
+    .turma01-page *::before,
+    .turma01-page *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+}
+
+.turma01-page .proof-section[hidden] {
+    display: none !important;
 }

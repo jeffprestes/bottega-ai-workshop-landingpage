@@ -1,10 +1,53 @@
+# BottegaAI - Formação executiva em agentes de IA
+
+URL canônica: https://bottegaai.academy/
+Idioma: português do Brasil
+Tipo: workshop executivo prático, online e ao vivo
+Turma: Turma 01, 12 vagas
+Datas: 05, 10, 12, 17 e 24 de novembro de 2026, das 19h às 22h
+Preço: R$ 5.900 por participante
+Checkout: https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00
+
+## Resumo da home
+
+A BottegaAI é uma formação ao vivo de 15 horas para gerentes, diretores, executivos e proprietários montarem quatro agentes de IA aplicados ao próprio contexto. O formato é uma Bottega de 12 participantes, com prática acompanhada pelo Magister, setup assistido e sessão individual de aplicação.
+
+## O que o participante constrói
+
+1. Um agente com escopo, núcleo de linguagem, guardrails e validação humana.
+2. Um ambiente Hermes publicado com memória e ciclos de revisão.
+3. Um agente conectado ao Google Workspace.
+4. Um agente operável por WhatsApp com skills especializadas.
+5. Um plano de replicação com governança, responsabilidades e controle de custo.
+
+## Turma 01
+
+- Setup assistido: 03/11/2026.
+- Encontros: 05/11, 10/11, 12/11, 17/11 e 24/11/2026.
+- Inscrições: até 29/10/2026 ou até as 12 vagas serem preenchidas.
+- Inclui gravações, materiais, nota fiscal, ementa e certificado de participação.
+- Garantia: mediante entrega dos exercícios dos cinco encontros, devolução integral se o participante terminar sem um agente próprio rodando.
+
+## Magister
+
+Jeff Prestes tem 30 anos de atuação em software em produção, com passagens por PayPal, Santander/F1RST e Mercado Bitcoin, além de docência em contratos inteligentes na PUC-SP entre 2018 e 2022.
+
+GitHub: https://github.com/jeffprestes
+LinkedIn: https://www.linkedin.com/in/jeffprestes
+
+## Equipes
+
+Turmas corporativas fechadas a partir de 12 pessoas podem ser discutidas por e-mail: sales@novatrix.com.br
+
+---
+
 # BottegaAI - Curso de Stablecoins, Blockchain e Regulação no Brasil
 
 URL canônica: https://bottegaai.academy/br-blockchain-regulatorio.html
 Idioma: português do Brasil
 Tipo: curso executivo / masterclass prática
 Preço: R$ 1.000 por vaga
-Checkout: https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00
+Inscrição: solicitação por e-mail em sales@novatrix.com.br
 
 ## Resumo
 

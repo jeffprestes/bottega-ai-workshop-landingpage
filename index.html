@@ -1,573 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BottegaAI Workshop | The Renaissance of Executive Power & AI Agents</title>
-    
-    <!-- SEO Robots Indexing -->
+    <!-- [html-validate-disable-next long-title] -->
+    <title>BottegaAI - Construa seu Agente de IA · Workshop ao vivo para executivos</title>
+    <meta name="description" content="Workshop online ao vivo de 15 horas para gerentes, diretores e proprietários construírem seus próprios agentes de IA. Turma de 12 pessoas. Início em 05/11/2026.">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    <link rel="canonical" href="https://bottegaai.academy">
-    
-    <!-- Favicon link -->
-    <link rel="icon" type="image/jpeg" href="images/favicon.jpg">
-    
-    <!-- General Meta Tags -->
-    <meta name="description" content="A 15-hour live online BottegaAI course for executives to design and build autonomous AI Agents, scheduled around executive and professor availability.">
-    <meta name="keywords" content="BottegaAI, AI Agents, Executive AI, High Individual Contributor, Leonardo da Vinci, live online AI course, executive education">
+    <meta name="theme-color" content="#090908">
+    <link rel="canonical" href="https://bottegaai.academy/">
+    <link rel="icon" type="image/png" href="images/favicon-64.png" sizes="64x64">
 
-    <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bottegaai.academy">
-    <meta property="og:title" content="BottegaAI Workshop | The Renaissance of Executive Power">
-    <meta property="og:description" content="A 15-hour live online course for executives. Dates are arranged around the schedules of participants and professors.">
-    <meta property="og:image" content="https://bottegaai.academy/images/bottega_og_share.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="675">
+    <meta property="og:url" content="https://bottegaai.academy/">
+    <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="BottegaAI">
+    <meta property="og:title" content="BottegaAI - Construa seu Agente de IA · Workshop ao vivo para executivos">
+    <meta property="og:description" content="15 horas ao vivo, 12 participantes e quatro agentes construídos por você. Turma 01 começa em 05/11/2026.">
+    <meta property="og:image" content="https://bottegaai.academy/images/bottegaai-workshop-turma01-1200x630.jpg">
+    <meta property="og:image:secure_url" content="https://bottegaai.academy/images/bottegaai-workshop-turma01-1200x630.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="BottegaAI, workshop executivo para construir agentes de IA">
 
-    <!-- Twitter / X.com -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://bottegaai.academy">
-    <meta name="twitter:title" content="BottegaAI Workshop | The Renaissance of Executive Power">
-    <meta name="twitter:description" content="A 15-hour live online course for executives. Dates are arranged around the schedules of participants and professors.">
-    <meta name="twitter:image" content="https://bottegaai.academy/images/bottega_og_share.jpg">
-    <meta name="twitter:site" content="@bottega_ai">
+    <meta name="twitter:title" content="BottegaAI - Construa seu Agente de IA">
+    <meta name="twitter:description" content="Workshop online ao vivo para executivos. Turma de 12 pessoas, início em 05/11/2026.">
+    <meta name="twitter:image" content="https://bottegaai.academy/images/bottegaai-workshop-turma01-1200x630.jpg">
+    <meta name="twitter:image:alt" content="BottegaAI, workshop executivo para construir agentes de IA">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lora-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="images/da-vinci-hero-1000.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="stylesheet" href="style.css?v=20260908-turma01">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "BottegaAI - Construa seu Agente de IA",
+      "description": "Workshop online ao vivo de 15 horas para gerentes, diretores e proprietários construírem quatro agentes de IA aplicados ao próprio contexto.",
+      "url": "https://bottegaai.academy/",
+      "inLanguage": "pt-BR",
+      "courseMode": "online",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-24",
+      "provider": {
+        "@type": "Organization",
+        "name": "BottegaAI",
+        "url": "https://bottegaai.academy/"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "name": "Turma 01",
+        "courseMode": "Online",
+        "startDate": "2026-11-05T19:00:00-03:00",
+        "endDate": "2026-11-24T22:00:00-03:00",
+        "instructor": {
+          "@type": "Person",
+          "name": "Jeff Prestes",
+          "url": "https://github.com/jeffprestes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00",
+          "price": "5900",
+          "priceCurrency": "BRL",
+          "priceValidUntil": "2026-10-29",
+          "availability": "https://schema.org/LimitedAvailability",
+          "validFrom": "2026-10-08"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00",
+        "price": "5900",
+        "priceCurrency": "BRL",
+        "priceValidUntil": "2026-10-29",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Preciso saber programar?","acceptedAnswer":{"@type":"Answer","text":"Não. Você vai montar, conectar, configurar, testar e medir. Se você monta uma fórmula de PROCV e configura um filtro no Gmail, tem a base necessária."}},
+        {"@type":"Question","name":"O custo de API está incluído?","acceptedAnswer":{"@type":"Answer","text":"Não. Cada participante usa suas próprias contas e acompanha o consumo. Os custos variam conforme modelo, volume e frequência de uso."}},
+        {"@type":"Question","name":"E se eu perder um encontro?","acceptedAnswer":{"@type":"Answer","text":"Você terá a gravação e os materiais. A sessão individual também pode ser usada para recuperar a aplicação ao seu caso."}},
+        {"@type":"Question","name":"A empresa consegue pagar ou reembolsar?","acceptedAnswer":{"@type":"Answer","text":"Sim. A BottegaAI fornece nota fiscal, ementa e certificado de participação. Confirme previamente as regras internas da sua empresa."}},
+        {"@type":"Question","name":"O agente continua rodando depois do curso?","acceptedAnswer":{"@type":"Answer","text":"Sim. O ambiente e as contas ficam sob seu controle. Você decide onde manter o agente e quais integrações permanecem ativas."}},
+        {"@type":"Question","name":"Qual o custo mensal para manter o agente no ar?","acceptedAnswer":{"@type":"Answer","text":"Depende da hospedagem, do modelo e do uso. Durante o workshop você configura limites e aprende a medir os custos, sem promessa de valor fixo."}},
+        {"@type":"Question","name":"Posso usar dados da minha empresa?","acceptedAnswer":{"@type":"Answer","text":"Somente com autorização da sua empresa e respeitando suas políticas. Os exercícios podem usar dados sintéticos ou anonimizados. Nenhum dado sensível é obrigatório."}},
+        {"@type":"Question","name":"Vocês fazem turma fechada para equipes?","acceptedAnswer":{"@type":"Answer","text":"Sim. Há formatos corporativos a partir de 12 participantes, definidos após um diagnóstico de 30 minutos."}}
+      ]
+    }
+    </script>
 </head>
-<body>
+<body class="turma01-page">
+    <a class="skip-link" href="#main-content">Ir para o conteúdo principal</a>
 
-    <!-- Header / Navigation -->
     <header class="main-header" id="header-section">
-        <div class="logo">
+        <a class="logo" href="#hero-section" aria-label="BottegaAI, início">
             <span class="logo-text">BOTTEGA<span class="gold-text">AI</span></span>
-        </div>
-        <nav class="nav-menu" id="navigation-menu">
-            <a href="#philosophy" class="nav-link" data-i18n="nav-philosophy">Philosophy</a>
-            <a href="#curriculum" class="nav-link" data-i18n="nav-curriculum">Curriculum</a>
-            <a href="#simulator" class="nav-link" data-i18n="nav-simulator">Agent Builder</a>
-            <a href="#venue" class="nav-link" data-i18n="nav-venue">Format</a>
-            <a href="#magister" class="nav-link" data-i18n="nav-magister">Magister</a>
+        </a>
+        <nav class="nav-menu" id="navigation-menu" aria-label="Navegação principal">
+            <a href="#philosophy" class="nav-link">Método</a>
+            <a href="#simulator" class="nav-link">Simulador</a>
+            <a href="#curriculum" class="nav-link">Programa</a>
+            <a href="#venue" class="nav-link">Datas</a>
+            <a href="#magister" class="nav-link">Magister</a>
         </nav>
-        
         <div class="header-right">
-            <!-- Elegant Language Switcher -->
-            <div class="lang-switcher" id="language-switcher">
-                <button data-lang="en" class="lang-btn active">EN</button>
-                <span class="lang-separator">/</span>
-                <button data-lang="pt" class="lang-btn">PT</button>
-                <span class="lang-separator">/</span>
-                <button data-lang="it" class="lang-btn">IT</button>
-            </div>
-            <a href="#register" class="cta-button-nav" id="nav-cta" data-i18n="nav-cta">Apply to Guild</a>
+            <span class="page-language" id="language-switcher">Idioma: PT-BR</span>
+            <a href="#register" class="cta-button-nav" id="nav-cta">Ver as 12 vagas</a>
         </div>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section" id="hero-section">
+    <main id="main-content">
+        <section class="hero-section" id="hero-section" aria-labelledby="main-hero-title">
             <div class="hero-content">
-                <div class="date-badge" id="hero-date-badge">
-                    <span class="icon">✥</span> <span data-i18n="hero-date">FLEXIBLE SCHEDULING · LIVE ONLINE</span>
-                </div>
-                <h1 class="hero-title" id="main-hero-title" data-i18n="hero-title">
-                    The Renaissance of <br>
-                    <span class="gold-text-glow">Executive Power</span>
-                </h1>
-                <p class="hero-subtitle" data-i18n="hero-subtitle">
-                    In the 15th century, Leonardo da Vinci ran a Bottega—a workshop where art, science, and machinery converged. Today, artificial intelligence gives you the power to become a one-person guild. Learn to orchestrate your own digital apprentices and lead as a High Individual Contributor.
-                </p>
-                <div class="hero-details">
-                    <div class="detail-item">
-                        <span class="detail-label" data-i18n="hero-label-workshop">THE WORKSHOP</span>
-                        <span class="detail-value" data-i18n="hero-val-workshop">Create your own AI Agent</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label" data-i18n="hero-label-venue">FORMAT & DURATION</span>
-                        <span class="detail-value" data-i18n="hero-val-venue">15 hours · Live online</span>
-                    </div>
-                </div>
+                <div class="date-badge" id="hero-date-badge">TURMA 01 · 12 VAGAS · INÍCIO 5 DE NOVEMBRO DE 2026</div>
+                <h1 class="hero-title" id="main-hero-title">O Renascimento do <span class="gold-text-glow">Poder Executivo</span></h1>
+                <p class="hero-subtitle">15 horas ao vivo. Quatro agentes de IA seus, rodando ao final.</p>
                 <div class="hero-actions">
-                    <a href="#register" class="cta-button-primary" id="hero-cta-apply" data-i18n="hero-cta-apply">Apply for Admission</a>
-                    <a href="#simulator" class="cta-button-secondary" id="hero-cta-explore" data-i18n="hero-cta-explore">Simulate an Apprentice</a>
+                    <a href="#register" class="cta-button-primary" id="hero-cta-apply">Ver as 12 vagas</a>
+                    <a href="#simulator" class="cta-button-secondary" id="hero-cta-explore">Projetar meu Apprendista</a>
                 </div>
             </div>
             <div class="hero-visual">
                 <div class="sketch-frame">
-                    <div class="gold-border-corner top-left"></div>
-                    <div class="gold-border-corner top-right"></div>
-                    <div class="gold-border-corner bottom-left"></div>
-                    <div class="gold-border-corner bottom-right"></div>
-                    <img src="images/da_vinci_ai_sketch.jpg" alt="Leonardo da Vinci Vitruvian Man and Neural Network Sketch" class="sketch-image" id="hero-sketch-img">
+                    <div class="gold-border-corner top-left"></div><div class="gold-border-corner top-right"></div>
+                    <div class="gold-border-corner bottom-left"></div><div class="gold-border-corner bottom-right"></div>
+                    <!-- TODO: substituir o visual abaixo pelo vídeo real do agente, muted autoplay loop playsinline, quando o arquivo existir. -->
+                    <img src="images/da-vinci-hero-1000.webp" width="1000" height="671" alt="Ilustração renascentista De Proportione Humana et Mechanica, com figura humana e elementos mecânicos" class="sketch-image" id="hero-sketch-img" fetchpriority="high">
                     <div class="sketch-caption">
-                        <span class="caption-title" data-i18n="hero-fig-title">Fig I. De Proportione Humana et Mechanica (BottegaAI, 2026)</span>
-                        <p data-i18n="hero-fig-desc">Representing the alignment of executive agency (Ratio) and digital agents (Synthesia).</p>
+                        <span class="caption-title">Fig. I. De Proportione Humana et Mechanica</span>
+                        <p>Visual original da BottegaAI. O vídeo real do agente será publicado quando estiver pronto.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Countdown / Metric bar -->
-        <section class="metric-bar" id="countdown-bar">
-            <div class="metric-container">
-                <div class="metric-item">
-                    <span class="metric-number">15H</span>
-                    <span class="metric-label" data-i18n="metric-days">Course Duration</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number" data-i18n="metric-format-value">LIVE</span>
-                    <span class="metric-label" data-i18n="metric-seats">Online Format</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number">4</span>
-                    <span class="metric-label" data-i18n="metric-agents">Custom Agents Built</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric-item">
-                    <span class="metric-number" data-i18n="metric-schedule-value">FLEX</span>
-                    <span class="metric-label" data-i18n="metric-leverage">Schedule by Agreement</span>
-                </div>
+        <section class="metric-bar" id="countdown-bar" aria-label="Resumo do workshop">
+            <div class="metric-container compact-facts">
+                <span>15 horas ao vivo</span><span>12 alunos</span><span>4 agentes construídos por você</span><span>Hermes + Claude</span>
             </div>
         </section>
 
-        <!-- Section: The Philosophy -->
-        <section class="philosophy-section" id="philosophy">
+        <section class="contrast-section content-section" aria-labelledby="contrast-title">
+            <div class="section-header left-header">
+                <h2 class="section-title" id="contrast-title">Há três posições diante da IA</h2>
+            </div>
+            <div class="contrast-grid">
+                <article><h3>Assistir sobre IA</h3><p>Você sai com anotações.</p></article>
+                <article><h3>Usar IA</h3><p>Você sai com produtividade que qualquer pessoa pode copiar.</p></article>
+                <article class="contrast-active"><h3>Construir IA</h3><p>Você sai com um ativo e com capacidade própria de execução.</p></article>
+            </div>
+            <p class="section-closing">Isto não é um curso sobre agentes. É uma Bottega onde você constrói os seus.</p>
+        </section>
+
+        <section class="state-section content-section" aria-labelledby="state-title">
+            <div class="section-header left-header">
+                <h2 class="section-title" id="state-title">A tecnologia já entrou nas empresas</h2>
+            </div>
+            <div class="state-grid">
+                <article><strong>76%</strong><p>das empresas brasileiras já operam agentes de IA em produção, acima da média global de 62%.</p><small class="source">Fonte: <a href="https://sinch.com/news/sinch-releases-ai-production-paradox/" rel="noopener noreferrer">Sinch, The AI Production Paradox, 2026</a>.</small></article>
+                <article><strong>80%</strong><p>já precisaram interromper ou reverter uma implementação por problemas de governança.</p><small class="source">Fonte: <a href="https://sinch.com/news/sinch-releases-ai-production-paradox/" rel="noopener noreferrer">Sinch, The AI Production Paradox, 2026</a>.</small></article>
+                <article><strong>87% / 22%</strong><p>esperam aumento de receita com IA. Uma parcela menor já viu esse aumento acontecer.</p><small class="source">Fonte: <a href="https://www.deloitte.com/br/pt/about/press-room/state-of-ai-2026.html" rel="noopener noreferrer">Deloitte, State of AI in the Enterprise, 2026</a>.</small></article>
+            </div>
+            <p class="section-closing">Agora, cada empresa decide quem sabe construir e quem apenas aprova o orçamento do que outros construíram.</p>
+        </section>
+
+        <section class="philosophy-section" id="philosophy" aria-labelledby="philosophy-title">
             <div class="section-header">
-                <span class="section-tagline" data-i18n="philosophy-tagline">THE CODEX OF LEVERAGE</span>
-                <h2 class="section-title" data-i18n="philosophy-title">The Vitruvian Executive</h2>
+                <span class="section-tagline">O MECANISMO</span>
+                <h2 class="section-title" id="philosophy-title">Uma Bottega, não uma sala de aula</h2>
                 <div class="gold-divider"></div>
             </div>
             <div class="philosophy-grid">
                 <div class="philosophy-text" id="philosophy-text-container">
-                    <p class="drop-cap-p" data-i18n="philosophy-p1">
-                        The traditional corporate structure is obsolete. For decades, executives measured their power by the size of their headcount. More reports meant more status. Today, large human structures introduce latency, alignment overhead, and operational friction.
-                    </p>
-                    <p data-i18n="philosophy-p2">
-                        The future belongs to the High Individual Contributor Executive. Inspired by Leonardo da Vinci—who was simultaneously a master painter, engineer, anatomist, and military strategist—the modern leader is a creator, not just a delegator.
-                    </p>
-                    <p data-i18n="philosophy-p3">
-                        At BottegaAI, we teach you how to establish your own digital workshop. By designing and deploying your own tailored network of autonomous AI Agents, you can execute complex business initiatives, analyze massive data scopes, and build whole projects with the leverage of a 50-person department.
-                    </p>
+                    <p class="drop-cap-p">No século XV, a Bottega reunia um mestre e poucos aprendizes para construir com as próprias mãos. Arte, ciência e máquinas dividiam a mesma bancada.</p>
+                    <p>O Executivo de Alto Contribuidor Individual não mede sua capacidade apenas pelo tamanho da equipe. Ele monta sistemas, faz perguntas difíceis e mantém o controle sobre a execução.</p>
+                    <p>A turma de 12 permite trabalhar no contexto de cada participante. Você desenha, conecta, testa e opera os seus agentes com o Magister ao vivo.</p>
                 </div>
                 <div class="philosophy-cards">
-                    <div class="parchment-card" id="card-guild">
-                        <div class="card-icon">✥</div>
-                        <h3 class="card-title" data-i18n="philosophy-card1-title">The Renaissance Mindset</h3>
-                        <p data-i18n="philosophy-card1-desc">Transition from manager to architect. Learn to view AI models not as tools, but as raw intelligence waiting for structure.</p>
-                    </div>
-                    <div class="parchment-card" id="card-apprentice">
-                        <div class="card-icon">⚜</div>
-                        <h3 class="card-title" data-i18n="philosophy-card2-title">Digital Apprentices</h3>
-                        <p data-i18n="philosophy-card2-desc">Instead of managing employees, you will design autonomous agents that research, analyze, write, and execute code for you.</p>
-                    </div>
+                    <article class="parchment-card" id="card-guild"><div class="card-icon" aria-hidden="true">✥</div><h3 class="card-title">Ateliê de 12 pessoas</h3><p>Espaço para testar o seu caso, receber correção e sair da dependência de tutorial.</p></article>
+                    <article class="parchment-card" id="card-apprentice"><div class="card-icon" aria-hidden="true">⚜</div><h3 class="card-title">Stack real</h3><p>Hermes, modelos de linguagem, Google Workspace, skills e WhatsApp conectados em fluxos operáveis.</p></article>
                 </div>
             </div>
         </section>
 
-        <!-- Section: Interactive Agent Builder Simulator -->
-        <section class="simulator-section" id="simulator">
+        <section class="simulator-section" id="simulator" aria-labelledby="sim-title">
             <div class="section-header">
-                <span class="section-tagline" data-i18n="sim-tagline">EXPERIMENT WITH THE CRAFT</span>
-                <h2 class="section-title" data-i18n="sim-title">The Agent Synthesis Console</h2>
-                <p class="section-subtitle" data-i18n="sim-subtitle">Draft a blueprint for your first digital apprentice<br>and calculate your leverage.</p>
+                <h2 class="section-title" id="sim-title">Projete seu primeiro Apprendista</h2>
+                <p class="section-subtitle">Monte um Codex Agentis para um caso próximo da sua rotina.</p>
                 <div class="gold-divider"></div>
             </div>
-
             <div class="simulator-container">
-                <!-- Selector Side -->
-                <div class="simulator-controls" id="sim-controls">
-                    <h3 class="controls-title" data-i18n="sim-ctrl-title">Blueprint Customization</h3>
-                    
-                    <div class="control-group">
-                        <label class="control-label" data-i18n="sim-ctrl-label-1">1. Apprentice Archetype (Role)</label>
+                <form class="simulator-controls" id="sim-controls" novalidate>
+                    <h3 class="controls-title">Personalização do projeto</h3>
+                    <fieldset class="control-group">
+                        <legend class="control-label">Função do Apprendista</legend>
                         <div class="radio-grid" id="archetype-grid">
-                            <!-- Populated with data attributes for translation support -->
-                            <label class="radio-option active">
-                                <input type="radio" name="archetype" value="analyst" checked>
-                                <span class="radio-title" data-i18n="arch-analyst-title">Financial Strategist</span>
-                                <span class="radio-desc" data-i18n="arch-analyst-desc">Analyzes market trends & models risk</span>
-                            </label>
-                            <label class="radio-option">
-                                <input type="radio" name="archetype" value="researcher">
-                                <span class="radio-title" data-i18n="arch-researcher-title">Intel Research Agent</span>
-                                <span class="radio-desc" data-i18n="arch-researcher-desc">Deep web research & synthesis</span>
-                            </label>
-                            <label class="radio-option">
-                                <input type="radio" name="archetype" value="operations">
-                                <span class="radio-title" data-i18n="arch-ops-title">Ops Orchestrator</span>
-                                <span class="radio-desc" data-i18n="arch-ops-desc">Automates multi-app workflows</span>
-                            </label>
-                            <label class="radio-option">
-                                <input type="radio" name="archetype" value="product">
-                                <span class="radio-title" data-i18n="arch-prod-title">Creative Prototyper</span>
-                                <span class="radio-desc" data-i18n="arch-prod-desc">Generates code, specs & assets</span>
-                            </label>
+                            <label class="radio-option active"><input type="radio" name="archetype" value="analyst" checked><span class="radio-title">Estrategista financeiro</span><span class="radio-desc">Analisa dados e modela cenários</span></label>
+                            <label class="radio-option"><input type="radio" name="archetype" value="researcher"><span class="radio-title">Agente de pesquisa</span><span class="radio-desc">Pesquisa fontes e sintetiza evidências</span></label>
+                            <label class="radio-option"><input type="radio" name="archetype" value="operations"><span class="radio-title">Orquestrador operacional</span><span class="radio-desc">Coordena fluxos entre sistemas</span></label>
+                            <label class="radio-option"><input type="radio" name="archetype" value="product"><span class="radio-title">Prototipador de produto</span><span class="radio-desc">Monta especificações e protótipos</span></label>
                         </div>
-                    </div>
-
+                    </fieldset>
                     <div class="control-group">
-                        <label class="control-label" data-i18n="sim-ctrl-label-2">2. Intellectual Core (LLM Engine)</label>
-                        <select class="custom-select" id="sim-llm-select">
-                            <option value="gemini-pro" data-i18n="engine-gemini-pro">Gemini 1.5 Pro (Ultra-Large Context & Multimodality)</option>
-                            <option value="gemini-flash" data-i18n="engine-gemini-flash">Gemini 1.5 Flash (Sub-Second Latency & High Speed)</option>
-                            <option value="claude-sonnet" data-i18n="engine-claude-sonnet">Claude 3.5 Sonnet (Advanced Coding & Reasoning)</option>
-                            <option value="gpt-4o" data-i18n="engine-gpt-4o">GPT-4o (Versatile Agent Orchestration)</option>
-                        </select>
+                        <label class="control-label" for="sim-llm-select">Núcleo de raciocínio</label>
+                        <select class="custom-select" id="sim-llm-select" name="llm"></select>
                     </div>
-
-                    <div class="control-group">
-                        <label class="control-label" data-i18n="sim-ctrl-label-3">3. Guild Instruments (Tool Integrations)</label>
+                    <fieldset class="control-group">
+                        <legend class="control-label">Integrações</legend>
                         <div class="checkbox-grid">
-                            <label class="checkbox-option">
-                                <input type="checkbox" id="tool-search" checked>
-                                <span data-i18n="tool-search-lbl">Web Search & Scraping</span>
-                            </label>
-                            <label class="checkbox-option">
-                                <input type="checkbox" id="tool-code" checked>
-                                <span data-i18n="tool-code-lbl">Code Sandbox Execution</span>
-                            </label>
-                            <label class="checkbox-option">
-                                <input type="checkbox" id="tool-db">
-                                <span data-i18n="tool-db-lbl">Vector DB / Knowledge Base</span>
-                            </label>
-                            <label class="checkbox-option">
-                                <input type="checkbox" id="tool-email">
-                                <span data-i18n="tool-email-lbl">Email & Chat Dispatcher</span>
-                            </label>
+                            <label class="checkbox-option active"><input type="checkbox" id="tool-search" data-tool="Pesquisa na web" checked><span>Pesquisa na web</span></label>
+                            <label class="checkbox-option active"><input type="checkbox" id="tool-code" data-tool="Execução de código" checked><span>Execução de código</span></label>
+                            <label class="checkbox-option"><input type="checkbox" id="tool-db" data-tool="Base de conhecimento"><span>Base de conhecimento</span></label>
+                            <label class="checkbox-option"><input type="checkbox" id="tool-email" data-tool="E-mail e chat"><span>E-mail e chat</span></label>
                         </div>
-                    </div>
-
+                    </fieldset>
                     <div class="control-group">
-                        <label class="control-label" data-i18n="sim-ctrl-label-4">4. Autonomy Level</label>
-                        <div class="range-container">
-                            <input type="range" min="1" max="3" value="2" class="custom-range" id="autonomy-range">
-                            <div class="range-labels">
-                                <span data-i18n="autonomy-lvl-1">Ad-Hoc Tool</span>
-                                <span data-i18n="autonomy-lvl-2">Co-Pilot (Human-in-Loop)</span>
-                                <span data-i18n="autonomy-lvl-3">Fully Autonomous</span>
-                            </div>
-                        </div>
+                        <label class="control-label" for="autonomy-range">Autonomia com supervisão humana</label>
+                        <input type="range" min="1" max="3" value="2" class="custom-range" id="autonomy-range" name="autonomy" aria-describedby="autonomy-help">
+                        <div class="range-labels" id="autonomy-help"><span>Assistente</span><span>Copiloto</span><span>Autônomo com limites</span></div>
                     </div>
+                    <button type="button" class="btn-synthesize" id="btn-synthesize-agent">Sintetizar projeto do Apprendista</button>
 
-                    <button type="button" class="btn-synthesize" id="btn-synthesize-agent" data-i18n="sim-btn-synthesize">Synthesize Apprentice Blueprint</button>
-                </div>
+                    <div class="email-gate" id="email-gate" hidden>
+                        <h3>Onde liberamos o seu Codex Agentis?</h3>
+                        <p>Digite um e-mail válido. Nesta versão estática, o endereço não é enviado nem armazenado em servidor.</p>
+                        <label for="sim-email">E-mail profissional</label>
+                        <input type="email" id="sim-email" name="email" autocomplete="email" required aria-describedby="email-help email-error">
+                        <small id="email-help">O resultado será liberado somente nesta tela.</small>
+                        <label class="consent-option"><input type="checkbox" id="sim-consent" required> Concordo com o uso do e-mail para liberar este resultado, conforme informado acima.</label>
+                        <p class="form-error" id="email-error" role="alert" aria-live="polite"></p>
+                        <button type="submit" class="cta-button-primary" id="email-submit">Receber meu Codex</button>
+                        <p class="capture-status" id="capture-status" role="status" aria-live="polite"></p>
+                    </div>
+                </form>
 
-                <!-- Preview Side (Parchment Sketch Output) -->
-                <div class="simulator-preview">
-                    <div class="parchment-sheet">
-                        <div class="parchment-glow"></div>
-                        <div class="blueprint-header">
-                            <span class="blueprint-serial">CODEX AGENTIS #042</span>
-                            <span class="blueprint-stamp" data-i18n="blueprint-stamp">APPROVED</span>
-                        </div>
-                        
+                <div class="simulator-preview" aria-live="polite">
+                    <div class="codex-locked" id="codex-locked"><h3>Seu Codex será montado aqui</h3><p>Escolha os parâmetros, sintetize o projeto e informe um e-mail válido para liberar o resultado.</p></div>
+                    <div class="parchment-sheet" id="codex-result" hidden>
+                        <div class="blueprint-header"><span class="blueprint-serial">CODEX AGENTIS</span><span class="blueprint-stamp">PROJETO</span></div>
                         <div class="blueprint-body" id="blueprint-output">
-                            <!-- Dynamically updated by JS -->
-                            <div class="blueprint-title-block">
-                                <h4 class="blueprint-agent-title">Financial Strategist</h4>
-                                <div class="blueprint-line"></div>
-                            </div>
-                            
-                            <div class="blueprint-sketch-wrapper">
-                                <svg class="blueprint-svg-animation" viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="40" stroke="#d4af37" stroke-width="0.5" fill="none" stroke-dasharray="2,2"/>
-                                    <circle cx="50" cy="50" r="30" stroke="#d4af37" stroke-width="0.25" fill="none"/>
-                                    <line x1="10" y1="50" x2="90" y2="50" stroke="#d4af37" stroke-width="0.25"/>
-                                    <line x1="50" y1="10" x2="50" y2="90" stroke="#d4af37" stroke-width="0.25"/>
-                                    <circle cx="50" cy="50" r="10" stroke="#d4af37" stroke-width="1" fill="none" id="core-circle"/>
-                                    <path d="M 25,25 L 50,50 L 75,25 M 25,75 L 50,50 L 75,75" stroke="#d4af37" stroke-width="0.5" fill="none"/>
-                                    <circle cx="25" cy="25" r="3" fill="#d4af37"/>
-                                    <circle cx="75" cy="25" r="3" fill="#d4af37"/>
-                                    <circle cx="25" cy="75" r="3" fill="#d4af37"/>
-                                    <circle cx="75" cy="75" r="3" fill="#d4af37"/>
-                                    <circle cx="50" cy="50" r="5" fill="#d4af37"/>
-                                </svg>
-                            </div>
-
+                            <div class="blueprint-title-block"><h4 class="blueprint-agent-title">Estrategista financeiro</h4><div class="blueprint-line"></div></div>
+                            <div class="blueprint-sketch-wrapper" aria-hidden="true"><svg class="blueprint-svg-animation" viewBox="0 0 100 100" focusable="false"><circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="0.5" fill="none" stroke-dasharray="2,2"/><circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width="0.25" fill="none"/><line x1="10" y1="50" x2="90" y2="50" stroke="currentColor" stroke-width="0.25"/><line x1="50" y1="10" x2="50" y2="90" stroke="currentColor" stroke-width="0.25"/><circle cx="50" cy="50" r="10" stroke="currentColor" stroke-width="1" fill="none" id="core-circle"/><path d="M25 25 L50 50 L75 25 M25 75 L50 50 L75 75" stroke="currentColor" stroke-width="0.5" fill="none"/></svg></div>
                             <div class="blueprint-details-grid">
-                                <div class="blueprint-meta">
-                                    <span class="meta-label" data-i18n="blueprint-core">Intellectual Core:</span>
-                                    <span class="meta-val" id="meta-engine">Gemini 1.5 Pro</span>
-                                </div>
-                                <div class="blueprint-meta">
-                                    <span class="meta-label" data-i18n="blueprint-autonomy">Autonomy Level:</span>
-                                    <span class="meta-val" id="meta-autonomy">Co-Pilot (Human-in-Loop)</span>
-                                </div>
-                                <div class="blueprint-meta">
-                                    <span class="meta-label" data-i18n="blueprint-instruments">Active Instruments:</span>
-                                    <span class="meta-val" id="meta-tools">Web Search, Code Sandbox</span>
-                                </div>
+                                <div class="blueprint-meta"><span class="meta-label">Núcleo:</span><span class="meta-val" id="meta-engine"></span></div>
+                                <div class="blueprint-meta"><span class="meta-label">Autonomia:</span><span class="meta-val" id="meta-autonomy"></span></div>
+                                <div class="blueprint-meta"><span class="meta-label">Integrações:</span><span class="meta-val" id="meta-tools"></span></div>
                             </div>
-
-                            <div class="blueprint-description">
-                                <h5 data-i18n="blueprint-desc-title">APPRENTICE FUNCTION:</h5>
-                                <p id="blueprint-desc-text">Synthesizes historical market indices, financial statements, and custom projections. Writes python scripts internally to calculate options pricing scenarios and exports reports autonomously.</p>
-                            </div>
-
+                            <div class="blueprint-description"><h5>FUNÇÃO DO APPRENDISTA</h5><p id="blueprint-desc-text"></p></div>
+                            <p class="estimate-heading">Estimativas do simulador</p>
                             <div class="blueprint-metrics">
-                                <div class="blu-metric">
-                                    <span class="blu-metric-num" id="metric-hours">12</span>
-                                    <span class="blu-metric-lbl" data-i18n="blueprint-saved-lbl">Hours Saved / Wk</span>
-                                </div>
-                                <div class="blu-metric">
-                                    <span class="blu-metric-num" id="metric-roi">12.5x</span>
-                                    <span class="blu-metric-lbl" data-i18n="blueprint-lift-lbl">Productivity Lift</span>
-                                </div>
+                                <div class="blu-metric"><span class="blu-metric-num" id="metric-hours">0</span><span class="blu-metric-lbl">horas por semana</span></div>
+                                <div class="blu-metric"><span class="blu-metric-num" id="metric-roi">0x</span><span class="blu-metric-lbl">índice de alavancagem</span></div>
                             </div>
+                            <p class="estimate-note">Estimativa gerada por este simulador com base nos parâmetros escolhidos. Não é resultado medido nem promessa de produtividade.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Section: Curriculum -->
-        <section class="curriculum-section" id="curriculum">
-            <div class="section-header">
-                <span class="section-tagline" data-i18n="curric-tagline">THE STUDY METRICS</span>
-                <h2 class="section-title" data-i18n="curric-title">The Guild's Curriculum</h2>
-                <p class="section-subtitle" data-i18n="curric-subtitle">15 hours of live online instruction, scheduled around executive availability.<br>No coding or IT professional skills required.</p>
-                <div class="gold-divider"></div>
-            </div>
-
+        <section class="curriculum-section" id="curriculum" aria-labelledby="curriculum-title">
+            <div class="section-header"><h2 class="section-title" id="curriculum-title">O que você constrói em 15 horas</h2><p class="section-subtitle">Cada encontro termina com uma parte operável do seu sistema.</p><div class="gold-divider"></div></div>
             <div class="curriculum-timeline">
-                <div class="timeline-item" id="curric-1">
-                    <div class="timeline-number">I</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time" data-i18n="curric-duration-1">MODULE I · 3 HOURS</span>
-                        <h3 class="timeline-title" data-i18n="curric-t1-title">AI Agent Integration & Foundations</h3>
-                        <p data-i18n="curric-t1-desc">Learn how to build your own custom AI Agent on top of Gemini, Claude, or GPT to perform corporate tasks. We will explore why this agentic structure is the most modern approach compared to barely using these models raw.</p>
-                        <ul class="timeline-list">
-                            <li data-i18n="curric-t1-i1">Connecting AI cores directly to corporate internal systems</li>
-                            <li data-i18n="curric-t1-i2">Comparing bare LLM chats vs. autonomous agent architectures</li>
-                            <li data-i18n="curric-t1-i3">Establishing system guardrails for task execution</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item" id="curric-2">
-                    <div class="timeline-number">II</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time" data-i18n="curric-duration-2">MODULE II · 3 HOURS</span>
-                        <h3 class="timeline-title" data-i18n="curric-t2-title">The Apprentice Core: NousResearch Hermes</h3>
-                        <p data-i18n="curric-t2-desc">Meet and install Hermes from NousResearch—the leading self-improving open-source AI Agent model. Learn to configure its reasoning engine, memory systems, and self-correction cycles for maximum reliability.</p>
-                        <ul class="timeline-list">
-                            <li data-i18n="curric-t2-i1">Installing and hosting Hermes on local or cloud infrastructures</li>
-                            <li data-i18n="curric-t2-i2">Orchestrating self-improving loops and reflection patterns</li>
-                            <li data-i18n="curric-t2-i3">Configuring vector databases for localized context memory</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item" id="curric-3">
-                    <div class="timeline-number">III</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time" data-i18n="curric-duration-3">MODULE III · 3 HOURS</span>
-                        <h3 class="timeline-title" data-i18n="curric-t3-title">Demonstration: Google Workspace Orchestration</h3>
-                        <p data-i18n="curric-t3-desc">Master execution scheduling. We will build a live demonstrative agent that orchestrates Google Workspace applications, enabling it to schedule events, manage docs, and run multi-app tasks autonomously.</p>
-                        <ul class="timeline-list">
-                            <li data-i18n="curric-t3-i1">Automating task scheduling and execution calendars</li>
-                            <li data-i18n="curric-t3-i2">Connecting Google Docs, Sheets, and Gmail via APIs</li>
-                            <li data-i18n="curric-t3-i3">Designing fail-safe recovery for multi-step office workflows</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item" id="curric-4">
-                    <div class="timeline-number">IV</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time" data-i18n="curric-duration-4">MODULE IV · 3 HOURS</span>
-                        <h3 class="timeline-title" data-i18n="curric-t4-title">Anthropic Skills & WhatsApp Dispatching</h3>
-                        <p data-i18n="curric-t4-desc">Final integration. Learn how to install and leverage specialized Anthropic computer use skills for SMB and corporate tasks, sending commands and receiving deliverables directly via WhatsApp.</p>
-                        <ul class="timeline-list">
-                            <li data-i18n="curric-t4-i1">Deploying Anthropic skills to automate SMB & corporate tasks</li>
-                            <li data-i18n="curric-t4-i2">Interfacing WhatsApp as the main control input for your agent</li>
-                            <li data-i18n="curric-t4-i3">Security, privacy compliance, and token budget management</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item" id="curric-5">
-                    <div class="timeline-number">V</div>
-                    <div class="timeline-content">
-                        <span class="timeline-time" data-i18n="curric-duration-5">MODULE V · 3 HOURS</span>
-                        <h3 class="timeline-title" data-i18n="curric-t5-title">Corporate Replication & Scaling Strategy</h3>
-                        <p data-i18n="curric-t5-desc">Learn how to replicate these advanced agentic patterns in your organization. Design a custom strategy to implement autonomous AI agents across your company departments and educate your teams on modern execution.</p>
-                        <ul class="timeline-list">
-                            <li data-i18n="curric-t5-i1">Formulating an enterprise-wide agentic AI strategy</li>
-                            <li data-i18n="curric-t5-i2">Educating internal teams on advanced agent capabilities vs raw chat</li>
-                            <li data-i18n="curric-t5-i3">Roadmapping security, integration, and budget guardrails for departments</li>
-                        </ul>
-                    </div>
-                </div>
+                <article class="timeline-item" id="curric-1"><div class="timeline-number">I</div><div class="timeline-content"><span class="timeline-time">MÓDULO I · 3 HORAS</span><h3 class="timeline-title">Arquitetura e limites</h3><p>Você desenha um agente para uma tarefa real, escolhe o modelo e define guardrails, entradas, saídas e validação humana.</p><ul class="timeline-list"><li>Comparar chat e arquitetura agêntica</li><li>Conectar o núcleo ao fluxo de trabalho</li><li>Testar limites de execução</li></ul><p class="artifact-line"><strong>O que fica rodando:</strong> o primeiro agente com escopo e guardrails configurados.</p></div></article>
+                <article class="timeline-item" id="curric-2"><div class="timeline-number">II</div><div class="timeline-content"><span class="timeline-time">MÓDULO II · 3 HORAS</span><h3 class="timeline-title">O Apprendista central</h3><p>Seu agente ganha um lar. O ambiente sobe em um clique no painel da Hostinger, sem terminal, instalação ou servidor para configurar.</p><ul class="timeline-list"><li>Publicar o ambiente com o Magister ao vivo</li><li>Configurar memória de contexto</li><li>Testar ciclos de revisão e autocorreção</li></ul><p class="artifact-line"><strong>O que fica rodando:</strong> Hermes publicado, com memória e revisão configuradas.</p></div></article>
+                <article class="timeline-item" id="curric-3"><div class="timeline-number">III</div><div class="timeline-content"><span class="timeline-time">MÓDULO III · 3 HORAS</span><h3 class="timeline-title">Google Workspace</h3><p>Você conecta Docs, Sheets, Gmail e Agenda para coordenar tarefas de escritório com aprovação humana.</p><ul class="timeline-list"><li>Montar calendários de execução</li><li>Conectar documentos, planilhas e mensagens</li><li>Configurar recuperação de falhas</li></ul><p class="artifact-line"><strong>O que fica rodando:</strong> um agente que opera um fluxo real no Workspace.</p></div></article>
+                <article class="timeline-item" id="curric-4"><div class="timeline-number">IV</div><div class="timeline-content"><span class="timeline-time">MÓDULO IV · 3 HORAS</span><h3 class="timeline-title">Skills e WhatsApp</h3><p>Você monta skills especializadas e usa o WhatsApp como canal de comando e entrega.</p><ul class="timeline-list"><li>Configurar skills para tarefas corporativas</li><li>Conectar comandos e entregas por WhatsApp</li><li>Medir privacidade, segurança e tokens</li></ul><p class="artifact-line"><strong>O que fica rodando:</strong> um agente acionável pelo canal que você já usa.</p></div></article>
+                <article class="timeline-item" id="curric-5"><div class="timeline-number">V</div><div class="timeline-content"><span class="timeline-time">MÓDULO V · 3 HORAS</span><h3 class="timeline-title">Replicação corporativa</h3><p>Você define como replicar o padrão na empresa sem perder governança, rastreabilidade ou controle de custo.</p><ul class="timeline-list"><li>Mapear áreas e casos de uso</li><li>Definir validações e responsabilidades</li><li>Montar um plano de escala</li></ul><p class="artifact-line"><strong>O que fica rodando:</strong> quatro agentes e um plano de operação para a sua realidade.</p></div></article>
             </div>
+            <aside class="prerequisite-block"><h3>Você não vai programar. Você vai montar.</h3><p>O ambiente sobe em um clique, sem terminal e sem instalação. Se você monta uma fórmula de PROCV e configura um filtro no Gmail, você dá conta. Se travar, o Magister está ao vivo com você.</p></aside>
         </section>
 
-        <!-- Section: Live online format -->
-        <section class="venue-section" id="venue">
+        <section class="venue-section" id="venue" aria-labelledby="venue-title">
             <div class="venue-container">
-                <div class="venue-info">
-                    <span class="section-tagline" data-i18n="venue-tagline">THE ACADEMY</span>
-                    <h2 class="venue-title" data-i18n="venue-title">Live Online</h2>
-                    <span class="venue-city" data-i18n="venue-city">15 HOURS · FLEXIBLE SCHEDULING</span>
-                    <p class="venue-desc" data-i18n="venue-d1">
-                        The course is delivered live online, preserving direct interaction with the professors and practical, guided work throughout every module.
-                    </p>
-                    <p class="venue-desc" data-i18n="venue-d2">
-                        There is no fixed cohort date or seat limit. After registration, BottegaAI aligns the class schedule with executive availability and the professors' calendars.
-                    </p>
-                    <a href="#register" class="venue-explore-btn" id="venue-external-btn" data-i18n="venue-btn">
-                        Request schedule alignment ↓
-                    </a>
-                </div>
-                <div class="venue-media">
-                    <div class="venue-graphic">
-                        <div class="gold-accent-circle"></div>
-                        <svg class="arch-svg" viewBox="0 0 200 200">
-                            <rect x="20" y="20" width="160" height="160" stroke="#d4af37" stroke-width="0.5" fill="none" opacity="0.3"/>
-                            <circle cx="100" cy="100" r="70" stroke="#00b050" stroke-width="1.5" fill="none" opacity="0.8"/>
-                            <line x1="20" y1="20" x2="180" y2="180" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
-                            <line x1="180" y1="20" x2="20" y2="180" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
-                        </svg>
-                        <div class="venue-card">
-                            <span class="v-card-tag" data-i18n="venue-card-tag">EXECUTIVE FORMAT</span>
-                            <span class="v-card-name" data-i18n="venue-card-name">Live Online Course</span>
-                            <span class="v-card-addr" data-i18n="venue-card-addr">15 hours with direct professor interaction</span>
-                            <span class="v-card-status" data-i18n="venue-card-status">Schedule arranged after registration</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="venue-info"><span class="section-tagline">TURMA 01 · 12 VAGAS</span><h2 class="venue-title" id="venue-title">Cinco encontros ao vivo</h2><p class="venue-city">19h às 22h, horário de Brasília</p><ol class="date-list"><li><time datetime="2026-11-05T19:00:00-03:00">05/11, quinta-feira</time></li><li><time datetime="2026-11-10T19:00:00-03:00">10/11, terça-feira</time></li><li><time datetime="2026-11-12T19:00:00-03:00">12/11, quinta-feira</time></li><li><time datetime="2026-11-17T19:00:00-03:00">17/11, terça-feira</time></li><li><time datetime="2026-11-24T19:00:00-03:00">24/11, terça-feira</time></li></ol><p class="venue-desc">Pré-turma de setup assistido em 03/11, por 30 minutos. Depois do último encontro, cada aluno tem uma sessão individual de 45 minutos.</p><p class="venue-desc">Inscrições até 29/10 ou até as 12 vagas se esgotarem.</p><a href="#register" class="venue-explore-btn" id="venue-external-btn">Conferir a inscrição</a></div>
+                <div class="venue-media"><div class="venue-card"><span class="v-card-tag">CARGA REAL</span><span class="v-card-name">15 horas ao vivo</span><span class="v-card-addr">Cerca de 2 horas entre os encontros para exercícios</span><span class="v-card-status">Gravações e materiais incluídos</span></div></div>
             </div>
         </section>
 
-        <!-- Section: Magister (Teacher) -->
-        <section class="magister-section" id="magister">
-            <div class="magister-container">
-                <div class="magister-visual">
-                    <div class="magister-avatar-frame">
-                        <div class="gold-corner tl"></div>
-                        <div class="gold-corner tr"></div>
-                        <div class="gold-corner bl"></div>
-                        <div class="gold-corner br"></div>
-                        <div class="avatar-circle">
-                            <img src="images/professor.jpg" alt="Jeff Prestes" class="magister-avatar-img">
-                        </div>
-                    </div>
-                </div>
-                <div class="magister-info">
-                    <span class="section-tagline" data-i18n="magister-tagline">THE MAGISTER</span>
-                    <h2 class="magister-name">Jeff Prestes</h2>
-                    <span class="magister-title" data-i18n="magister-title-role">IT Executive & Experienced Professor</span>
-                    <div class="gold-divider-left"></div>
-                    <p class="magister-bio" data-i18n="magister-bio-p1">
-                        Jeff Prestes is an IT Executive with more than 30 years of hands-on experience guiding technological evolutions, leading high-performance engineering groups, and designing robust system architectures.
-                    </p>
-                    <p class="magister-bio" data-i18n="magister-bio-p2">
-                        At BottegaAI, he acts as the Magister, translating raw generative models and complex agent workflows into practical, high-leverage executive assets.
-                    </p>
-                    <a href="https://www.linkedin.com/in/jeffprestes" target="_blank" rel="noopener noreferrer" class="linkedin-btn">
-                        <svg class="linkedin-icon" viewBox="0 0 24 24">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                        </svg>
-                        LinkedIn Profile ↗
-                    </a>
-                </div>
-            </div>
+        <section class="magister-section" id="magister" aria-labelledby="magister-name">
+            <div class="magister-container"><div class="magister-visual"><div class="magister-avatar-frame"><div class="avatar-circle"><img src="images/professor-1000.webp" width="1000" height="1000" alt="Retrato de Jeff Prestes, Magister da BottegaAI" class="magister-avatar-img" loading="lazy"></div></div></div><div class="magister-info"><span class="section-tagline">AUTORIDADE DE PRÁTICA</span><h2 class="magister-name" id="magister-name">Jeff Prestes - Magister</h2><span class="magister-title">Ainda escreve código toda semana. É requisito, não detalhe.</span><div class="gold-divider-left"></div><p class="magister-bio">Trinta anos construindo software em produção. Engenheiro sênior e Developer Advocate no PayPal, arquitetura de sistemas no Santander (F1RST) e no Mercado Bitcoin, além de sete anos em infraestrutura blockchain.</p><p class="magister-bio">Foi professor de contratos inteligentes na PUC-SP entre 2018 e 2022. O código público está aberto para conferência.</p><div class="profile-links"><a href="https://www.linkedin.com/in/jeffprestes" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/jeffprestes" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></div>
         </section>
 
-        <!-- Section: Application Form -->
-        <section class="register-section" id="register">
-            <div class="register-card-container">
-                <div class="register-info-panel">
-                    <h2 class="register-panel-title" data-i18n="reg-title">Apply to the Guild</h2>
-                    <p class="register-panel-desc" data-i18n="reg-desc-1">
-                        The course has no fixed date or seat limit. Its only availability constraint is aligning the professors' calendars with participating executives.
-                    </p>
-                    <p class="register-panel-desc" data-i18n="reg-desc-2">
-                        After registration, our team contacts participants to arrange the 15 hours of live online instruction according to the group's schedule.
-                    </p>
-                    <div class="guild-seal-container">
-                        <svg class="guild-seal" viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="45" stroke="#d4af37" stroke-width="1" fill="none"/>
-                            <circle cx="50" cy="50" r="42" stroke="#d4af37" stroke-width="0.5" fill="none" stroke-dasharray="3,3"/>
-                            <text x="50" y="32" font-family="Cinzel" font-size="6" fill="#d4af37" text-anchor="middle">BOTTEGA AI</text>
-                            <text x="50" y="72" font-family="Cinzel" font-size="5" fill="#d4af37" text-anchor="middle">AD 2026</text>
-                            <path d="M 40,45 L 50,38 L 60,45 L 50,62 Z" stroke="#d4af37" stroke-width="1" fill="none"/>
-                            <circle cx="50" cy="50" r="2" fill="#d4af37"/>
-                        </svg>
-                    </div>
-                </div>
-                <div class="register-form-panel">
-                    <div class="payment-box">
-                        <div class="payment-header">
-                            <span class="payment-badge" data-i18n="pay-badge">EXECUTIVE PASS</span>
-                            <div class="payment-price">
-                                <span class="price-currency" data-i18n="pay-price-currency">R$</span>
-                                <span class="price-amount" data-i18n="pay-price-amount">1,000</span>
-                                <span class="price-period" data-i18n="pay-price-period">/ participant</span>
-                            </div>
-                        </div>
-                        
-                        <div class="payment-explanation">
-                            <h3 class="payment-title" data-i18n="pay-title">Complete Registration</h3>
-                            <p class="payment-desc" data-i18n="pay-desc">
-                                Complete your enrollment through Stripe's secure portal. After payment, our team will contact you to align the live online schedule with the participating executives and professors.
-                            </p>
-                        </div>
-                        
-                        <ul class="payment-features-list">
-                            <li data-i18n="pay-feat-1">15 Hours of Live Online Interactive Instruction</li>
-                            <li data-i18n="pay-feat-2">Custom AI Agent Deployment Sandbox</li>
-                            <li data-i18n="pay-feat-3">Schedule Aligned with Executive Availability</li>
-                            <li data-i18n="pay-feat-4">No Fixed Cohort Date or Seat Limit</li>
-                        </ul>
-                        
-                        <a href="https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00" target="_blank" rel="noopener noreferrer" class="payment-button" id="stripe-payment-btn" data-i18n="pay-btn">
-                            Enroll & Pay via Stripe ↗
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <section class="proof-section content-section" id="proof" aria-labelledby="proof-title" hidden>
+            <div class="section-header left-header"><h2 class="section-title" id="proof-title">A prova precisa ser um artefato</h2></div>
+            <div class="proof-grid"><div class="proof-visual"><img src="images/da_vinci_ai_sketch.webp" width="1264" height="848" loading="lazy" alt="Visual original da BottegaAI usado como poster provisório para a demonstração do agente"><!-- TODO: prova real - substituir por vídeo do agente rodando, log real e repositório específico quando disponíveis. --></div><div class="proof-copy"><p>Não publicamos depoimentos, logos ou resultados que ainda não existem. A demonstração real do agente só entrará aqui quando puder ser conferida.</p><p>Enquanto isso, você pode verificar a trajetória pelo código público do Magister.</p><a href="https://github.com/jeffprestes" target="_blank" rel="noopener noreferrer" class="cta-button-secondary">Ver código público</a></div></div>
+            <!-- Regra: todo depoimento diz O QUE a pessoa construiu e o que aconteceu depois. Depoimento emocional não entra. -->
         </section>
+
+        <section class="register-section" id="register" aria-labelledby="register-title">
+            <div class="register-card-container"><div class="register-info-panel"><h2 class="register-panel-title" id="register-title">Saia com um agente em produção, construído por você</h2><p class="register-panel-desc">Uma formação executiva em IA no mercado brasileiro parte de aproximadamente R$ 8,5 mil e entrega certificado. Um engenheiro de IA custa entre R$ 19.500 e R$ 27.100 por mês.</p><small class="source">Fontes: <a href="https://labdata.fia.com.br/curso/inteligencia-artificial-aplicada-aos-negocios-visao-executiva/" rel="noopener noreferrer">FIA Labdata, valor consultado em 08/09/2026</a>; <a href="https://www.roberthalf.com/br/pt/vagas-detalhes/engenheiroa-de-inteligencia-artificial" rel="noopener noreferrer">Robert Half, faixa salarial de 2026</a>.</small><p class="register-panel-desc">Aqui você termina com quatro agentes rodando e a capacidade permanece com você.</p></div><div class="register-form-panel"><div class="payment-box"><div class="payment-header"><span class="payment-badge">TURMA 01</span><div class="payment-price"><span class="price-currency">R$</span><span class="price-amount">5.900</span><span class="price-period">por participante</span></div></div><ul class="payment-features-list"><li>15 horas ao vivo, em turma de 12 pessoas</li><li>Setup assistido em 03/11</li><li>Ambiente pronto para publicar em um clique</li><li>Sessão individual de 45 minutos</li><li>Gravações e materiais</li><li>Nota fiscal, ementa e certificado de participação</li></ul><div class="guarantee"><strong>Garantia condicionada à execução</strong><p>Entregue os exercícios dos cinco encontros. Se ao final você não tiver um agente seu rodando, devolvemos o valor integral.</p></div><a href="https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00" target="_blank" rel="noopener noreferrer" class="payment-button js-checkout" id="stripe-payment-btn">Garantir minha vaga</a><a href="#corporate" class="corporate-inline">Quero avaliar para a minha equipe</a></div></div></div>
+        </section>
+
+        <section class="filter-section content-section" aria-labelledby="filter-title"><div class="filter-box"><h2 class="section-title" id="filter-title">Esta turma não é para você se...</h2><ul><li>você quer apenas ferramentas no-code e nenhuma noção de como o sistema funciona</li><li>você quer somente um certificado para publicar</li><li>você não tem as 15 horas ao vivo e cerca de 2 horas entre os encontros</li></ul></div></section>
+
+        <section class="faq-section content-section" id="faq" aria-labelledby="faq-title"><div class="section-header"><h2 class="section-title" id="faq-title">Perguntas frequentes</h2><div class="gold-divider"></div></div><div class="faq-list">
+            <details><summary>Preciso saber programar?</summary><p>Não. Você vai montar, conectar, configurar, testar e medir. Se você monta uma fórmula de PROCV e configura um filtro no Gmail, tem a base necessária.</p></details>
+            <details><summary>O custo de API está incluído?</summary><p>Não. Cada participante usa suas próprias contas e acompanha o consumo. Os custos variam conforme modelo, volume e frequência de uso.</p></details>
+            <details><summary>E se eu perder um encontro?</summary><p>Você terá a gravação e os materiais. A sessão individual também pode ser usada para recuperar a aplicação ao seu caso.</p></details>
+            <details><summary>A empresa consegue pagar ou reembolsar?</summary><p>Sim. A BottegaAI fornece nota fiscal, ementa e certificado de participação. Confirme previamente as regras internas da sua empresa.</p></details>
+            <details><summary>O agente continua rodando depois do curso?</summary><p>Sim. O ambiente e as contas ficam sob seu controle. Você decide onde manter o agente e quais integrações permanecem ativas.</p></details>
+            <details><summary>Qual o custo mensal para manter o agente no ar?</summary><p>Depende da hospedagem, do modelo e do uso. Durante o workshop você configura limites e aprende a medir os custos, sem promessa de valor fixo.</p></details>
+            <details><summary>Posso usar dados da minha empresa?</summary><p>Somente com autorização da sua empresa e respeitando suas políticas. Os exercícios podem usar dados sintéticos ou anonimizados. Nenhum dado sensível é obrigatório.</p></details>
+            <details><summary>Vocês fazem turma fechada para equipes?</summary><p>Sim. Há formatos corporativos a partir de 12 participantes, definidos após um diagnóstico de 30 minutos.</p></details>
+        </div></section>
+
+        <section class="corporate-section content-section" id="corporate" aria-labelledby="corporate-title"><div class="corporate-panel"><div><h2 class="section-title" id="corporate-title">Turma fechada para a sua equipe</h2><p>76% das empresas brasileiras já têm agentes em produção e 80% já precisaram interromper alguma implementação. O problema é escala, governança e dependência de fornecedor.</p><small class="source">Fonte: <a href="https://sinch.com/news/sinch-releases-ai-production-paradox/" rel="noopener noreferrer">Sinch, The AI Production Paradox, 2026</a>.</small><p>Formatos fechados a partir de 12 pessoas, com os sistemas e dados autorizados pela sua empresa.</p></div><a class="cta-button-primary js-corporate" href="mailto:sales@novatrix.com.br?subject=Diagn%C3%B3stico%20corporativo%20BottegaAI%20-%20turma%20fechada">Agendar diagnóstico de 30 minutos</a></div></section>
+
+        <section class="closing-section content-section" aria-labelledby="closing-title"><h2 class="section-title" id="closing-title">O Renascimento do Poder Executivo começa na bancada</h2><p>Turma 01, 12 vagas. Encontros em 05/11, 10/11, 12/11, 17/11 e 24/11 de 2026.</p><a href="https://buy.stripe.com/28EcMYaTy2wUeDV4RibMQ00" target="_blank" rel="noopener noreferrer" class="cta-button-primary js-checkout">Garantir minha vaga</a></section>
     </main>
 
-    <!-- Footer -->
-    <footer class="main-footer" id="footer-section">
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <span class="footer-logo">BOTTEGA<span class="gold-text">AI</span></span>
-                <p class="footer-tagline" data-i18n="footer-tagline">Re-engineering executive execution through Renaissance principles.</p>
-            </div>
-            <div class="footer-links">
-                <h4 data-i18n="footer-nav-title">NAVIGATION</h4>
-                <a href="#philosophy" data-i18n="nav-philosophy">Philosophy</a>
-                <a href="#curriculum" data-i18n="nav-curriculum">Curriculum</a>
-                <a href="#simulator" data-i18n="nav-simulator">Agent Builder</a>
-                <a href="#venue" data-i18n="nav-venue">Format</a>
-                <a href="#magister" data-i18n="nav-magister">Magister</a>
-            </div>
-            <div class="footer-meta">
-                <h4 data-i18n="footer-meta-title">THE WORKSHOP</h4>
-                <p><span data-i18n="footer-meta-date">Schedule: arranged with participants</span></p>
-                <p><span data-i18n="footer-meta-loc">Format: 15 hours, live online</span></p>
-                <p><span data-i18n="footer-meta-email">Enquiries: sales@novatrix.com.br</span></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p data-i18n="footer-copyright">&copy; 2026 BottegaAI. Inspired by the Codex Atlanticus. All agents aligned.</p>
-        </div>
-    </footer>
+    <footer class="main-footer" id="footer-section"><div class="footer-grid"><div class="footer-brand"><span class="footer-logo">BOTTEGA<span class="gold-text">AI</span></span><p class="footer-tagline">Um ateliê para executivos que constroem.</p></div><div class="footer-links"><h2>Navegação</h2><a href="#philosophy">Método</a><a href="#simulator">Simulador</a><a href="#curriculum">Programa</a><a href="#venue">Datas</a><a href="#register">Inscrição</a></div><div class="footer-meta"><h2>Turma 01</h2><p>Início: 05/11/2026</p><p>Formato: 15 horas, online ao vivo</p><p><a href="mailto:sales@novatrix.com.br">sales@novatrix.com.br</a></p></div></div><div class="footer-bottom"><p>&copy; 2026 BottegaAI. Inspirado no Codex Atlanticus.</p></div></footer>
 
-    <!-- JavaScript Code -->
-    <script src="app.js?v=20260907-flexible"></script>
+    <script src="home.js?v=20260908-turma01" defer></script>
 </body>
 </html>
